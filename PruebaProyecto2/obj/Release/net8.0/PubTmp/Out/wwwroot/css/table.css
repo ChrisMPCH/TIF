@@ -1,0 +1,119 @@
+﻿
+
+.tabla-horario {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ff0000;
+    margin-bottom: 30px;
+    background-color: #dde1e9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+    .tabla-horario th,
+    .tabla-horario td {
+        padding: 12px 15px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .tabla-horario th {
+        background-color: #f8f8f8;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .tabla-horario tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+/* Estilos responsivos mejorados para celulares */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .tabla-horario {
+        border-radius: 8px;
+        overflow: hidden;
+        border: none;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    }
+
+        .tabla-horario thead {
+            display: none; /* Ocultar encabezados en móviles */
+        }
+
+        .tabla-horario,
+        .tabla-horario tbody,
+        .tabla-horario tr,
+        .tabla-horario td {
+            display: block;
+            width: 100%;
+        }
+
+            .tabla-horario tr {
+                margin-bottom: 25px;
+                border-radius: 8px;
+                overflow: hidden;
+                border-left: 4px solid #ff0000;
+                background-color: white;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
+
+            .tabla-horario td {
+                text-align: left;
+                padding: 15px;
+                position: relative;
+                border-bottom: 1px solid #eee;
+                min-height: 30px;
+                display: flex;
+                flex-direction: column;
+            }
+
+                .tabla-horario td::before {
+                    content: attr(data-label);
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                    display: block;
+                    color: #ff0000;
+                    font-size: 1.1em;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 5px;
+                }
+
+                .tabla-horario td:last-child {
+                    border-bottom: 0;
+                }
+
+                /* Destacar la celda del día */
+                .tabla-horario td[data-label="Día"] {
+                    background-color: #f8f8f8;
+                    font-size: 1.2em;
+                    font-weight: bold;
+                }
+
+                    .tabla-horario td[data-label="Día"]::before {
+                        color: #333;
+                    }
+
+                /* Mejorar visualización de horarios múltiples */
+                .tabla-horario td span.horario {
+                    display: block;
+                    padding: 8px 0;
+                    margin: 2px 0;
+                    border-bottom: 1px dashed #eee;
+                    font-size: 1.05em;
+                }
+
+                    .tabla-horario td span.horario:last-child {
+                        border-bottom: none;
+                    }
+
+                /* Destacar horarios */
+                .tabla-horario td[data-label*="Clases"] span.horario {
+                    background-color: #f9f9f9;
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin: 5px 0;
+                }
+}

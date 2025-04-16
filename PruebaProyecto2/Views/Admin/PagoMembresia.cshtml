@@ -1,0 +1,710 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membresías del socio</title>
+    <style>
+        :root {
+            --primary-color: #64b5f6;
+            --secondary-color: #2196f3;
+            --accent-color: #ffc107;
+            --text-color: #333;
+            --light-text-color: #777;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease-in-out;
+            --card-bg: #fff;
+            --card-header-bg: var(--primary-color);
+            --table-header-bg: #e3f2fd;
+            --btn-primary-bg: var(--secondary-color);
+            --btn-primary-hover: #1976d2;
+            --btn-success-bg: #4caf50;
+            --btn-success-hover: #388e3c;
+            --btn-danger-bg: #f44336;
+            --btn-danger-hover: #d32f2f;
+            --btn-outline-green-border: #4caf50;
+            --btn-outline-green-color: #4caf50;
+            --btn-outline-green-hover-bg: #4caf50;
+            --btn-outline-green-hover-color: #fff;
+            --btn-outline-red-border: #f44336;
+            --btn-outline-red-color: #f44336;
+            --btn-outline-red-hover-bg: #f44336;
+            --btn-outline-red-hover-color: #fff;
+            --selected-row-bg: #bbdefb;
+            --selected-row-color: #1976d2;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f4f7;
+            margin: 0;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 1200px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-header {
+            background: var(--card-header-bg);
+            color: #fff;
+            padding: 25px;
+            text-align: center;
+            border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+        }
+
+            .card-header h1 {
+                margin: 0;
+                font-size: 2.2em;
+                font-weight: 500;
+            }
+
+        .card-content {
+            padding: 30px;
+        }
+
+        .main-layout {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+
+        .left-section {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .right-section {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            position: sticky;
+            top: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        .form-section {
+            background: #fff;
+            padding: 25px;
+            border-radius: var(--border-radius);
+            border: 1px solid #e0e0e0;
+        }
+
+        .profile-image {
+            background: #fff;
+            padding: 25px;
+            border-radius: var(--border-radius);
+            border: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+            .profile-image img {
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 15px;
+                border: 3px solid var(--accent-color);
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            }
+
+        .personal-info h2, .membership-details h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 8px;
+                color: var(--text-color);
+                font-weight: 500;
+            }
+
+        .form-group input[type="text"],
+        .form-group input[type="tel"],
+        .form-group input[type="date"],
+        .form-group input[type="number"],
+        .form-group select {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: var(--border-radius);
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 1em;
+            transition: border-color var(--transition);
+        }
+
+            .form-group input[type="text"]:focus,
+            .form-group input[type="tel"]:focus,
+            .form-group input[type="date"]:focus,
+            .form-group input[type="number"]:focus,
+            .form-group select:focus {
+                border-color: var(--secondary-color);
+                outline: none;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            }
+
+        .input-group {
+            display: flex;
+            align-items: stretch; /* Asegura que ambos elementos tengan la misma altura */
+        }
+
+            .input-group input[type="text"] {
+                flex: 1; /* Hace que el input ocupe todo el espacio disponible */
+                border-top-right-radius: 0 !important;
+                border-bottom-right-radius: 0 !important;
+                border-right: none; /* Elimina el borde derecho para que se una con el botón */
+            }
+
+            .input-group button {
+                border-top-left-radius: 0 !important;
+                border-bottom-left-radius: 0 !important;
+                margin-left: 0 !important; /* Elimina el margen izquierdo */
+                white-space: nowrap; /* Evita que el texto del botón se divida en varias líneas */
+            }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+        }
+
+        .button-container {
+            margin-top: 25px;
+            text-align: right;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: var(--border-radius);
+            color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+            transition: var(--transition);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-primary {
+            background-color: var(--btn-primary-bg);
+        }
+
+            .btn-primary:hover {
+                background-color: var(--btn-primary-hover);
+                box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+            }
+
+        .btn-green {
+            background-color: var(--btn-success-bg);
+        }
+
+            .btn-green:hover {
+                background-color: var(--btn-success-hover);
+                box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+            }
+
+        .btn-red {
+            background-color: var(--btn-danger-bg);
+        }
+
+            .btn-red:hover {
+                background-color: var(--btn-danger-hover);
+                box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+            }
+
+        .btn-outline {
+            background-color: transparent;
+            color: inherit;
+            border: 1px solid transparent;
+            font-weight: 500;
+        }
+
+        .btn-outline-green {
+            border-color: var(--btn-outline-green-border);
+            color: var(--btn-outline-green-color);
+        }
+
+            .btn-outline-green:hover {
+                background-color: var(--btn-outline-green-hover-bg);
+                color: var(--btn-outline-green-hover-color);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            }
+
+        .btn-outline-red {
+            border-color: var(--btn-outline-red-border);
+            color: var(--btn-outline-red-color);
+        }
+
+            .btn-outline-red:hover {
+                background-color: var(--btn-outline-red-hover-bg);
+                color: var(--btn-outline-red-hover-color);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            }
+
+        .membership-history {
+            background: #fff;
+            padding: 25px;
+            border-radius: var(--border-radius);
+            border: 1px solid #e0e0e0;
+            max-height: calc(100vh - 400px);
+            overflow-y: auto;
+        }
+
+            .membership-history h2 {
+                color: var(--primary-color);
+                border-bottom: 2px solid var(--primary-color);
+                padding-bottom: 12px;
+                margin-bottom: 20px;
+                font-weight: 600;
+            }
+
+        .button-row {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            justify-content: flex-end;
+        }
+
+        .table-striped {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+        }
+
+            .table-striped th,
+            .table-striped td {
+                padding: 15px;
+                border-bottom: 1px solid #eee;
+                text-align: left;
+            }
+
+            .table-striped th {
+                background: var(--table-header-bg);
+                font-weight: 600;
+                color: var(--text-color);
+            }
+
+            .table-striped tbody tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            .table-striped tbody tr:hover {
+                background-color: #f5f5f5;
+                transition: background-color 0.2s ease-in-out;
+            }
+
+            .table-striped tbody tr.selected {
+                background-color: var(--selected-row-bg);
+                color: var(--selected-row-color);
+            }
+
+                .table-striped tbody tr.selected td {
+                    font-weight: 500;
+                }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <header class="card-header">
+                <h1><i class="fas fa-ticket-alt mr-2"></i> Membresías del socio</h1>
+            </header>
+            <div class="card-content">
+                <div class="main-layout">
+                    <div class="left-section">
+                        <div class="form-section">
+                            <section class="personal-info">
+                                <h2><i class="fas fa-user mr-2"></i> Socio</h2>
+                                <div class="form-group">
+                                <label for="user-key"><i class="fas fa-key mr-2"></i> Clave del usuario</label>
+                                <div class="input-group">
+                                    <input type="text" id="user-key" placeholder="Introduce la clave usuario">
+                                    <button id="btn-search-user" class="btn btn-primary"><i class="fas fa-search mr-2"></i> Buscar</button>
+                                </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name"><i class="fas fa-signature mr-2"></i> Nombre</label>
+                                    <input type="text" id="name" placeholder="Nombre del socio" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone"><i class="fas fa-phone mr-2"></i> Teléfono</label>
+                                    <input type="tel" id="phone" placeholder="Teléfono del socio" readonly>
+                                </div>
+                            </section>
+
+                            <section class="membership-details">
+                                <h2><i class="fas fa-tags mr-2"></i> Membresías</h2>
+                                <div class="form-group">
+                                    <label for="membership-type"><i class="fas fa-tag mr-2"></i> Membresía</label>
+                                    <select id="membership-type">
+                                        <option value="">Selecciona una membresía</option>
+                                    </select>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="start-date"><i class="fas fa-calendar-alt mr-2"></i> Comienza</label>
+                                        <input type="date" id="start-date">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="price"><i class="fas fa-dollar-sign mr-2"></i> Precio</label>
+                                        <input type="number" id="price" step="0.01" readonly>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="days"><i class="fas fa-calendar-day mr-2"></i> Días</label>
+                                        <input type="number" id="days" min="0" readonly>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="type"><i class="fas fa-info-circle mr-2"></i> Tipo</label>
+                                    <input type="text" id="type" placeholder="Tipo de membresía" readonly>
+                                </div>
+                            </section>
+
+                            <div class="button-container">
+                                <button class="btn btn-green" id="btn-add-membership"><i class="fas fa-plus mr-2"></i> Agregar membresía</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-section">
+                        <div class="profile-image">
+                            <img id="user-photo" src="default-user.jpg" alt="Foto del socio" />
+                            <svg class="user-icon" viewBox="0 0 20 20" style="display:none;">
+                                <path fill="currentColor" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
+                            </svg>
+                        </div>
+
+                        <section class="membership-history">
+                            <h2><i class="fas fa-history mr-2"></i> Historial de Membresías</h2>
+                            <div class="button-row">
+                                <button class="btn btn-outline btn-green" id="btn-pay-membership"><i class="fas fa-check mr-2"></i> Pago a membresía</button>
+                                <button class="btn btn-outline btn-red" id="btn-cancel-membership"><i class="fas fa-times mr-2"></i> Borrar membresía</button>
+                            </div>
+                            <div style="overflow-x: auto;">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th><i class="fas fa-calendar-alt mr-2"></i> Fecha de membresía</th>
+                                            <th><i class="fas fa-calendar-check mr-2"></i> Vencimiento</th>
+                                            <th><i class="fas fa-tag mr-2"></i> Membresía</th>
+                                            <th><i class="fas fa-dollar-sign mr-2"></i> Precio</th>
+                                            <th><i class="fas fa-flag mr-2"></i> Estado membresía</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="membership-table-body">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- El script JavaScript permanece igual -->
+    <script>
+        // Variables globales
+        let membresiasDisponibles = [];
+        let selectedMembershipId = null;
+
+        // Inicialización
+        document.addEventListener('DOMContentLoaded', function() {
+            cargarMembresiasDisponibles();
+            configurarEventos();
+            // Deshabilitar botones al inicio
+            document.getElementById("btn-pay-membership").disabled = true;
+            document.getElementById("btn-cancel-membership").disabled = true;
+        });
+
+        // Funciones principales
+        function cargarMembresiasDisponibles() {
+            fetch('/Membresias/ObtenerMembresias')
+                .then(response => response.json())
+                .then(data => {
+                    membresiasDisponibles = data;
+                    llenarSelectMembresias(data);
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function llenarSelectMembresias(membresias) {
+            const select = document.getElementById("membership-type");
+            select.innerHTML = '<option value="">Selecciona una membresía</option>';
+
+            membresias.forEach(membresia => {
+                const option = document.createElement("option");
+                option.value = membresia.iD_TipoMembresia;
+                option.textContent = `${membresia.nombre} - $${membresia.precio}`;
+                select.appendChild(option);
+            });
+        }
+
+        function configurarEventos() {
+            // Buscar usuario
+            document.getElementById("btn-search-user").addEventListener("click", buscarUsuario);
+
+            // Selección de membresía
+            document.getElementById('membership-type').addEventListener('change', function() {
+                const selectedId = parseInt(this.value);
+                if (selectedId) {
+                    const membresia = membresiasDisponibles.find(m => m.iD_TipoMembresia === selectedId);
+                    if (membresia) actualizarCamposMembresia(membresia);
+                } else {
+                    // Limpiar campos si no se selecciona membresía
+                    document.getElementById("price").value = '';
+                    document.getElementById("type").value = '';
+                    document.getElementById("days").value = '';
+                    document.getElementById("weeks").value = '';
+                    document.getElementById("months").value = '';
+                }
+            });
+
+            // Agregar membresía
+            document.getElementById("btn-add-membership").addEventListener("click", agregarMembresia);
+
+            // Tabla de membresías - Selección de fila
+            const tableBody = document.getElementById("membership-table-body");
+            tableBody.addEventListener("click", (event) => {
+                const row = event.target.closest("tr");
+                if (!row) return;
+
+                [...tableBody.rows].forEach(r => r.classList.remove("selected"));
+                row.classList.add("selected");
+
+                selectedMembershipId = row.getAttribute("data-id");
+                document.getElementById("btn-pay-membership").disabled = false;
+                document.getElementById("btn-cancel-membership").disabled = false;
+            });
+
+            // Botones de acción
+            document.getElementById("btn-pay-membership").addEventListener("click", () => {
+                if (selectedMembershipId) actualizarEstadoMembresia(selectedMembershipId, "Pagada");
+            });
+
+                    
+            let adminPassword = null;
+
+        // Función para obtener la contraseña del servidor
+        async function getAdminPassword() {
+            try {
+                const response = await fetch('/api/getAdminPassword');
+                const data = await response.json();
+                adminPassword = data.password;
+            } catch (error) {
+                console.error('Error al obtener la contraseña:', error);
+                // Puedes establecer un valor por defecto o mostrar un error
+                adminPassword = "123"; // Valor por defecto por si falla
+            }
+        }
+
+        // Llama a esta función cuando se cargue la página
+        document.addEventListener('DOMContentLoaded', function() {
+            getAdminPassword();
+            // Resto de tu inicialización...
+        });
+
+        // Modifica tu event listener
+        document.getElementById("btn-cancel-membership").addEventListener("click", async () => {
+            if (!selectedMembershipId) return;
+
+            // Asegúrate de que tenemos la contraseña
+            if (!adminPassword) {
+                await getAdminPassword();
+            }
+
+            const password = prompt("Ingresa la contraseña:");
+            if (password === adminPassword) {
+                actualizarEstadoMembresia(selectedMembershipId, "Cancelada");
+            } else {
+                alert("Contraseña incorrecta");
+            }
+        });
+        }
+
+        // Funciones de apoyo
+        function buscarUsuario() {
+            const userKey = document.getElementById("user-key").value.trim();
+            if (!userKey) return alert("Ingresa una clave de usuario");
+
+            fetch(`/Membresias/BuscarSocio?rfid=${userKey}`)
+                .then(res => res.json())
+                .then(({ success, data, message }) => {
+                    if (!success) return alert(message);
+
+                    document.getElementById("name").value = data.nombreCompleto;
+                    document.getElementById("phone").value = data.telefono;
+
+                    const profileImage = document.querySelector(".profile-image img");
+                    profileImage.src = data.foto || 'default-user.jpg';
+                    profileImage.alt = `Foto de ${data.nombreCompleto}`;
+
+                    cargarTablaMembresias();
+                })
+                .catch(err => console.error('Error:', err));
+        }
+
+                function actualizarCamposMembresia(membresia) {
+            document.getElementById("price").value = membresia.precio;
+            document.getElementById("type").value = membresia.nombre;
+
+            const tiempo = membresia.tiempo;
+            document.getElementById("days").value = 0;
+
+            // Asignar todos los tiempos como días (sin importar tipo)
+            document.getElementById("days").value = tiempo;
+        }
+
+
+        function agregarMembresia() {
+            const userKey = document.getElementById("user-key").value.trim();
+            const membershipTypeId = document.getElementById("membership-type").value;
+            const startDate = document.getElementById("start-date").value;
+
+            if (!userKey || !membershipTypeId || !startDate) {
+                return alert("Completa todos los campos");
+            }
+
+            const requestData = {
+                Usuario: { Id: userKey },
+                ID_TipoMembresia: parseInt(membershipTypeId),
+                FechaInicio: startDate
+            };
+
+            fetch('/Membresias/AgregarMembresia', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(requestData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    cargarTablaMembresias();
+                    // Limpiar campos de membresía después de agregar
+                    document.getElementById("membership-type").value = '';
+                    document.getElementById("start-date").value = '';
+                    document.getElementById("price").value = '';
+                    document.getElementById("type").value = '';
+                    document.getElementById("days").value = '';
+                    document.getElementById("weeks").value = '';
+                    document.getElementById("months").value = '';
+                } else {
+                    alert("Error: " + data.message);
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+        function cargarTablaMembresias() {
+            const userKey = document.getElementById("user-key").value.trim();
+            if (!userKey) return;
+
+            fetch(`/Membresias/ObtenerMembresiasPorUsuario?userKey=${userKey}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (!data.success) return alert(data.message);
+
+                    const tableBody = document.getElementById("membership-table-body");
+                    tableBody.innerHTML = "";
+
+                    if (data.membresias.length === 0) {
+                        tableBody.innerHTML = `<tr><td colspan="5" style="text-align: center;"><i class="fas fa-exclamation-circle mr-2"></i> No hay membresías registradas para este socio.</td></tr>`;
+                        return;
+                    }
+
+                    data.membresias.forEach(membresia => {
+                        const row = document.createElement("tr");
+                        if (membresia.iD_MembresiaUsuario) {
+                            row.setAttribute("data-id", membresia.iD_MembresiaUsuario);
+                        }
+
+                        let estatus = '';
+                        let estatusClass = '';
+                        switch (membresia.estatus) {
+                            case 0: estatus = 'Pagada'; estatusClass = 'text-success'; break;
+                            case 1: estatus = 'Vencida'; estatusClass = 'text-warning'; break;
+                            case 2: estatus = 'Sin pagar'; estatusClass = 'text-danger'; break;
+                            default: estatus = 'Cancelada'; estatusClass = 'text-muted'; break;
+                        }
+
+                        row.innerHTML = `
+                            <td>${new Date(membresia.fechaInicio).toLocaleDateString()}</td>
+                            <td>${new Date(membresia.fechaFin).toLocaleDateString()}</td>
+                            <td>${membresia.tipoMembresia.nombre}</td>
+                            <td>$${membresia.tipoMembresia.precio.toFixed(2)}</td>
+                            <td class="${estatusClass}"><strong>${estatus}</strong></td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => console.error("Error:", error));
+        }
+
+        function actualizarEstadoMembresia(id, nuevoEstado) {
+            fetch(`/Membresias/ActualizarEstado`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ id, nuevoEstado })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    cargarTablaMembresias();
+                    // Deshabilitar botones después de la acción
+                    document.getElementById("btn-pay-membership").disabled = true;
+                    document.getElementById("btn-cancel-membership").disabled = true;
+                    // Deseleccionar la fila
+                    const selectedRow = document.querySelector("#membership-table-body tr.selected");
+                    if (selectedRow) {
+                        selectedRow.classList.remove("selected");
+                        selectedMembershipId = null;
+                    }
+                } else {
+                    alert("Error: " + data.message);
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+</body>
+</html>

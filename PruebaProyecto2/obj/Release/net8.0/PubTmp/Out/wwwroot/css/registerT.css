@@ -1,0 +1,182 @@
+﻿:root {
+    --primary-red: #FF0033;
+    --dark: #1a1a1a;
+    --light: #ffffff;
+    --gray: #f4f4f4;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: var(--gray);
+    margin: 0;
+    padding: 2rem;
+    color: var(--dark);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--light);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
+h2 {
+    color: var(--primary-red);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.team-family {
+    font-size: 1.5rem; /* Un poco más pequeño que el h2 */
+    font-weight: 700; /* Negritas */
+    color: #000000; /* Color negro */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+    .form-control:focus {
+        outline: none;
+        border-color: var(--primary-red);
+        box-shadow: 0 0 0 3px rgba(255, 0, 51, 0.1);
+    }
+
+.text-danger {
+    color: var(--primary-red);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Custom styling for date input */
+input[type="date"] {
+    appearance: none;
+    padding: 0.75rem;
+    color: var(--dark);
+}
+
+/* Add some dynamic effects */
+.form-group {
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Stagger the animation for each form group */
+.form-group:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.form-group:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.form-group:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.form-group:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.form-group:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.form-group:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.form-group:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.form-group:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+/* Camera Styles */
+#video, #canvas {
+    display: block;
+    margin: 0 auto 10px;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+}
+
+#capture {
+    display: block;
+    margin: 10px auto 0;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #capture:hover {
+        background: #218838;
+    }
+
+    #capture:active {
+        background: #1e7e34;
+    }

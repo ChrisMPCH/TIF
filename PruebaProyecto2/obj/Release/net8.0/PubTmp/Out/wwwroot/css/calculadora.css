@@ -1,0 +1,195 @@
+﻿:root {
+    --primary-red: #FF0033;
+    --dark: #1a1a1a;
+    --light: #ffffff;
+    --gray: #f4f4f4;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem; /* Ajusta el tamaño si lo necesitas */
+    color: var(--dark); /* Opcional, para usar el color rojo */
+    margin-bottom: 1rem; /* Espacio inferior */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2 rem; /* Ajusta el tamaño si lo necesitas */
+    color: var(--primary-red); /* Opcional, para usar el color rojo */
+    margin-bottom: 1rem; /* Espacio inferior */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="radio"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #FF0033; /* Rojo base */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+    button:hover {
+        background-color: #e60029; /* Rojo más oscuro para el hover */
+    }
+
+.results {
+    position: relative;
+    background-color: #000; /* Fondo negro como pediste */
+    color: #fff; /* Texto blanco */
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegura que el contenido extra quede oculto */
+}
+
+    .results::before {
+        content: "RESULTADOS POR TEAM IS FAMILY";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-20deg); /* Coloca la marca de agua en diagonal */
+        font-size: 2rem; /* Tamaño del texto */
+        color: rgba(255, 255, 0, 0.2); /* Amarillo translúcido */
+        text-align: center;
+        z-index: 0; /* Asegura que esté detrás del contenido */
+        pointer-events: none; /* La marca de agua no interferirá con las interacciones */
+        white-space: nowrap;
+    }
+
+    .results > * {
+        position: relative;
+        z-index: 1; /* Coloca el contenido encima de la marca de agua */
+    }
+
+    .results h2 {
+        margin-top: 0;
+    }
+
+    .results p {
+        margin-bottom: 10px;
+    }
+
+    .results span {
+        font-weight: bold;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+    tr {
+        margin-bottom: 15px;
+        border: none;
+    }
+
+    td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+        td:before {
+            content: attr(data-label);
+            position: absolute;
+            left: 6px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+            font-weight: bold;
+        }
+
+
+    caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center; /* Centra el texto */
+        padding: 5px;
+    }
+
+    /* Para pantallas pequeñas */
+    @media screen and (max-width: 600px) {
+        caption {
+            font-size: 14px; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+            word-wrap: break-word; /* Asegura que el texto se ajuste */
+        }
+    }

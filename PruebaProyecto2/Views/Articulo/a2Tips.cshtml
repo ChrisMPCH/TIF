@@ -1,0 +1,204 @@
+﻿@{
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/article.css" asp-append-version="true" />
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <article class="article">
+            <h1 class="article-title"><strong>Células Satélite:</strong> La Ciencia Detrás de la Reparación Muscular</h1>
+
+            <nav class="table-of-contents" id="index">
+                <div class="toc-header" onclick="toggleIndice()">
+                    <h2 class="toc-title">Índice</h2>
+                    <div class="toc-toggle" id="toggle-icon">−</div>
+                </div>
+                <ul class="toc-list" id="toc-content">
+                    <li><a href="#title1-a1">1. ¿Qué son las células satélite?</a></li>
+                    <li><a href="#title2-a1">2. Características principales de las células satélite</a></li>
+                    <li><a href="#sub1-a1" class="subtema">Localización estratégica</a></li>
+                    <li><a href="#sub2-a1" class="subtema">Capacidad de autorrenovación</a></li>
+                    <li><a href="#sub3-a1" class="subtema">Estado quiescente y activación</a></li>
+                    <li><a href="#title2-a1">3. Funciones principales de las células satélite</a></li>
+                    <li><a href="#sub4-a1" class="subtema">Regeneración muscular</a></li>
+                    <li><a href="#sub5-a1" class="subtema">Adaptación al ejercicio</a></li>
+                    <li><a href="#sub6-a1" class="subtema">Mantenimiento del músculo en el envejecimiento</a></li>
+                </ul>
+            </nav>
+
+            <script>
+                function toggleIndice() {
+                    const content = document.getElementById('toc-content');
+                    const icon = document.getElementById('toggle-icon');
+
+                    content.classList.toggle('collapsed');
+                    icon.classList.toggle('rotate');
+
+                    if (content.classList.contains('collapsed')) {
+                        icon.textContent = '+';
+                    } else {
+                        icon.textContent = '−';
+                    }
+                }
+            </script>
+
+
+            <section id="title1-a1">
+                <h2>¿Qué son las células satélite?</h2>
+                <p style="text-align: justify;">
+                    Las células satélite son células madre musculares que desempeñan un papel fundamental en el mantenimiento, reparación y regeneración del tejido muscular esquelético. Fueron descubiertas en <strong>1961 por Alexander Mauro</strong>
+                    y reciben su nombre debido a su posición característica: se encuentran "satélites" alrededor de las fibras musculares,
+                    ubicadas entre la membrana plasmática de la fibra muscular (el sarcolema) y la lámina basal que la rodea.
+                </p>
+            </section>
+
+            <style>
+                .image-container {
+                    text-align: center;
+                    width: 100%;
+                    margin: 20px 0;
+                }
+
+                .responsive-img {
+                    max-width: 100%; /* Se adapta al ancho del contenedor */
+                    height: auto; /* Mantiene la proporción */
+                    object-fit: cover;
+                    border-radius: 10px; /* Opcional: bordes redondeados */
+                }
+
+                .image-description {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            </style>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_15.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+
+            </div>
+
+            <section id="title2-a1">
+                <h2>
+                    Características principales de las células satélite
+                </h2>
+            </section>
+
+            <section id="sub1-a1">
+                <h3>
+                    <strong>1. Localización estratégica</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    Las células satélite se encuentran adyacentes a las fibras musculares y su proximidad les permite responder rápidamente a cualquier daño o necesidad de regeneración en el tejido.
+                    Esta posición les da acceso directo a las señales químicas que se generan durante el estrés mecánico o las lesiones musculares.
+                </p>
+            </section>
+
+            <section id="sub2-a1">
+                <h3>
+                    <strong>2. Capacidad de autorrenovación</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    Estas células son consideradas células madre adultas debido a su capacidad de dividirse y diferenciarse en nuevas fibras musculares o en más células satélite,
+                    lo que garantiza su disponibilidad a largo plazo.
+                </p>
+            </section>
+
+            <section id="sub3-a1">
+                <h3>
+                    <strong>3. Estado quiescente y activación</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    En condiciones normales, las células satélite permanecen inactivas (quiescentes). Sin embargo, cuando se produce una lesión muscular, estas células se activan, proliferan y se diferencian en mioblastos,
+                    que finalmente se fusionan para formar nuevas fibras musculares o reparar las dañadas.
+                </p>
+            </section>
+
+            <section id="title3-a1">
+                <h2>
+                    Funciones principales de las células satélite
+                </h2>
+            </section>
+            <section id="sub4-a1">
+                <h3>
+                    <strong>1. Regeneración muscular</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    La principal función de las células satélite es reparar el tejido muscular dañado. Durante el ejercicio intenso o una lesión, el tejido muscular sufre microdesgarros. Las células satélite
+                    se activan para regenerar estas áreas, restaurando la funcionalidad del músculo.
+                </p>
+            </section>
+
+            <section id="sub5-a1">
+                <h3>
+                    <strong>2. Recuperación activa</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    En respuesta al entrenamiento de fuerza o resistencia, las células satélite contribuyen al crecimiento muscular (hipertrofia) al aumentar el número de núcleos en las fibras musculares. Esto permite una mayor síntesis
+                    de proteínas y, por ende, una mayor capacidad de contracción muscular.
+                </p>
+            </section>
+
+            <section id="sub6-a1">
+                <h3>
+                    <strong>3. Mantenimiento del músculo en el envejecimiento</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    Aunque la actividad de las células satélite disminuye con la edad, siguen desempeñando un papel crucial en la conservación de la masa
+                    muscular y la reparación en adultos mayores, aunque de manera menos eficiente.
+                </p>
+            </section>
+
+            <div class="glosario">
+                <p><strong>Referencia:</strong></p>
+
+                <p>
+                    <strong>Cita:</strong> Schoenfeld, Brad J. Los Mecanismos de Hipertrofia Muscular y Su Aplicación al Entrenamiento de Resistencia. Revista de Investigación de Fuerza y
+                    Acondicionamiento 24(10):p 2857-2872, octubre de 2010. | DOI: 10.1519/JSC.0b013e3181e840f3
+                </p>
+                <!-- Botón de regreso al inicio -->
+                <a href="#index" class="back-to-top" aria-label="Regresar al inicio">
+                    <span>⬆</span>
+                </a>
+            </div>
+            <script>
+                // Script para mostrar/ocultar el botón según el scroll
+                const backToTopButton = document.querySelector('.back-to-top');
+
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('visible');
+                    } else {
+                        backToTopButton.classList.remove('visible');
+                    }
+                });
+
+                // Scroll suave al hacer clic en el botón
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            </script>
+
+        </article>
+    </div>
+
+    <!-- Aquí sí va el footer -->
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>

@@ -1,0 +1,277 @@
+﻿@{
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/article.css" asp-append-version="true" />
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <article class="article">
+            <h1 class="article-title"><strong>Las Grasas Más Saludables:</strong> Descubre Cuáles Benefician tu Cuerpo</h1>
+
+            <nav class="table-of-contents" id="index">
+                <div class="toc-header" onclick="toggleIndice()">
+                    <h2 class="toc-title">Índice</h2>
+                    <div class="toc-toggle" id="toggle-icon">−</div>
+                </div>
+                <ul class="toc-list" id="toc-content">
+                    <li><a href="#introduccion">1. Introducción</a></li>
+                    <li><a href="#title1-a1">2. ¿Cuáles son las grasas saludables?</a></li>
+                    <li><a href="#title2-a1">3. Tipos de grasas saludables</a></li>
+                    <li><a href="#sub1-a1" class="subtema">Grasas monoinsaturadas</a></li>
+                    <li><a href="#sub2-a1" class="subtema">Grasas poliinsaturadas</a></li>
+                    <li><a href="#sub3-a1" class="subtema">Grasas omega-3</a></li>
+                    <li><a href="#title3-a1">4. Beneficios de las grasas saludables</a></li>
+                    <li><a href="#sub4-a1" class="subtema">Salud cardiovascular</a></li>
+                    <li><a href="#sub5-a1" class="subtema">Funcionamiento cerebral</a></li>
+                    <li><a href="#sub6-a1" class="subtema">Reducción de la inflamación</a></li>
+                    <li><a href="#sub7-a1" class="subtema">Equilibrio hormonal adecuado</a></li>
+                    <li><a href="#title4-a1">5. Consejos para elegir grasas saludables</a></li>
+                </ul>
+            </nav>
+
+            <script>
+                function toggleIndice() {
+                    const content = document.getElementById('toc-content');
+                    const icon = document.getElementById('toggle-icon');
+
+                    content.classList.toggle('collapsed');
+                    icon.classList.toggle('rotate');
+
+                    if (content.classList.contains('collapsed')) {
+                        icon.textContent = '+';
+                    } else {
+                        icon.textContent = '−';
+                    }
+                }
+            </script>
+
+            <section id="introduccion">
+                <h2>Introducción</h2>
+                <p style="text-align: justify;">
+                    En la búsqueda de un <strong>estilo de vida más saludable</strong>, la <strong>alimentación juega un papel fundamental.</strong> Entre los componentes esenciales de una dieta equilibrada se
+                    encuentran las <strong>grasas saludables</strong>, que en un consumo controlado ofrecen <strong>grandes beneficios para el organismo</strong>. En esta guía, explicaremos qué son las grasas
+                    saludables, sus diferentes tipos, los alimentos que las contienen y las múltiples <strong>ventajas que aportan a la salud.</strong> Además, conocerás consejos prácticos para
+                    incorporarlas de manera efectiva en tu dieta diaria.
+                </p>
+
+                <p>
+                    ¡Acompáñanos a descubrir la importancia de las grasas saludables en una <strong>alimentación más nutritiva</strong>!
+                </p>
+            </section>
+
+            <style>
+                .image-container {
+                    text-align: center;
+                    width: 100%;
+                    margin: 20px 0;
+                }
+
+                .responsive-img {
+                    max-width: 100%; /* Se adapta al ancho del contenedor */
+                    height: auto; /* Mantiene la proporción */
+                    object-fit: cover;
+                    border-radius: 10px; /* Opcional: bordes redondeados */
+                }
+
+                .image-description {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            </style>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_16.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+                <p class="image-description">Imagen 1.1: Alimentos ricos en grasas saludables.</p>
+            </div>
+
+
+            <section id="title1-a1">
+                <h2>¿Cuáles son las grasas saludables?</h2>
+                <p style="text-align: justify;">
+                    Las <strong>grasas saludables</strong>, también conocidas como <strong>grasas buenas</strong>, son un tipo de lípidos esenciales que pueden resultar
+                    beneficiosos para el cuerpo cuando <strong>se consumen en cantidades adecuadas.</strong> Además de ser una <strong>fuente importante de energía,</strong> desempeñan un
+                    <strong>papel vital en diversas funciones corporales:</strong>
+                </p>
+
+                <ul>
+                    <li>Ayudan a mantener <strong>la salud de la piel y el cabello</strong></li>
+                    <li>Facilitan la <strong>absorción de vitaminas</strong> A, D, E y K</li>
+                    <li>Promueven el <strong>buen funcionamiento de los órganos y sistemas</strong>, lo que ayuda a prevenir enfermedades</li>
+                </ul>
+
+                <div class="glosario">
+                    <p><strong>Glosario:</strong></p>
+
+                    <p><strong>Lípidos:</strong> son un grupo de biomoléculas orgánicas insolubles en agua pero solubles en solventes orgánicos como el éter y el cloroformo. Están compuestos principalmente de carbono, hidrógeno y oxígeno, aunque algunos también contienen fósforo, nitrógeno o azufre.</p>
+                </div>
+            </section>
+
+
+            <section id="title2-a1">
+
+                <h2>Tipos de grasas saludables</h2>
+            </section>
+
+            <section id="sub1-a1">
+                <h3>
+                    Grasas monoinsaturadas
+                </h3>
+                <p style="text-align: justify;">
+                    Las grasas monoinsaturadas se consideran saludables debido a su capacidad para <strong>elevar los niveles de colesterol HDL (“bueno”)</strong> en sangre y <strong>reducir los niveles de colesterol LDL (“malo”)</strong>, lo que puede ayudar a mejorar la salud cardiovascular.
+                    Se encuentran en alimentos de origen animal y vegetal como <strong>aguacate, aceite de oliva, almendras, nueces, aceitunas</strong>.
+                </p>
+            </section>
+
+            <section id="sub2-a1">
+                <h3>
+                    Grasas poliinsaturadas
+                </h3>
+                <p style="text-align: justify;">
+                    Son una fuente importante de <strong>ácidos grasos esenciales</strong>, como los <strong>omega-6 y omega-3</strong>, que <strong>el cuerpo no puede producir por sí mismo.</strong> Estos ácidos grasos desempeñan un papel crucial en la salud del corazón, el sistema nervioso y el sistema inmunológico.
+                    Algunos ejemplos de alimentos son: <strong>salmón, sardinas, semillas de chía, semillas de lino, aceite de linaza</strong>.
+                </p>
+            </section>
+
+            <section id="sub3-a1">
+                <h3>
+                    Grasas omega-3
+                </h3>
+                <p style="text-align: justify;">
+                    Son un tipo específico de grasa poliinsaturada que se ha asociado con una variedad de beneficios para la salud, incluyendo la <strong>la mejora de la función cerebral y la salud mental</strong>, <strong>la mejora de la función cerebral y la salud mental</strong>, y la reducción de la inflamación en el cuerpo.
+                    Algunos ejemplos de alimentos son: <strong>salmón, caballa, sardinas, semillas de chía, nueces.</strong>
+                </p>
+            </section>
+
+
+            <section id="title3-a1">
+                <h2>Beneficios de las grasas saludables</h2>
+            </section>
+
+            <section id="sub4-a1">
+                <h3>
+                    Salud cardiovascular
+                </h3>
+                <p style="text-align: justify;">Las grasas saludables pueden ayudar a reducir los niveles de colesterol LDL y triglicéridos, lo que disminuye el riesgo de enfermedades cardíacas, hipertensión y accidentes cerebrovasculares.</p>
+            </section>
+
+            <section id="sub5-a1">
+                <h3>
+                    Funcionamiento cerebral
+                </h3>
+                <p style="text-align: justify;">Los ácidos grasos esenciales, como los omega-3, son fundamentales para el desarrollo y el mantenimiento del cerebro, ayudando a mejorar la memoria, la concentración y la función cognitiva en general.</p>
+            </section>
+
+            <section id="sub6-a1">
+                <h3>
+                    Reducción de la inflamación
+                </h3>
+                <p style="text-align: justify;">Las grasas saludables tienen propiedades que pueden ayudar a reducir la inflamación en el cuerpo, lo cual es importante para mantener un <strong>sistema inmunológico fuerte </strong>y resistente a enfermedades. </p>
+            </section>
+
+            <section id="sub7-a1">
+                <h3>
+                    Equilibrio hormonal adecuado
+                </h3>
+                <p style="text-align: justify;">Al incluir grasas saludables en tu dieta, puedes ayudar a mantener un equilibrio hormonal adecuado y promover un funcionamiento óptimo del cuerpo como el metabolismo, la reproducción, el estado de ánimo y el sueño.</p>
+            </section>
+
+            <style>
+                ul {
+                    width: 80%; /* Ajusta el ancho según necesites */
+                    margin: auto; /* Centra la lista en la página */
+                    padding: 0;
+                }
+
+                li {
+                    text-align: justify;
+                    margin-bottom: 10px; /* Espaciado entre elementos */
+                }
+            </style>
+            <section id="title4-a1">
+                <h2>Consejos para elegir grasas saludables</h2>
+                <h3><strong>Alimentos con grasas saludables:</strong></h3>
+
+                <ul>
+                    <li><strong>Aguacate:</strong> Es una excelente fuente de ácido oleico, que es beneficioso para la salud del corazón y la piel.</li>
+                    <li><strong>Aceite de oliva virgen extra:</strong> Una opción saludable para cocinar y aderezar ensaladas.</li>
+                    <li><strong>Nueces:</strong> Son ricas en ácidos grasos omega-3, grasas monoinsaturadas y poliinsaturadas, que son beneficiosas para la salud del corazón y el cerebro.</li>
+                    <li><strong>Pescados grasos:</strong> El salmón, las sardinas, el atún y la caballa son ejemplos de pescados grasos ricos en ácidos grasos omega-3, que tienen beneficios para la salud cardiovascular y cerebral. Se recomienda consumir pescado al menos dos veces por semana.</li>
+                    <li><strong>Aceite de coco:</strong> Contiene grasas saturadas saludables, como el ácido láurico, que pueden mejorar el colesterol HDL (“bueno”) y proporcionar energía rápida al cuerpo.</li>
+                    <li><strong>Semillas:</strong> Las semillas de chía, semillas de lino, semillas de girasol y semillas de calabaza son ricas en grasas saludables, fibra y ácidos grasos omega-3. Puedes agregarlas a batidos, yogur, ensaladas o utilizarlas en la preparación de productos horneados.</li>
+                </ul>
+
+                <style>
+                    .image-container {
+                        text-align: center;
+                        width: 100%;
+                    }
+
+                    img {
+                        max-width: 100%; /* La imagen se ajusta al ancho del contenedor */
+                        height: auto; /* Mantiene la proporción */
+                        object-fit: cover;
+                    }
+
+                    .description {
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-style: italic;
+                        text-align: center;
+                    }
+                </style>
+
+                <div class="image-container">
+                    <img src="~/BlogImage/Info_bn_a1.jpg" alt="Alimentos ricos en grasas saludables">
+                    <p class="description">Infografía 1.1: Ejemplos de alimentos ricos en grasas saludables.</p>
+                </div>
+
+
+            </section>
+
+            <!-- Botón de regreso al inicio -->
+            <a href="#index" class="back-to-top" aria-label="Regresar al inicio">
+                <span>⬆</span>
+            </a>
+
+            <script>
+                // Script para mostrar/ocultar el botón según el scroll
+                const backToTopButton = document.querySelector('.back-to-top');
+
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('visible');
+                    } else {
+                        backToTopButton.classList.remove('visible');
+                    }
+                });
+
+                // Scroll suave al hacer clic en el botón
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            </script>
+
+        </article>
+    </div>
+
+    <!-- Aquí sí va el footer -->
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>

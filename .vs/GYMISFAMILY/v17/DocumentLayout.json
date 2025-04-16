@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\membresias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\membresias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\home\\iniciosesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\home\\iniciosesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\tip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\tip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\nutricion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\nutricion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\rutina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\rutina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\calculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\calculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\rutinaintermedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\rutinaintermedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\rutinabasica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\rutinabasica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\rutinaavanzada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\rutinaavanzada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\blog\\rutinaadaptacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\blog\\rutinaadaptacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|c:\\users\\chris\\onedrive\\escritorio\\tif-1.0\\pruebaproyecto2\\views\\articulo\\a2tips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF4A4C-7B5E-499A-845E-8B297ED459A7}|PruebaProyecto2\\GYMISFAMILY.csproj|solutionrelative:pruebaproyecto2\\views\\articulo\\a2tips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "a2Tips.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Articulo\\a2Tips.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Articulo\\a2Tips.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Articulo\\a2Tips.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Articulo\\a2Tips.cshtml",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAUwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:37:09.122Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\wwwroot\\js\\app.js",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "PruebaProyecto2\\wwwroot\\js\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-16T07:04:41.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PruebaProyecto2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwv0YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T07:06:23.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Membresias\\Index.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Membresias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Membresias\\Index.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Membresias\\Index.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAUwJ0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T07:18:57.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Program.cs",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Program.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Program.cs",
+              "RelativeToolTip": "PruebaProyecto2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T01:02:45.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\appsettings.json",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\appsettings.json",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\appsettings.json",
+              "RelativeToolTip": "PruebaProyecto2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T00:08:50.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Services\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Services\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Services\\DatabaseInitializer.cs",
+              "RelativeToolTip": "PruebaProyecto2\\Services\\DatabaseInitializer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T07:15:05.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InicioSesion.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Home\\InicioSesion.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Home\\InicioSesion.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Home\\InicioSesion.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Home\\InicioSesion.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwE4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T07:04:26.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:57:34.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAOkBAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:57:15.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAIBJwDoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:52:44.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AgIAACQBAAAAAAAAAAAUwEQBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:47:46.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Calculator.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Calculator.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\Calculator.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Calculator.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\Calculator.cshtml",
+              "ViewState": "AgIAALwAAAAAAAAAAAAUwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:47:36.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Nutricion.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Nutricion.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\Nutricion.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Nutricion.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\Nutricion.cshtml",
+              "ViewState": "AgIAALAAAAAAAAAAAAAUwM0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:47:25.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rutina.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Rutina.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\Rutina.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Rutina.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\Rutina.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwMYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:47:14.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Tip.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Tip.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\Tip.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\Tip.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\Tip.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAUwG0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:47:03.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "PruebaProyecto2\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:43:18.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RutinaAvanzada.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\RutinaAvanzada.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\RutinaAvanzada.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\RutinaAvanzada.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\RutinaAvanzada.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAUwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:46:28.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RutinaAdaptacion.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\RutinaAdaptacion.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\RutinaAdaptacion.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\RutinaAdaptacion.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\RutinaAdaptacion.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAUwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:45:43.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RutinaBasica.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\RutinaBasica.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\RutinaBasica.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\RutinaBasica.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\RutinaBasica.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAUwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:45:32.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RutinaIntermedia.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\RutinaIntermedia.cshtml",
+              "RelativeDocumentMoniker": "PruebaProyecto2\\Views\\Blog\\RutinaIntermedia.cshtml",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\Views\\Blog\\RutinaIntermedia.cshtml",
+              "RelativeToolTip": "PruebaProyecto2\\Views\\Blog\\RutinaIntermedia.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAUwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T06:45:11.549Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

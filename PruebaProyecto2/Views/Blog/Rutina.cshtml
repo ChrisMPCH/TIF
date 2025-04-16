@@ -1,0 +1,199 @@
+﻿@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CSS -->
+	<link rel="stylesheet" href="~/css/BlogIndex.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/footer1.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/heronav.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/CalculatorIMC.css" asp-append-version="true" />
+
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>TIFBLOG</title>
+</head>
+
+
+<body>
+
+	<!--   *** Blog Section Starts ***   -->
+	<section class="blog" id="blog">
+		<!--   === Blog Header Starts ===   -->
+		<header class="section-header">
+
+			<div class="about-right-col">
+				<div class="about-states">
+					<div class="about-state about-state-1">
+						<i class="fa-solid fa-dumbbell"></i>
+						<h2>RUITNAS DE ENTRENAMIENTO</h2>
+
+
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<!--   === Blog Header Ends ===   -->
+		<!-- Start Banner Descuento -->
+		<section id="banner" class="section-m1">
+			<h4>Entrena Ahora</h4>
+			<h2>Visita <span>TEAM IS FAMILY</span> y alcanza tus objetivos</h2>
+			<button class="normal" onclick="window.location.href='/'">Ir Ahora</button>
+
+		</section>
+		<!-- End Banner Descuento -->
+		</style>
+		<!--   *** Services Section Starts ***   -->
+		<section class="services" id="services">
+
+			<!--   === Rutinas Header Starts ===   -->
+			<header class="section-header">
+				<h1><strong>UN PLAN PARA CADA NIVEL, UN OBJETIVO PARA CADA ATLETA.</strong></h1>
+				<p>En <strong>TEAM IS FAMILY</strong>, entendemos que cada persona tiene diferentes objetivos y niveles de condición física. Por ello, ofrecemos cuatro rutinas de entrenamiento diseñadas para acompañarte en tu progreso, desde principiantes hasta atletas avanzados.</p>
+			</header>
+
+			<!--   === Rutinas Header Ends ===   -->
+
+			<style>
+				.service-desc-link {
+					text-decoration: none;
+					color: inherit;
+					display: block;
+				}
+
+					.service-desc-link:hover .service-desc {
+						background-color: #ff0000; /* ejemplo de hover */
+						cursor: pointer;
+					}
+
+			</style>
+
+			<!--   === Rutinas Contents Starts ===   -->
+			<div class="services-contents">
+
+				<a asp-controller="Blog" asp-action="RutinaAdaptacion" class="service-desc-link">
+					<div class="service-box">
+						<div class="service-icon-box">
+							<i class="fa-regular fa-flag"></i>
+						</div>
+						<div class="service-desc">
+							<h2><strong>Adaptación</strong></h2>
+							<p>
+								Una rutina diseñada para quienes comienzan en el mundo del entrenamiento. Su enfoque está en la movilidad, el fortalecimiento básico y
+								la resistencia inicial para preparar el cuerpo para niveles más intensos.
+							</p>
+						</div>
+					</div>
+				</a>
+
+				<a asp-controller="Blog" asp-action="RutinaBasica" class="service-desc-link">
+					<div class="service-box">
+						<div class="service-icon-box">
+							<i class="fa-solid fa-dumbbell"></i>
+						</div>
+						<div class="service-desc">
+							<h2><strong>Básico</strong></h2>
+							<p>En esta fase, los socios trabajan en mejorar su condición física con ejercicios funcionales y de resistencia moderada. Se busca establecer una base sólida antes de avanzar a niveles más exigentes.</p>
+						</div>
+					</div>
+				</a>
+
+				<a asp-controller="Blog" asp-action="RutinaIntermedia" class="service-desc-link">
+					<div class="service-box">
+						<div class="service-icon-box">
+							<i class="fa-solid fa-bolt"></i>
+						</div>
+						<div class="service-desc">
+							<h2><strong>Intermedio</strong></h2>
+							<p>Rutina enfocada en aumentar la fuerza y resistencia muscular. Se incorporan ejercicios más complejos, con mayor volumen e intensidad, adaptados a quienes ya tienen experiencia en entrenamiento.</p>
+						</div>
+					</div>
+				</a>
+
+				<a asp-controller="Blog" asp-action="RutinaAvanzada" class="service-desc-link">
+					<div class="service-box">
+						<div class="service-icon-box">
+							<i class="fa-solid fa-fire"></i>
+						</div>
+						<div class="service-desc">
+							<h2><strong>Avanzado</strong></h2>
+							<p>Pensado para atletas y personas con un alto nivel de condición física. Incluye entrenamientos de alta intensidad, técnicas avanzadas y ejercicios específicos para maximizar el rendimiento.</p>
+						</div>
+					</div>
+				</a>
+
+			</div>
+			<!--   === Services Contents Ends ===   -->
+
+		</section>
+		<!--   *** Services Section Ends ***   -->
+		<!--   === Blog Contents Starts ===   -->
+		<div class="blog-contents">
+
+			<div class="article-card">
+				<img src="~/BlogImage/Articles/img_font_04.jpg">
+				<div class="category">
+					<div class="subject"><h3>Entrenamiento</h3></div>
+					<span>14/04/2025</span>
+				</div>
+				<h2 class="article-title"><strong>Metodología Básica:</strong> El Primer Paso para Dominar tu Entrenamiento</h2>
+				<p class="article-desc">
+					Aprende cómo estructurar tu entrenamiento desde cero. Descubre los principios fundamentales que te permitirán progresar de forma segura, constante y eficiente en tu camino fitness.
+				</p>
+				<div class="article-views">
+					<button class="btn read-more-btn" onclick="location.href='/Articulo/a1Muscular'">Leer más</button>
+				</div>
+			</div>
+
+			<div class="article-card">
+				<img src="~/BlogImage/Articles/img_font_01.jpg">
+				<div class="category">
+					<div class="subject"><h3>Entrenamiento</h3></div>
+					<span>14/04/2025</span>
+				</div>
+				<h2 class="article-title"><strong>Sistemas de Entrenamiento:</strong> Beneficios, Ejercicios y Cómo Sacarles el Máximo Provecho</h2>
+				<p class="article-desc">Descubre qué sistema de entrenamiento se adapta mejor a tus metas, sus principales beneficios y los ejercicios esenciales para obtener resultados.</p>
+				<div class="article-views">
+					<button class="btn read-more-btn" onclick="location.href='/Articulo/a2Muscular'">Leer más</button>
+				</div>
+			</div>
+
+			<div class="article-card">
+				<img src="~/BlogImage/Articles/img_font_17.png">
+				<div class="category">
+					<div class="subject"><h3>Entrenamiento</h3></div>
+					<span>14/04/2025</span>
+				</div>
+				<h2 class="article-title"><strong>Hipertrofia al Detalle:</strong> Claves para Ganar Masa Muscular con Efectividad</h2>
+				<p class="article-desc">
+					Explora las mejores estrategias para aumentar masa muscular: tipos de ejercicios, volumen, intensidad y alimentación enfocada en resultados reales y sostenibles.
+				</p>
+
+				<div class="article-views">
+					<button class="btn read-more-btn" onclick="location.href='/Articulo/a3Muscular'">Leer más</button>
+				</div>
+			</div>
+
+		</div>
+
+		<!--   *** Blog Section Ends ***   -->
+	</section>
+
+	<!-- Aquí sí va el footer -->
+	@await Html.PartialAsync("_Footer")
+	<!--   *** Copy Rights Starts ***   -->
+	<div class="copy-rights">
+		<p>Creado por <b>TEAM IS FAMILY</b> Todos los derechos reservados</p>
+	</div>
+	<!--   *** Copy Rights Ends ***   -->
+
+</body>
+</html>

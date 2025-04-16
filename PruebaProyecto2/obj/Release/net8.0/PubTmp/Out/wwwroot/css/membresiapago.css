@@ -1,0 +1,189 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+    .card-header h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+    }
+
+.card-content {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+    input[readonly] {
+        background-color: #f9f9f9;
+    }
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+    .form-row .form-group {
+        flex: 1;
+    }
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-green {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid;
+}
+
+    .btn-outline.btn-green {
+        border-color: #4caf50;
+        color: #4caf50;
+    }
+
+    .btn-outline.btn-red {
+        border-color: #f44336;
+        color: #f44336;
+    }
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+    .profile-image img {
+        border-radius: 8px;
+        object-fit: cover;
+    }
+
+.membership-history {
+    margin-top: 30px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-image {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .button-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Contenedor de la tabla con scroll */
+div[style*="overflow-x: auto"] {
+    margin-bottom: 1rem; /* Espaciado debajo del contenedor */
+}
+
+/* Personalización para tablas */
+table {
+    width: 100%; /* Asegura que la tabla use el ancho completo del contenedor */
+    border-collapse: collapse; /* Opcional: elimina los espacios entre bordes */
+}

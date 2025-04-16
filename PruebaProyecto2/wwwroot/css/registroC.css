@@ -1,0 +1,118 @@
+﻿/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.team-family {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 40px;
+}
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #495057;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #495057;
+    transition: border-color 0.2s;
+}
+
+    input:focus, select:focus, textarea:focus {
+        border-color: #80bdff;
+        outline: none;
+        box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+    }
+
+.text-danger {
+    font-size: 0.875rem;
+    color: #dc3545;
+}
+
+/* Button Styles */
+.btn-registrar {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .btn-registrar:hover {
+        background: #0056b3;
+        transform: translateY(-1px);
+    }
+
+    .btn-registrar:active {
+        background: #004085;
+        transform: translateY(1px);
+    }
+
+/* Camera Styles */
+#video, #canvas {
+    display: block;
+    margin: 0 auto 10px;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+}
+
+#capture {
+    display: block;
+    margin: 10px auto 0;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #capture:hover {
+        background: #218838;
+    }
+
+    #capture:active {
+        background: #1e7e34;
+    }

@@ -1,0 +1,420 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400;600;800;900&display=swap');
+
+
+html {
+    padding-top: 0px;
+    scroll-behavior: smooth;
+    height: 100%; /* Establecer la altura al 100% */
+    margin: 0; /* Eliminar márgenes por defecto */
+    left: 0; /* Asegura que se alinee al borde izquierdo */
+    right: 0; /* Asegura que se alinee al borde derecho */
+    max-width: 1920px; /* Ancho máximo en pantallas grandes */
+}
+
+body {
+    background-color: #dde1e9;
+    width: 100%;
+    height: 100%; /* Establecer la altura al 100% */
+    margin: 0; /* Eliminar márgenes por defecto */
+    left: 0; /* Asegura que se alinee al borde izquierdo */
+    right: 0; /* Asegura que se alinee al borde derecho */
+    max-width: 1920px; /* Ancho máximo en pantallas grandes */
+}
+
+
+/* *********** */
+/* SECCIÓN INICIO */
+/* *********** */
+.inicio {
+    width: 100%;
+    height: 100vh;
+    position: relative; /* Para que el contenido se posicione dentro de esta sección */
+    overflow: hidden;
+    color: #fff;
+}
+
+.video-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que el video cubra todo el contenedor */
+    z-index: -1; /* Coloca el video detrás del contenido */
+}
+
+    .inicio .contenido-seccion {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .inicio .info {
+        width: fit-content;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+
+        .inicio .info h2 {
+            font-size: 4rem;
+            letter-spacing: 3px;
+        }
+
+        .inicio .info p {
+            margin: 20px;
+            color: #797e8e;
+            font-size: 16px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .inicio .info .btn-mas {
+            width: 50px;
+            margin: auto;
+            height: 50px;
+            border: 2px solid #ff1133;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: #ff1133;
+            margin-top: 50px;
+            text-decoration: none;
+        }
+
+.opciones {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inicio .opciones .opcion {
+    border-top: 2px solid #797e8e;
+    padding: 7px;
+    color: #797e8e;
+    margin: 0 20px;
+}
+
+/* *********** */
+/* SECCION NOSOTROS */
+/* *********** */
+.nosotros {
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+    background-color: #dde1e9;
+    padding: 100px 20px;
+}
+
+    .nosotros .fila {
+        display: flex;
+        align-items: center;
+    }
+
+        .nosotros .fila .col {
+            width: 50%;
+        }
+
+            .nosotros .fila .col img {
+                width: 80%;
+                display: block;
+                margin: auto;
+                margin-bottom: 50px;
+            }
+
+            .nosotros .fila .col .contenedor-titulo {
+                display: flex;
+                align-items: center
+            }
+
+                .nosotros .fila .col .contenedor-titulo .numero {
+                    color: #ff1133;
+                    font-weight: bold;
+                    display: block;
+                    font-size: 5rem;
+                }
+
+                .nosotros .fila .col .contenedor-titulo .info {
+                    margin-left: 30px;
+                }
+
+                    .nosotros .fila .col .contenedor-titulo .info .frase {
+                        color: #ff1133;
+                    }
+
+                    .nosotros .fila .col .contenedor-titulo .info h2 {
+                        font-size: 3rem;
+                    }
+
+            .nosotros .fila .col p {
+                margin-bottom: 10px;
+                line-height: 28px;
+            }
+
+            .nosotros .fila .col .p-especial {
+                font-weight: bold;
+            }
+
+    .nosotros hr {
+        margin-bottom: 30px;
+    }
+
+    .nosotros .fila-nosotros {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .nosotros .fila-nosotros .frase {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .nosotros .fila-nosotros h2 {
+            font-size: 2.5rem;
+        }
+
+        .nosotros .fila-nosotros button {
+            background-color: #ff1133;
+            border: none;
+            color: #fff;
+            padding: 15px 35px;
+            font-size: 14px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+/* ********** */
+/* SERVICIOS */
+/* ********** */
+
+.servicios {
+    color: #fff;
+    position: relative;
+}
+
+    .servicios .contenido-seccion {
+        background: linear-gradient( rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)),url("/Images/fservicios.jpg");
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+        max-width: 1920px;
+        padding: 0 20px;
+    }
+
+        .servicios .contenido-seccion .fila {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            padding: 100px 0;
+        }
+
+            .servicios .contenido-seccion .fila .col {
+                width: 50%;
+            }
+
+                .servicios .contenido-seccion .fila .col img {
+                    display: block;
+                    width: 50%;
+                    margin: auto;
+                }
+
+    .servicios .fila .col .contenedor-titulo {
+        display: flex;
+        align-items: center;
+    }
+
+        .servicios .fila .col .contenedor-titulo .numero {
+            color: #ff1133;
+            font-weight: bold;
+            display: block;
+            font-size: 5rem;
+        }
+
+        .servicios .fila .col .contenedor-titulo .info {
+            margin-left: 30px;
+        }
+
+            .servicios .fila .col .contenedor-titulo .info .frase {
+                color: #ff1133;
+            }
+
+            .servicios .fila .col .contenedor-titulo .info h2 {
+                font-size: 3rem;
+            }
+
+    .servicios .fila .col p {
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+
+    .servicios .fila .col .p-especial {
+        font-weight: bold;
+        color: #FF405B;
+    }
+
+    .servicios .info-servicios {
+        max-width: 800px;
+        margin: auto;
+    }
+
+        .servicios .info-servicios table {
+            text-align: center;
+            background-color: #fff;
+            color: #1f283e;
+            border-collapse: collapse;
+            position: relative;
+            bottom: 100px;
+        }
+
+            .servicios .info-servicios table td {
+                padding: 30px;
+                border: 1px solid #dde1e9
+            }
+
+                .servicios .info-servicios table td i {
+                    color: #ff1133;
+                    font-size: 2.5rem;
+                    margin-bottom: 20px;
+                }
+
+        .servicios .info-servicios h3 {
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .servicios .info-servicios p {
+            line-height: 30px;
+        }
+
+/* Estilo para la línea horizontal */
+.linea-horizontal {
+    border: 0;
+    height: 20px;
+    background-color: #ff1133; /* Puedes cambiar el color de la línea */
+    margin: 0px auto; /* Ajusta el espacio antes y después de la línea */
+    width: 100%; /* Ajusta el ancho de la línea */
+}
+
+/* *********** */
+/* RESPONSIVE */
+/* *********** */
+@media only screen and (max-width: 900px) {
+    header nav {
+        position: initial;
+        display: none;
+        transform: translate(0);
+    }
+
+    header .redes {
+        display: none;
+    }
+
+    .nav-responsive {
+        display: block;
+    }
+
+    nav.responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #151623;
+        z-index: 99;
+    }
+
+        nav.responsive a {
+            display: block;
+            width: fit-content;
+            margin: 10px auto;
+            font-size: 30px;
+        }
+
+    .inicio .opciones {
+        display: none;
+    }
+
+    .nosotros .fila {
+        display: block;
+    }
+
+        .nosotros .fila .col {
+            width: 100%;
+            margin: auto;
+        }
+
+            .nosotros .fila .col img {
+                max-width: 200px;
+                display: block;
+                margin: auto;
+            }
+
+    .servicios .contenido-seccion .fila {
+        display: block;
+    }
+
+        .servicios .contenido-seccion .fila .col {
+            width: 100%;
+        }
+
+    .comodidades .fila {
+        display: block;
+    }
+
+        .comodidades .fila .col {
+            width: 100%;
+        }
+
+            .comodidades .fila .col img {
+                max-width: 200px;
+            }
+
+    .equipo .fila {
+        display: block;
+    }
+
+        .equipo .fila .col {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+            .equipo .fila .col img {
+                max-height: 200px;
+            }
+
+        .equipo .fila .info {
+            max-width: 250px;
+            margin: auto;
+        }
+
+    .contacto .fila {
+        display: block;
+    }
+
+        .contacto .fila .col {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+    .contacto .fila-datos {
+        display: block;
+    }
+
+        .contacto .fila-datos .col {
+            margin-bottom: 20px;
+        } 
+
+}

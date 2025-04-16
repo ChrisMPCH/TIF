@@ -1,0 +1,129 @@
+﻿.custom-footer {
+    background-color: #202022;
+    padding: 60px 20px;
+    margin-top: auto;
+}
+
+    .custom-footer .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .custom-footer .footer-links {
+        flex: 1 1 200px;
+        padding: 0 15px;
+    }
+
+        .custom-footer .footer-links h4 {
+            font-size: 18px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            font-weight: 600;
+            border-bottom: 2px solid #ff1133;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .custom-footer .footer-links ul li {
+            margin-bottom: 10px;
+        }
+
+            .custom-footer .footer-links ul li a {
+                font-size: 16px;
+                text-decoration: none;
+                color: #BBBBBB;
+                display: block;
+                transition: all 0.3s ease;
+            }
+
+                .custom-footer .footer-links ul li a:hover {
+                    color: #FFFFFF;
+                    padding-left: 10px;
+                }
+
+    .custom-footer .social-link a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(36, 35, 35, 0.1);
+        margin: 0 10px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #FFFFFF;
+        transition: all 0.3s ease;
+    }
+
+        .custom-footer .social-link a:hover {
+            background-color: #ff1133;
+            color: #1e1e24;
+            transform: scale(1.1);
+        }
+
+@media (max-width: 991px) {
+    .custom-footer .footer-row {
+        text-align: center;
+    }
+
+    .custom-footer .footer-links {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-footer .footer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom-footer .footer-links h4 {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .custom-footer .footer-links ul li a {
+        font-size: 14px;
+    }
+
+    .custom-footer .social-link a {
+        margin: 5px;
+    }
+}
+
+.custom-footer ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina cualquier sangría predeterminada */
+    margin: 0; /* Ajusta el espaciado */
+}
+
+    .custom-footer ul li a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #BBBBBB;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+        .custom-footer ul li a:hover {
+            color: #FFFFFF;
+            padding-left: 10px;
+
+        }
+.footer .team-info {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #BBBBBB;
+    line-height: 1.6;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+    .footer .team-info strong {
+        color: #FFFFFF;
+        font-weight: 600;
+    }
+
+   

@@ -1,0 +1,219 @@
+﻿@{
+    ViewData["Title"] = "Calc";
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/calculadora.css" asp-append-version="true" />
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Carbohidratos</title>
+
+</head>
+<body>
+    <div class="card">
+        <h1><strong>Calculadora de Macros</strong></h1>
+        <p>Esta calculadora te ayuda a determinar tu ingesta diaria recomendada de carbohidratos, proteínas y grasas basada en tu metabolismo basal, nivel de actividad y objetivos. Es una herramienta útil para <strong>planificar tu dieta</strong>, ya sea para mantenimiento, aumento de masa muscular o pérdida de grasa. <strong>Recuerda que estos son valores estimados y es recomendable consultar con un profesional de la nutrición para un plan personalizado.</strong></p>
+
+        <img src="~/Images/tifLogin.jpg" alt="Descripción de la imagen" style="width: 200px; height: auto; margin: 0 auto 0px auto; display: block;">
+
+        <h2><strong>Valores Sugeridos Para Dietocálculo</strong></h2>
+        <table>
+            <caption>La información de esta tabla se sugiere como referencia para el cálculo de calorías y macronutrientes necesarios para el mantenimiento.</caption>
+
+            <thead>
+                <tr>
+                    <th>Nutriente</th>
+                    <th>Sedentario (g/kg de peso corporal)</th>
+                    <th>Principiante (g/kg de peso corporal)</th>
+                    <th>Intermedio (g/kg de peso corporal)</th>
+                    <th>Avanzado (g/kg de peso corporal)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Nutriente">Proteína</td>
+                    <td data-label="Sedentario">1</td>
+                    <td data-label="Principiante">1.5</td>
+                    <td data-label="Intermedio">2</td>
+                    <td data-label="Avanzado">2.3-2.6</td>
+                </tr>
+                <tr>
+                    <td data-label="Nutriente">Grasa</td>
+                    <td data-label="Sedentario">0.6</td>
+                    <td data-label="Principiante">0.6</td>
+                    <td data-label="Intermedio">0.6</td>
+                    <td data-label="Avanzado">0.6</td>
+                </tr>
+                <tr>
+                    <td data-label="Nutriente">Carbohidratos</td>
+                    <td data-label="Sedentario" colspan="4">Calculado en base a las calorías restantes</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <style>
+            .radio-btns {
+                display: flex;
+                gap: 20px;
+            }
+
+                .radio-btns input {
+                    display: none;
+                }
+
+                .radio-btns label {
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 20px;
+                }
+
+                .radio-btns input:checked + label {
+                    background-color: #FF0033;
+                    color: #fff;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+        </style>
+
+        <form id="calculatorForm">
+            <div class="form-group">
+                <label>Género:</label>
+
+                <div class="radio-btns">
+                    <input type="radio" id="hombre" name="genero" value="hombre" checked>
+                    <label for="hombre">
+                        <i class="fas fa-mars" style="font-size: 30px;"></i> Hombre
+                    </label>
+
+                    <input type="radio" id="mujer" name="genero" value="mujer">
+                    <label for="mujer">
+                        <i class="fas fa-venus" style="font-size: 30px;"></i> Mujer
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" required>
+            </div>
+            <div class="form-group">
+                <label for="altura">Altura (cm):</label>
+                <input type="number" id="altura" required>
+            </div>
+            <div class="form-group">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" required>
+            </div>
+            <div class="form-group">
+                <label for="nivelActividad">Nivel de Actividad:</label>
+                <select id="nivelActividad">
+                    <option value="1.2">Sedentario</option>
+                    <option value="1.375">Ligera actividad física</option>
+                    <option value="1.55">Actividad moderada</option>
+                    <option value="1.725">Alta actividad</option>
+                    <option value="1.9">Actividad muy intensa</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="proteina">Proteína (g/kg de peso corporal):</label>
+                <input type="number" id="proteina" step="0.1" required>
+            </div>
+            <button type="submit">CALCULAR</button>
+        </form>
+    </div>
+
+    <div id="getResult" style="display: none;">
+        <p> <strong>Gasto Energético Total (GET):</strong> <span id="getValue"></span> kcal</p>
+        <div class="form-group">
+            <label for="objetivoCalorico">Objetivo Calórico:</label>
+            <select id="objetivoCalorico">
+                <option value="mantenimiento">Mantenimiento</option>
+                <option value="aumento">Aumento de masa (+500 kcal)</option>
+                <option value="perdida">Pérdida de grasa (-500 kcal)</option>
+            </select>
+        </div>
+        <button onclick="recalcular()">RECALCULAR</button>
+    </div>
+
+    <div id="results" class="results" style="display: none;">
+        <h2>RESULTADOS</h2>
+        <p>Gasto Energético Total (GET): <span id="resultGET"></span> kcal</p>
+        <p>Calorías objetivo: <span id="resultCalorias"></span> kcal</p>
+        <p>Carbohidratos recomendados: <span id="resultCarbohidratos"></span> g</p>
+        <p>Carbohidratos por kg de peso corporal: <span id="resultCarbohidratosPorKg"></span> g/kg</p>
+        <p>Grasa total de consumo por día: <span id="resultGrasa"></span> g</p>
+        <p>Proteína total de consumo por día: <span id="resultProteina"></span> g</p>
+
+        <p style="text-align: center;">Todos los derechos reservados a <strong style="color: #ff1133;">TEAM IS FAMILY ©</strong></p>
+
+    </div>
+
+    <script>
+        let get = null;
+        let peso = null;
+        let proteinaNum = null;
+
+        document.getElementById('calculatorForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            calcularCarbohidratos();
+        });
+
+        function calcularCarbohidratos() {
+            const genero = document.querySelector('input[name="genero"]:checked').value;
+            peso = parseFloat(document.getElementById('peso').value);
+            const altura = parseFloat(document.getElementById('altura').value);
+            const edad = parseFloat(document.getElementById('edad').value);
+            proteinaNum = parseFloat(document.getElementById('proteina').value);
+            const nivelActividad = parseFloat(document.getElementById('nivelActividad').value);
+
+            if (isNaN(peso) || isNaN(altura) || isNaN(edad) || isNaN(proteinaNum)) {
+                alert('Por favor, ingrese todos los valores numéricos.');
+                return;
+            }
+
+            let mb;
+            if (genero === 'hombre') {
+                mb = (10 * peso) + (6.25 * altura) - (5 * edad) + 5;
+            } else {
+                mb = (10 * peso) + (6.25 * altura) - (5 * edad) - 161;
+            }
+
+            get = mb * nivelActividad;
+            document.getElementById('getValue').textContent = get.toFixed(2);
+            document.getElementById('getResult').style.display = 'block';
+
+            recalcular();
+        }
+
+        function recalcular() {
+            const objetivoCalorico = document.getElementById('objetivoCalorico').value;
+            let getAjustado = get;
+            if (objetivoCalorico === 'aumento') {
+                getAjustado += 500;
+            } else if (objetivoCalorico === 'perdida') {
+                getAjustado -= 500;
+            }
+
+            const carbohidratos = Math.max(0, (getAjustado - (4 * proteinaNum * peso) - (9 * 0.6 * peso)) / 4);
+
+            document.getElementById('resultGET').textContent = get.toFixed(2);
+            document.getElementById('resultCalorias').textContent = getAjustado.toFixed(2);
+            document.getElementById('resultCarbohidratos').textContent = carbohidratos.toFixed(2);
+            document.getElementById('resultCarbohidratosPorKg').textContent = (carbohidratos / peso).toFixed(2);
+            document.getElementById('resultGrasa').textContent = (0.6 * peso).toFixed(2);
+            document.getElementById('resultProteina').textContent = (proteinaNum * peso).toFixed(2);
+
+            document.getElementById('results').style.display = 'block';
+        }
+    </script>
+
+
+</body>
+</html>

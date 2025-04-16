@@ -1,0 +1,953 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GYMISFAMILY.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GYMISFAMILY.v11wv96338.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_01.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_02.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_03.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_04.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_05.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_06.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_07.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_08.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_09.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_10.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_11.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_12.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_13.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_14.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_15.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_16.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Articles\\img_font_17.png",
+      "PackagePath": "staticwebassets\\BlogImage\\Articles\\img_font_17.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\Info_bn_a1.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\Info_bn_a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\about-img-bn.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\about-img-bn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\banner-blog.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\banner-blog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\bn_nut_01.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\bn_nut_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\bn_nut_02.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\bn_nut_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\bn_nut_03.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\bn_nut_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\home-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\post-1.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\post-2.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\BlogImage\\post-3.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\LogoTIFsinfondo.png",
+      "PackagePath": "staticwebassets\\Images\\LogoTIFsinfondo.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\b1.jpg",
+      "PackagePath": "staticwebassets\\Images\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\b2.jpg",
+      "PackagePath": "staticwebassets\\Images\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\card1.jpg",
+      "PackagePath": "staticwebassets\\Images\\card1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\card2.jpg",
+      "PackagePath": "staticwebassets\\Images\\card2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\default-user.jpg",
+      "PackagePath": "staticwebassets\\Images\\default-user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\e1.png",
+      "PackagePath": "staticwebassets\\Images\\e1.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\e2.png",
+      "PackagePath": "staticwebassets\\Images\\e2.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\e3.png",
+      "PackagePath": "staticwebassets\\Images\\e3.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\f1.jpg",
+      "PackagePath": "staticwebassets\\Images\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\f2.jpg",
+      "PackagePath": "staticwebassets\\Images\\f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\f3.jpg",
+      "PackagePath": "staticwebassets\\Images\\f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\f4.jpg",
+      "PackagePath": "staticwebassets\\Images\\f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\f5.jpg",
+      "PackagePath": "staticwebassets\\Images\\f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\f6.jpg",
+      "PackagePath": "staticwebassets\\Images\\f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\fgaleria.jpg",
+      "PackagePath": "staticwebassets\\Images\\fgaleria.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\fondo-galeria.jpg",
+      "PackagePath": "staticwebassets\\Images\\fondo-galeria.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\fondo.jpg",
+      "PackagePath": "staticwebassets\\Images\\fondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\fondo1.jpg",
+      "PackagePath": "staticwebassets\\Images\\fondo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\footer-bg.png",
+      "PackagePath": "staticwebassets\\Images\\footer-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\footer-clock.png",
+      "PackagePath": "staticwebassets\\Images\\footer-clock.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\fservicios.jpg",
+      "PackagePath": "staticwebassets\\Images\\fservicios.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\fubicacion.jpg",
+      "PackagePath": "staticwebassets\\Images\\fubicacion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\inicio-img.jpg",
+      "PackagePath": "staticwebassets\\Images\\inicio-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\logo-bn.png",
+      "PackagePath": "staticwebassets\\Images\\logo-bn.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\logo1.png",
+      "PackagePath": "staticwebassets\\Images\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\mision-img.jpg",
+      "PackagePath": "staticwebassets\\Images\\mision-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\nosotros.png",
+      "PackagePath": "staticwebassets\\Images\\nosotros.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\nutriologo.jpg",
+      "PackagePath": "staticwebassets\\Images\\nutriologo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\servicios.png",
+      "PackagePath": "staticwebassets\\Images\\servicios.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\tifLogin.jpg",
+      "PackagePath": "staticwebassets\\Images\\tifLogin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\valores-img.jpg",
+      "PackagePath": "staticwebassets\\Images\\valores-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Images\\vision-img.jpg",
+      "PackagePath": "staticwebassets\\Images\\vision-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\RFID.txt",
+      "PackagePath": "staticwebassets\\RFID.txt"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Rutinas\\Rutina-Adaptacion.pdf",
+      "PackagePath": "staticwebassets\\Rutinas\\Rutina-Adaptacion.pdf"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Rutinas\\Rutina-Avanzado.pdf",
+      "PackagePath": "staticwebassets\\Rutinas\\Rutina-Avanzado.pdf"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Rutinas\\Rutina-Basico.pdf",
+      "PackagePath": "staticwebassets\\Rutinas\\Rutina-Basico.pdf"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\Rutinas\\Rutina-Medio.pdf",
+      "PackagePath": "staticwebassets\\Rutinas\\Rutina-Medio.pdf"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250108002103422.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250108002103422.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250122114900067.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250122114900067.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250122115319373.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250122115319373.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250125185003312.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250125185003312.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250125195150481.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250125195150481.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250125195243732.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250125195243732.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250125195418739.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250125195418739.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250125195607752.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250125195607752.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250125202945379.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250125202945379.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250125203015402.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250125203015402.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250331222332593.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250331222332593.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250407221135156.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250407221135156.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409213947818.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409213947818.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409215901450.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409215901450.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409221628129.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409221628129.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409222301688.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409222301688.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409222346507.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409222346507.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409222604860.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409222604860.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409222618718.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409222618718.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409222653366.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409222653366.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409223105600.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409223105600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409223115148.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409223115148.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409232456713.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409232456713.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409232504872.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409232504872.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250409232510998.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250409232510998.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250412135251481.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250412135251481.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250412150747515.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250412150747515.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250412151011372.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250412151011372.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250412154840520.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250412154840520.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250412161201203.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250412161201203.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250412162032834.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250412162032834.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250413212806512.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250413212806512.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250413213042573.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250413213042573.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250414181629270.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250414181629270.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250414181803664.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250414181803664.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250414182031844.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250414182031844.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\20250414182438996.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\20250414182438996.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\clienteImagen\\default-user.jpg",
+      "PackagePath": "staticwebassets\\clienteImagen\\default-user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\BlogIndex.css",
+      "PackagePath": "staticwebassets\\css\\BlogIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\CalculatorIMC.css",
+      "PackagePath": "staticwebassets\\css\\CalculatorIMC.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\PrivacyNotice.css",
+      "PackagePath": "staticwebassets\\css\\PrivacyNotice.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\QuienesSomos.css",
+      "PackagePath": "staticwebassets\\css\\QuienesSomos.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\Rutina.css",
+      "PackagePath": "staticwebassets\\css\\Rutina.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\article.css",
+      "PackagePath": "staticwebassets\\css\\article.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\calculadora.css",
+      "PackagePath": "staticwebassets\\css\\calculadora.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\card.css",
+      "PackagePath": "staticwebassets\\css\\card.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\clases.css",
+      "PackagePath": "staticwebassets\\css\\clases.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\clientesAdmin.css",
+      "PackagePath": "staticwebassets\\css\\clientesAdmin.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\cookie.css",
+      "PackagePath": "staticwebassets\\css\\cookie.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\footer1.css",
+      "PackagePath": "staticwebassets\\css\\footer1.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\heronav.css",
+      "PackagePath": "staticwebassets\\css\\heronav.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\infocard.css",
+      "PackagePath": "staticwebassets\\css\\infocard.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\membresiapago.css",
+      "PackagePath": "staticwebassets\\css\\membresiapago.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\page-blog.css",
+      "PackagePath": "staticwebassets\\css\\page-blog.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\pagefooter.css",
+      "PackagePath": "staticwebassets\\css\\pagefooter.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\quiensomos.css",
+      "PackagePath": "staticwebassets\\css\\quiensomos.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\registerT.css",
+      "PackagePath": "staticwebassets\\css\\registerT.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\registroC.css",
+      "PackagePath": "staticwebassets\\css\\registroC.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\css\\table.css",
+      "PackagePath": "staticwebassets\\css\\table.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\js\\BlogIndex.js",
+      "PackagePath": "staticwebassets\\js\\BlogIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\js\\IMC.js",
+      "PackagePath": "staticwebassets\\js\\IMC.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\js\\cookie.js",
+      "PackagePath": "staticwebassets\\js\\cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241003215507500.jpg",
+      "PackagePath": "staticwebassets\\products\\20241003215507500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241003220050952.jpg",
+      "PackagePath": "staticwebassets\\products\\20241003220050952.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241004145002696.webp",
+      "PackagePath": "staticwebassets\\products\\20241004145002696.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241010205815451.webp",
+      "PackagePath": "staticwebassets\\products\\20241010205815451.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241014155150913.png",
+      "PackagePath": "staticwebassets\\products\\20241014155150913.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241014211014890.jpg",
+      "PackagePath": "staticwebassets\\products\\20241014211014890.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241014211128717.webp",
+      "PackagePath": "staticwebassets\\products\\20241014211128717.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241014211203358.webp",
+      "PackagePath": "staticwebassets\\products\\20241014211203358.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241014211525944.webp",
+      "PackagePath": "staticwebassets\\products\\20241014211525944.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241014211615942.webp",
+      "PackagePath": "staticwebassets\\products\\20241014211615942.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241014212117019.png",
+      "PackagePath": "staticwebassets\\products\\20241014212117019.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241016121335969.webp",
+      "PackagePath": "staticwebassets\\products\\20241016121335969.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241016121422341.webp",
+      "PackagePath": "staticwebassets\\products\\20241016121422341.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241102183043040.webp",
+      "PackagePath": "staticwebassets\\products\\20241102183043040.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241102183147931.webp",
+      "PackagePath": "staticwebassets\\products\\20241102183147931.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241102183300066.webp",
+      "PackagePath": "staticwebassets\\products\\20241102183300066.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241102183407363.webp",
+      "PackagePath": "staticwebassets\\products\\20241102183407363.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241102183521632.webp",
+      "PackagePath": "staticwebassets\\products\\20241102183521632.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241105215507528.png",
+      "PackagePath": "staticwebassets\\products\\20241105215507528.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241105225440015.webp",
+      "PackagePath": "staticwebassets\\products\\20241105225440015.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241106102441681.webp",
+      "PackagePath": "staticwebassets\\products\\20241106102441681.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241107091950472.webp",
+      "PackagePath": "staticwebassets\\products\\20241107091950472.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241107213916234.webp",
+      "PackagePath": "staticwebassets\\products\\20241107213916234.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241107213947232.webp",
+      "PackagePath": "staticwebassets\\products\\20241107213947232.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241117005452823.webp",
+      "PackagePath": "staticwebassets\\products\\20241117005452823.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241118014305456.png",
+      "PackagePath": "staticwebassets\\products\\20241118014305456.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241118014413168.webp",
+      "PackagePath": "staticwebassets\\products\\20241118014413168.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241118014542021.webp",
+      "PackagePath": "staticwebassets\\products\\20241118014542021.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241124172641465.webp",
+      "PackagePath": "staticwebassets\\products\\20241124172641465.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241124173130262.webp",
+      "PackagePath": "staticwebassets\\products\\20241124173130262.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241124182140313.webp",
+      "PackagePath": "staticwebassets\\products\\20241124182140313.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241124201709123.webp",
+      "PackagePath": "staticwebassets\\products\\20241124201709123.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241126131939578.webp",
+      "PackagePath": "staticwebassets\\products\\20241126131939578.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241126132029552.webp",
+      "PackagePath": "staticwebassets\\products\\20241126132029552.webp"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\20241126132126132.png",
+      "PackagePath": "staticwebassets\\products\\20241126132126132.png"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\fertilizante.jpg",
+      "PackagePath": "staticwebassets\\products\\fertilizante.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\pinzas_m.jpg",
+      "PackagePath": "staticwebassets\\products\\pinzas_m.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\products\\sustrato.jpg",
+      "PackagePath": "staticwebassets\\products\\sustrato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Escritorio\\TIF-1.0\\PruebaProyecto2\\wwwroot\\videos\\fondovideo.mp4",
+      "PackagePath": "staticwebassets\\videos\\fondovideo.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GYMISFAMILY.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GYMISFAMILY.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GYMISFAMILY.props",
+      "PackagePath": "build\\GYMISFAMILY.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GYMISFAMILY.props",
+      "PackagePath": "buildMultiTargeting\\GYMISFAMILY.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GYMISFAMILY.props",
+      "PackagePath": "buildTransitive\\GYMISFAMILY.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

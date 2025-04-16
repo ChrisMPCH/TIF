@@ -1,0 +1,169 @@
+﻿@{
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/article.css" asp-append-version="true" />
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología Básica: Tu Primer Paso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <article class="article">
+            <h1 class="article-title"><strong>Metodología Básica:</strong> El Primer Paso para Dominar tu Entrenamiento</h1>
+
+            <nav class="table-of-contents" id="index">
+                <div class="toc-header" onclick="toggleIndice()">
+                    <h2 class="toc-title">Índice</h2>
+                    <div class="toc-toggle" id="toggle-icon">−</div>
+                </div>
+                <ul class="toc-list" id="toc-content">
+                    <li><a href="#introduccion">1. Introducción</a></li>
+                    <li><a href="#principios">2. Fundamentos de una metodología efectiva</a></li>
+                    <li><a href="#objetivos">Establecer objetivos claros</a></li>
+                    <li><a href="#planificacion">Planificación y periodización</a></li>
+                    <li><a href="#variacion">Variación de ejercicios</a></li>
+                    <li><a href="#tecnica">Técnica y prevención de lesiones</a></li>
+                    <li><a href="#ejercicios">3. Ejercicios clave</a></li>
+                    <li><a href="#provecho">4. Cómo sacarle el máximo provecho</a></li>
+                </ul>
+            </nav>
+
+            <script>
+                function toggleIndice() {
+                    const content = document.getElementById('toc-content');
+                    const icon = document.getElementById('toggle-icon');
+
+                    content.classList.toggle('collapsed');
+                    icon.classList.toggle('rotate');
+
+                    if (content.classList.contains('collapsed')) {
+                        icon.textContent = '+';
+                    } else {
+                        icon.textContent = '−';
+                    }
+                }
+            </script>
+
+            <section id="introduccion">
+                <h2>Introducción</h2>
+                <p style="text-align: justify;">
+                    En nuestro <strong>TEAM IS FAMILY</strong>, creemos que una buena <strong>metodología de entrenamiento</strong> es la base para alcanzar cualquier objetivo fitness. Tanto si buscas ganar fuerza, resistencia o mejorar tu condición física general, seguir una metodología estructurada te ayudará a <strong>optimizar resultados</strong> y <strong>evitar lesiones</strong>.
+                </p>
+                <p style="text-align: justify;">
+                    Entrenar sin una estrategia clara puede hacer que pierdas tiempo y te frustres por la falta de progreso. Por eso, en este artículo te explicamos los <strong>principios básicos</strong> para establecer una metodología efectiva que te permita avanzar de forma segura y constante en tu entrenamiento.
+                </p>
+            </section>
+
+
+
+            <section id="principios">
+                <h2>Los Fundamentos de una Metodología de Entrenamiento Efectiva</h2>
+            </section>
+
+            <section id="objetivos">
+                <h3>1. Establecer Objetivos Claros</h3>
+                <p style="text-align: justify;">Antes de comenzar, define qué quieres lograr:</p>
+                <ul>
+                    <li><strong>Hipertrofia:</strong> Aumento de masa muscular.</li>
+                    <li><strong>Resistencia:</strong> Mayor capacidad física y cardiovascular.</li>
+                    <li><strong>Definición muscular:</strong> Reducción de grasa corporal y tonificación.</li>
+                    <li><strong>Mejora del rendimiento deportivo:</strong> Velocidad, agilidad, potencia.</li>
+                </ul>
+                <p style="text-align: justify;">Cada objetivo requiere un enfoque diferente en cuanto a volumen, intensidad y tipo de ejercicios.</p>
+            </section>
+
+            <section id="planificacion">
+                <h3>2. Planificación y Periodización</h3>
+                <p style="text-align: justify;">Un entrenamiento bien estructurado debe seguir una progresión adecuada para evitar el estancamiento y reducir el riesgo de sobreentrenamiento:</p>
+                <ul>
+                    <li><strong>Fase de Adaptación:</strong> Primeras semanas enfocadas en la técnica y preparación del cuerpo.</li>
+                    <li><strong>Fase de Progresión:</strong> Incremento gradual de carga, volumen e intensidad.</li>
+                    <li><strong>Fase de Máximo Rendimiento:</strong> Se alcanzan los mayores avances en fuerza y resistencia.</li>
+                    <li><strong>Fase de Recuperación:</strong> Periodo para regenerar el cuerpo y prevenir lesiones.</li>
+                </ul>
+            </section>
+
+            <section id="variacion">
+                <h3>3. Variación de Ejercicios y Estímulos</h3>
+                <p style="text-align: justify;">Para evitar la monotonía y seguir progresando, es recomendable variar los ejercicios y los estímulos que recibe el cuerpo:</p>
+                <ul>
+                    <li>Alternar entrenamientos de fuerza y resistencia.</li>
+                    <li>Incluir ejercicios isométricos y dinámicos.</li>
+                    <li>Combinar entrenamientos HIIT y cardio tradicional.</li>
+                </ul>
+            </section>
+
+            <section id="tecnica">
+                <h3>4. Técnica Correcta y Prevención de Lesiones</h3>
+                <p style="text-align: justify;">La calidad de la ejecución de los ejercicios es más importante que la cantidad de peso o repeticiones:</p>
+                <ul>
+                    <li>Mantener una postura adecuada.</li>
+                    <li>Evitar movimientos bruscos o compensaciones corporales.</li>
+                    <li>Incluir ejercicios de movilidad y flexibilidad.</li>
+                </ul>
+            </section>
+
+            <section id="ejercicios">
+                <h2>Ejercicios Claves para un Entrenamiento Completo</h2>
+
+                <h3><strong>Para el Desarrollo de Fuerza y Hipertrofia</strong></h3>
+                <ul>
+                    <li>Ejercicios compuestos: Sentadillas, peso muerto, press de banca, dominadas.</li>
+                    <li>Ejercicios de aislamiento: Curl de bíceps, extensiones de tríceps, elevaciones laterales.</li>
+                    <li>Métodos de sobrecarga progresiva.</li>
+                </ul>
+
+                <h3><strong>Para Mejorar la Resistencia Muscular</strong></h3>
+                <ul>
+                    <li>Ejercicios isométricos: Planchas, sentadillas sostenidas.</li>
+                    <li>Ejercicios con repeticiones altas: Flexiones, remo invertido, lunges.</li>
+                </ul>
+
+                <h3><strong>Para Optimizar la Resistencia Cardiovascular</strong></h3>
+                <ul>
+                    <li>Entrenamientos HIIT: Sprint, burpees, saltos de cuerda.</li>
+                    <li>Cardio LISS: Ciclismo, natación, trote ligero.</li>
+                </ul>
+            </section>
+
+            <section id="provecho">
+                <h2>Cómo Sacarle el Máximo Provecho a Tu Entrenamiento</h2>
+                <ul>
+                    <li><strong>Nutrición adecuada:</strong> Equilibrada con proteínas, carbohidratos y grasas saludables.</li>
+                    <li><strong>Descanso:</strong> Dormir bien y permitir la recuperación muscular.</li>
+                    <li><strong>Consistencia:</strong> La clave del progreso es la disciplina y la paciencia.</li>
+                </ul>
+
+            </section>
+
+            <a href="#index" class="back-to-top" aria-label="Regresar al inicio">
+                <span>⬆</span>
+            </a>
+
+            <script>
+                const backToTopButton = document.querySelector('.back-to-top');
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('visible');
+                    } else {
+                        backToTopButton.classList.remove('visible');
+                    }
+                });
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            </script>
+        </article>
+    </div>
+
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>
+

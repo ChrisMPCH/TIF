@@ -1,0 +1,142 @@
+﻿@using GYMISFAMILY.Models.DTOs
+@model RegistroDTO
+
+@{
+    ViewData["Title"] = "Registro";
+    ViewData["BodyClass"] = "with-margin";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/registerT.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+
+    <h2>Registro Socios</h2>
+    <p class="team-family">TEAM IS FAMILY</p>
+
+    <form asp-action="Registro" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Nombre"></label>
+            <input asp-for="Nombre" class="form-control" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Apellido_P"></label>
+            <input asp-for="Apellido_P" class="form-control" />
+            <span asp-validation-for="Apellido_P" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Apellido_M"></label>
+            <input asp-for="Apellido_M" class="form-control" />
+            <span asp-validation-for="Apellido_M" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PhoneNumber"></label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="FechaDeNacimiento"></label>
+            <input asp-for="FechaDeNacimiento" class="form-control" type="date" />
+            <span asp-validation-for="FechaDeNacimiento" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <!-- RFID leído en tiempo real -->
+            <label asp-for="RFID"></label>
+            <input asp-for="RFID" class="form-control" />
+            <span asp-validation-for="RFID" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="captureImage">Captura tu foto:</label>
+            <video id="video" width="320" height="240" autoplay></video>
+            <br>
+            <button type="button" id="capture" class="btn btn-primary">Capturar Foto</button>
+            <br><br>
+            <canvas id="canvas" width="320" height="240" style="display: none;"></canvas>
+            <input type="hidden" name="ImageBase64" id="imageBase64" />
+            <span class="text-danger" id="error-message"></span>
+            <br><br>
+            <img id="capturedImage" width="320" height="240" style="display: none; border: 1px solid #ddd;" />
+        </div>
+
+        <div class="form-group">
+            <div class="form-check">
+                <input asp-for="EsEmpleado" class="form-check-input" />
+                <label class="form-check-label" asp-for="EsEmpleado">¿ES UN EMPLEADO?</label>
+            </div>
+        </div>
+
+        <style>
+            .btn-registrar {
+                background: var(--primary-red);
+                color: var(--light);
+                border: none;
+                padding: 1rem 2rem;
+                font-size: 1.125rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 100%;
+                transition: background-color 0.3s ease;
+            }
+
+                .btn-registrar:hover {
+                    background: #e60030;
+                    transform: translateY(-1px);
+                }
+
+                .btn-registrar:active {
+                    transform: translateY(1px);
+                }
+        </style>
+        <button type="submit" class="btn btn-registrar">Registrar</button>
+    </form>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+        </script>
+    }
+
+    <script>
+        // Acceder a la cámara del usuario
+        let video = document.getElementById('video');
+        let captureButton = document.getElementById('capture');
+        let canvas = document.getElementById('canvas');
+        let context = canvas.getContext('2d');
+        let imageBase64Input = document.getElementById('imageBase64');
+        let errorMessage = document.getElementById('error-message');
+
+        // Intentar acceder a la cámara
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                    video.srcObject = stream;
+                })
+                .catch(function (error) {
+                    errorMessage.textContent = 'No se pudo acceder a la cámara.';
+                    console.error("Error al acceder a la cámara: ", error);
+                });
+        }
+
+        // Capturar la foto cuando se presiona el botón
+            captureButton.addEventListener('click', function () {
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            let imageData = canvas.toDataURL('image/jpeg');
+            imageBase64Input.value = imageData;  // Guardar la imagen en base64 en un campo oculto
+
+            // Mostrar la imagen capturada debajo de la cámara
+            let capturedImage = document.getElementById('capturedImage');
+            capturedImage.src = imageData;
+            capturedImage.style.display = 'block';
+        });
+
+    </script>
+
+</body>
+</html>

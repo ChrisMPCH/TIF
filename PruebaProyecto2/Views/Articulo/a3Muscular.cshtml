@@ -1,0 +1,401 @@
+﻿@{
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/article.css" asp-append-version="true" />
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <article class="article">
+            <h1 class="article-title"><strong>Hipertrofia al Detalle:</strong> Claves para Ganar Masa Muscular con Efectividad</h1>
+
+            <nav class="table-of-contents" id="index">
+                <div class="toc-header" onclick="toggleIndice()">
+                    <h2 class="toc-title">Índice</h2>
+                    <div class="toc-toggle" id="toggle-icon">−</div>
+                </div>
+                <ul class="toc-list" id="toc-content">
+                    <li><a href="#introduccion">1. Introducción</a></li>
+                    <li><a href="#title1-a1">2. Mecanismos de la Hipertrofia Muscular</a></li>
+                    <li><a href="#sub1-a1" class="subtema">Definición y Contexto</a></li>
+                    <li><a href="#sub2-a1" class="subtema">Tipos de Hipertrofia</a></li>
+                    <li><a href="#sub3-a1" class="subtema">Facrtores Clave</a></li>
+                    <li><a href="#sub4-a1" class="subtema">Hormonas Importante</a></li>
+
+                    <li><a href="#title2-a1">3. Estrategias Prácticas para la Hipertrofia</a></li>
+                    <li><a href="#sub5-a1" class="subtema">Entrenamiento Eficaz</a></li>
+                    <li><a href="#sub6-a1" class="subtema">Nutrición y Recuperación</a></li>
+                    <li><a href="#sub7-a1" class="subtema">Progresión Constante</a></li>
+
+                    <li><a href="#title3-a1">4. Factores clave en la hipertrofia muscular</a></li>
+                    <li><a href="#sub8-a1" class="subtema">Tensión mecánica</a></li>
+                    <li><a href="#sub9-a1" class="subtema">Daño muscular</a></li>
+                    <li><a href="#sub10-a1" class="subtema">Estrés metabólico</a></li>
+
+                    <li>
+                        <a href="#title3-a1">
+                            5. Mecanismos biológicos de la hipertrofia
+                        </a>
+                    </li>
+                    <li><a href="#sub11-a1" class="subtema">Actividad de las células satélite</a></li>
+                    <li><a href="#sub12-a1" class="subtema">Vías de señalización anabólica</a></li>
+                    <li><a href="#sub13-a1" class="subtema">Equilibrio hormonal</a></li>
+
+                    <li>
+                        <a href="#title4-a1">
+                            6. Factores adicionales que influyen en la hipertrofia
+                        </a>
+                    </li>
+                    <li><a href="#sub14-a1" class="subtema">Nutrición</a></li>
+                    <li><a href="#sub15-a1" class="subtema">Descanso y recuperación</a></li>
+                    <li><a href="#sub16-a1" class="subtema">Progresión del entrenamiento</a></li>
+                    <li>
+                        <a href="#title5-a1">
+                            7. Conclusión
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <script>
+                function toggleIndice() {
+                    const content = document.getElementById('toc-content');
+                    const icon = document.getElementById('toggle-icon');
+
+                    content.classList.toggle('collapsed');
+                    icon.classList.toggle('rotate');
+
+                    if (content.classList.contains('collapsed')) {
+                        icon.textContent = '+';
+                    } else {
+                        icon.textContent = '−';
+                    }
+                }
+            </script>
+
+            <section id="introduccion">
+                <h2>Introducción</h2>
+                <p style="text-align: justify;">
+                    El desarrollo muscular no se trata solo de levantar pesas, sino de entender los principios físicos y biológicos que promueven
+                    la hipertrofia muscular, un proceso donde las fibras musculares aumentan de tamaño gracias a estrategias de entrenamiento
+                    bien planificadas.
+                </p>
+            </section>
+
+            <style>
+                .image-container {
+                    text-align: center;
+                    width: 100%;
+                    margin: 20px 0;
+                }
+
+                .responsive-img {
+                    max-width: 100%; /* Se adapta al ancho del contenedor */
+                    height: auto; /* Mantiene la proporción */
+                    object-fit: cover;
+                    border-radius: 10px; /* Opcional: bordes redondeados */
+                }
+
+                .image-description {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            </style>
+
+            <section id="title1-a1">
+                <h2>Mecanismos de la Hipertrofia Muscular</h2>
+                <p style="text-align: justify;">
+                    La recuperación muscular es el proceso que experimenta tu cuerpo después de una rutina en el gimnasio y sirve para <strong>restaurar las fibras musculares</strong> que se han dañado durante el entrenamiento. Cuando haces ejercicio,
+                    especialmente entrenamientos de fuerza o de alta intensidad, tus músculos sufren pequeñas rupturas microscópicas. Estas microlesiones no son perjudiciales; al contrario, son esenciales para que los músculos se adapten
+                    y se fortalezcan. Este crecimiento se llama hipertrofia muscular, que es una forma técnica de decir que tus músculos aumentan de tamaño. Imagina que estas fibras musculares son como pequeños hilos que, tras repararse,
+                    se vuelven más gruesos y resistentes, permitiéndote levantar más peso o realizar movimientos con mayor potencia y control.
+
+                </p>
+            </section>
+
+
+            <section id="sub1-a1">
+
+                <h3>Definición y Contexto</h3>
+                <ul>
+                    <li>La hipertrofia muscular es el aumento del tamaño de las fibras musculares y no del número de ellas.</li>
+                    <li>Es un objetivo principal para atletas, culturistas y personas que buscan mejorar su físico.</li>
+                    <li>Al principio, las ganancias en fuerza provienen de adaptaciones neuronales; después, predomina la hipertrofia.</li>
+                </ul>
+            </section>
+
+            <section id="sub2-a1">
+                <h3>Tipos de Hipertrofia</h3>
+                <ul>
+                    <li><strong>Contráctil:</strong> Incremento de sarcómeros (unidades contráctiles del músculo) en paralelo, mejorando la fuerza.</li>
+                    <li><strong>Sarcoplasmática:</strong> Aumento de elementos no contráctiles y fluidos, asociado más al volumen que a la fuerza.</li>
+                </ul>
+            </section>
+
+            <section id="sub3-a1">
+                <h3>Factores Clave</h3>
+                <ul>
+                    <li><strong>Tensión mecánica:</strong> Generada al levantar cargas pesadas.</li>
+                    <li><strong>Daño muscular:</strong> Microdesgarros que activan la reparación y crecimiento de fibras.</li>
+                    <li><strong>Estrés metabólico:</strong> Acumulación de subproductos del ejercicio anaeróbico (como lactato), que desencadenan señales de crecimiento.</li>
+                </ul>
+            </section>
+
+            <section id="sub4-a1">
+                <h3>Hormonas Importantes</h3>
+                <ul>
+                    <li><strong>Testosterona y hormona del crecimiento (GH):</strong> Regulan la síntesis de proteínas y activan células satélite.</li>
+                    <li><strong>Factor de crecimiento similar a la insulina (IGF-1):</strong> Fundamental en el proceso anabólico y en la respuesta al daño muscular.</li>
+                </ul>
+            </section>
+
+
+            <div class="glosario">
+                <p><strong>Glosario:</strong></p>
+                <ul>
+                    <li><strong>Testosterona:</strong> Es una hormona anabólica producida principalmente en los testículos (en hombres) y en los ovarios (en mujeres, en menor cantidad). Su función principal en el contexto muscular es promover la síntesis de proteínas, lo que ayuda al crecimiento y reparación de las fibras musculares.</li>
+                    <li><strong>Hormona del Crecimiento (GH):</strong> Secretada por la glándula pituitaria, esta hormona estimula directamente la regeneración celular y el crecimiento muscular. Actúa aumentando la síntesis de proteínas y movilizando grasas como fuente de energía, lo que favorece el desarrollo muscular y la reducción de grasa corporal.</li>
+                    <li><strong>IGF-1:</strong> Es una hormona anabólica producida principalmente en el hígado como respuesta a la estimulación de la GH. Es fundamental para la regeneración muscular porque activa vías moleculares (como Akt/mTOR) que promueven la síntesis de proteínas y aumentan el tamaño de las fibras musculares.</li>
+                </ul>
+            </div>
+
+            <section id="title2-a1">
+                <h2>
+                    Estrategias Prácticas para la Hipertrofia
+                </h2>
+            </section>
+
+            <section id="sub5-a1">
+                <h3>Entrenamiento Eficaz</h3>
+                <ul>
+                    <li><strong>Cargas:</strong> 6-12 repeticiones con descansos de 60-90 segundos.</li>
+                    <li><strong>Variedad de ejercicios:</strong> Multiarticulares (sentadillas, press de banca) y monoarticulares (curls).</li>
+                    <li><strong>Velocidad controlada:</strong> Fases excéntricas más lentas (2-4 segundos).</li>
+                </ul>
+            </section>
+
+            <section id="sub6-a1">
+                <h3>Nutrición y Recuperación</h3>
+                <ul>
+                    <li><strong>Proteínas:</strong> Fundamentales para la síntesis muscular.</li>
+                    <li><strong>Carbohidratos:</strong> Proveen energía para el entrenamiento y recuperación.</li>
+                    <li><strong>Descanso adecuado:</strong> Dormir y programar días de recuperación.</li>
+                </ul>
+            </section>
+
+            <section id="sub7-a1">
+                <h3>Progresión Constante</h3>
+                <ul>
+                    <li><strong>Incrementar gradualmente:</strong> Aumentar el peso o el volumen para estimular el crecimiento continuo.</li>
+                    <li><strong>Control del tiempo bajo tensión (TUT):</strong> Realizar las repeticiones de manera controlada, prolongando la fase excéntrica para maximizar la tensión mecánica y el daño muscular.</li>
+                </ul>
+            </section>
+
+            <section id="title3-a1">
+                <h2>
+                    Factores clave en la hipertrofia muscular
+                </h2>
+            </section>
+
+            <section id="sub8-a1">
+                <h3> 1. Tensión mecánica</h3>
+                <p style="text-align: justify;">
+                    La tensión mecánica es el estímulo principal para el crecimiento muscular. Al realizar ejercicios de resistencia, como levantar pesas, las fibras musculares experimentan una carga que activa sensores mecánicos dentro de las células musculares.
+                    Estos sensores inician una cascada de señales anabólicas que culminan en la síntesis de proteínas musculares.
+                </p>
+                <ul>
+                    <li><strong>Ejemplo: </strong>Entrenar con pesos moderados a altos, enfocándose en una técnica adecuada y en un rango de repeticiones que genere fatiga muscular significativa.</li>
+                </ul>
+            </section>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_10.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+            </div>
+
+            <section id="sub9-a1">
+                <h3> 2. Daño muscular</h3>
+                <p style="text-align: justify;">
+                    Durante el entrenamiento, especialmente en contracciones excéntricas (cuando el músculo se alarga bajo tensión),
+                    se producen microdesgarros en las fibras musculares. Este daño desencadena una respuesta inflamatoria
+                    que recluta células satélite para reparar y fortalecer las fibras dañadas, mejorando su estructura y tamaño.
+                </p>
+                <ul>
+                    <li>
+                        <strong>Consideración importante: </strong>Aunque el daño muscular es necesario, un exceso puede ralentizar la recuperación y afectar el rendimiento en entrenamientos posteriores.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="sub10-a1">
+                <h3> 3. Estrés metabólico</h3>
+                <p style="text-align: justify;">
+                    Durante el entrenamiento, especialmente en contracciones excéntricas (cuando el músculo se alarga bajo tensión),
+                    se producen microdesgarros en las fibras musculares. Este daño desencadena una respuesta inflamatoria
+                    que recluta células satélite para reparar y fortalecer las fibras dañadas, mejorando su estructura y tamaño.
+                </p>
+                <ul>
+                    <li>
+                        <strong>Aplicación práctica: </strong>Entrenamientos con mayor volumen, repeticiones moderadas a altas y descansos cortos entre series maximizan el estrés metabólico.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="title4-a1">
+                <h2>
+                    Mecanismos biológicos de la hipertrofia
+                </h2>
+            </section>
+
+            <section id="sub11-a1">
+                <h3>Actividad de las células satélite</h3>
+                <ul>
+                    <p style="text-align: justify;">
+                        Como principales responsables de la regeneración muscular, las células satélite se activan en respuesta al daño muscular.
+                        Una vez activadas, proliferan y se fusionan con las fibras existentes, proporcionando núcleos adicionales que aumentan
+                        la capacidad de síntesis de proteínas del músculo.
+                    </p>
+
+                </ul>
+            </section>
+
+            <section id="sub12-a1">
+                <h3>
+                    Vías de señalización anabólica
+                </h3>
+                <ul>
+                    <p style="text-align: justify;">
+                        Las vías moleculares como la Akt/mTOR (proteína quinasa B/mammalian target of rapamycin) son esenciales para
+                        la hipertrofia. Estas vías regulan la síntesis de proteínas y promueven el crecimiento muscular al responder
+                        a estímulos como la tensión mecánica, la insulina y los aminoácidos (especialmente la leucina).
+
+                    </p>
+
+                </ul>
+            </section>
+
+            <section id="sub13-a1">
+                <h3>
+                    Equilibrio hormonal
+                </h3>
+                <ul>
+                    <p style="text-align: justify;">
+                        Hormonas como la testosterona, la hormona del crecimiento y el factor de crecimiento similar a la insulina (IGF-1) desempeñan un papel
+                        importante en la hipertrofia al potenciar la síntesis de proteínas y la proliferación de células satélite.
+
+                    </p>
+
+                </ul>
+            </section>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_11.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+            </div>
+
+            <section id="title5-a1">
+                <h2>
+                    Factores adicionales que influyen en la hipertrofia
+                </h2>
+            </section>
+
+            <section id="sub14-a1">
+                <h3>
+                    Nutrición
+                </h3>
+                <ul>
+                    <p style="text-align: justify;">
+                        Una dieta rica en proteínas de alta calidad es fundamental para proporcionar los bloques de construcción necesarios para la síntesis muscular. Además,
+                        el consumo adecuado de carbohidratos asegura la energía necesaria para entrenar y recuperarse.
+                    </p>
+
+                </ul>
+            </section>
+
+            <section id="sub15-a1">
+                <h3>
+                    Descanso y recuperación
+                </h3>
+                <ul>
+                    <p style="text-align: justify;">
+                        La mayor parte del crecimiento muscular ocurre durante el descanso, no durante el entrenamiento. Dormir
+                        lo suficiente y programar días de recuperación permite que las fibras recuperadas se fortalezcan y crezcan.
+                    </p>
+
+                </ul>
+            </section>
+
+            <section id="sub16-a1">
+                <h3>
+                    Progresión del entrenamiento
+                </h3>
+                <ul>
+                    <p style="text-align: justify;">
+                        Para continuar viendo resultados, es crucial aumentar gradualmente la carga de trabajo mediante el principio de sobrecarga progresiva.
+                        Esto puede lograrse incrementando el peso, las repeticiones, el volumen total o la intensidad del entrenamiento.
+                    </p>
+
+                </ul>
+            </section>
+
+            <section id="title6-a1">
+                <h2>
+                    Conclusión
+                </h2>
+                <p style="text-align: justify;">
+                    La hipertrofia muscular es un proceso complejo que combina ciencia, estrategia y constancia. Al comprender los factores
+                    clave <strong>—como la tensión mecánica, el daño muscular y el estrés metabólico—</strong> y los mecanismos biológicos que los sustentan,
+                    es posible diseñar entrenamientos más efectivos. Complementar esto con una nutrición adecuada, descanso suficiente y
+                    una progresión constante garantizará resultados sostenibles en el tiempo. La clave está en trabajar de manera inteligente,
+                    no solo intensamente.
+
+                </p>
+            </section>
+
+            <!-- Botón de regreso al inicio -->
+            <a href="#index" class="back-to-top" aria-label="Regresar al inicio">
+                <span>⬆</span>
+            </a>
+
+            <script>
+                // Script para mostrar/ocultar el botón según el scroll
+                const backToTopButton = document.querySelector('.back-to-top');
+
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('visible');
+                    } else {
+                        backToTopButton.classList.remove('visible');
+                    }
+                });
+
+                // Scroll suave al hacer clic en el botón
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            </script>
+
+        </article>
+        </div>
+    </section>
+
+    <!-- Aquí sí va el footer -->
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>

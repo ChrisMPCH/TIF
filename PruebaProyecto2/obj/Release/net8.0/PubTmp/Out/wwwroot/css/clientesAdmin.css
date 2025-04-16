@@ -1,0 +1,143 @@
+﻿/* Mantener variables y estilos globales */
+:root {
+    --primary-red: #FF0033;
+    --dark: #1a1a1a;
+    --light: #ffffff;
+    --gray: #f4f4f4;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: var(--gray);
+    margin: 0;
+    padding: 2rem;
+    color: #000000;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--light);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
+h2 {
+    color: var(--primary-red);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: var(--dark);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Estilos para las tablas */
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    font-size: 0.9rem;
+    min-width: 600px;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: var(--primary-red);
+    color: #1a1a1a;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+td {
+    background: var(--light);
+}
+
+tr:nth-child(even) td {
+    background: var(--gray);
+}
+
+.img-thumbnail {
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+    .pagination .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+.btn-primary {
+    background: var(--primary-red);
+    border: none;
+    color: var(--light);
+}
+
+    .btn-primary:hover {
+        background: #cc0029;
+    }
+
+.btn-secondary {
+    background: #ddd;
+    color: var(--dark);
+}
+
+.btn-light {
+    background: var(--light);
+    color: var(--dark);
+    border: 1px solid #ddd;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    th, td {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+}

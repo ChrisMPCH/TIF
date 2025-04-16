@@ -1,0 +1,158 @@
+﻿@using GYMISFAMILY.Models.BaseDeDatos
+@model Productos
+
+@{
+    ViewData["Title"] = "Nuevo Producto";
+}
+
+<div class="container py-4">
+    <h2>Nuevo Producto</h2>
+    <div class="card">
+        <div class="card-body">
+            <form method="post">
+                <div class="mb-3">
+                    <label for="Nombre" class="form-label">Nombre</label>
+                    <input type="text" id="Nombre" name="Nombre" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label for="Descripcion" class="form-label">Descripción</label>
+                    <textarea id="Descripcion" name="Descripcion" class="form-control"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="Precio" class="form-label">Precio</label>
+                    <input type="text" id="Precio" name="Precio" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .table-container {
+        width: 90%;
+        max-width: 1200px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        overflow: auto;
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9em; /* Reducir el tamaño de la fuente general de la tabla */
+    }
+
+        .table thead th {
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 12px 15px; /* Reducir el padding del encabezado */
+            text-align: left;
+            font-weight: bold;
+            font-size: 1em; /* Reducir el tamaño de la fuente del encabezado */
+            border-bottom: 2px solid #eee;
+            white-space: nowrap;
+        }
+
+        .table tbody td {
+            padding: 12px 15px; /* Reducir el padding de las celdas */
+            border-bottom: 1px solid #eee;
+            font-size: 0.9em; /* Reducir el tamaño de la fuente de las celdas */
+            color: #555;
+            white-space: nowrap;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .table tbody tr:hover {
+            background-color: #e9ecef;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f8ff;
+        margin: 0;
+        padding: 40px;
+        display: grid; /* Usar Grid para una estructura más definida */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas adaptativas */
+        grid-template-rows: auto auto auto auto auto; /* Filas automáticas */
+        gap: 30px; /* Espacio entre elementos de la grid */
+        align-items: start; /* Alinear elementos al inicio de su celda */
+        min-height: 100vh;
+        justify-content: center; /* Centrar el contenido principal */
+    }
+
+    h2 {
+        color: #337ab7;
+        font-size: 3em;
+        text-align: center;
+        border-bottom: 4px solid #337ab7;
+        padding-bottom: 20px;
+        grid-column: 1 / -1; /* Ocupar todo el ancho */
+    }
+
+    .button-container {
+        margin-bottom: 20px;
+        width: 90%;
+        max-width: 1200px;
+        text-align: right;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 12px 20px; /* Reducir el padding de los botones */
+        border: none;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1em; /* Reducir el tamaño de la fuente de los botones */
+        transition: background-color 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+        margin-left: 10px;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        }
+
+    .btn-success {
+        background-color: #28a745;
+    }
+
+        .btn-success:hover {
+            background-color: #1e7e34;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+    }
+
+        .btn-secondary:hover {
+            background-color: #545b62;
+        }
+
+    .mr-2 {
+        margin-right: 8px;
+    }
+
+</style>

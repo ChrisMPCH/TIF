@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Acceso denegado";
+}
+
+<div class="centered-container">
+    <!-- Contenedor para el texto y el botón, centrado verticalmente -->
+    <div class="text-container">
+        <h1 class="error-title">Vaya!</h1>
+
+        <p class="error-message">
+            Al parecer no se supone que deberías estar aquí,
+        </p>
+        <p class="error-message">
+            pero puedes visitar nuestra página de inicio.
+        </p>
+        <a href="@Url.Action("Index", "Home")" class="redirect-button">
+            Ir a la Página Principal
+        </a>
+    </div>
+
+    <!-- Contenedor para la imagen -->
+    <div>
+        <img src="~/images/AccessDenied.webp" alt="Acceso denegado" class="error-image" />
+    </div>
+
+    <!-- Audio de advertencia -->
+    <audio autoplay>
+        <source src="~/images/AccessDbarrer.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+</div>

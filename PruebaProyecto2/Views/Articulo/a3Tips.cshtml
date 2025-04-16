@@ -1,0 +1,220 @@
+﻿@{
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/article.css" asp-append-version="true" />
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <article class="article">
+            <h1 class="article-title"><strong>Suplementos Básicos de Entrenamiento: </strong> Impulsa tu Rendimiento de Forma Segura</h1>
+
+            <nav class="table-of-contents" id="index">
+                <div class="toc-header" onclick="toggleIndice()">
+                    <h2 class="toc-title">Índice</h2>
+                    <div class="toc-toggle" id="toggle-icon">−</div>
+                </div>
+                <ul class="toc-list" id="toc-content">
+                    <li><a href="#title1-a1">1. <strong>Suplementación Básica para Entrenamiento:</strong> Impulsa tu Rendimiento de Forma Segura</a></li>
+
+                    <li><a href="#sub1-a1" class="subtema">Vitaminas</a></li>
+                    <li><a href="#sub2-a1" class="subtema">Magnesio</a></li>
+                    <li><a href="#sub3-a1" class="subtema">Colágeno</a></li>
+                    <li><a href="#sub4-a1" class="subtema">Complejo B</a></li>
+                    <li><a href="#sub5-a1" class="subtema">Omega-3</a></li>
+                    <li><a href="#sub6-a1" class="subtema">Creatina</a></li>
+
+                    <li><a href="#title2-a1">2. <strong>Importante:</strong> Supervisión Médica</a></li>
+                </ul>
+            </nav>
+
+            <script>
+                function toggleIndice() {
+                    const content = document.getElementById('toc-content');
+                    const icon = document.getElementById('toggle-icon');
+
+                    content.classList.toggle('collapsed');
+                    icon.classList.toggle('rotate');
+
+                    if (content.classList.contains('collapsed')) {
+                        icon.textContent = '+';
+                    } else {
+                        icon.textContent = '−';
+                    }
+                }
+            </script>
+
+
+            <section id="title1-a1">
+                <h2> <strong>Suplementación Básica para Entrenamiento: </strong>Impulsa tu Rendimiento de Forma Segura</h2>
+                <p style="text-align: justify;">
+                    La suplementación puede ser un complemento valioso para optimizar tus entrenamientos y mejorar la recuperación,
+                    siempre que se utilice de manera adecuada y bajo la supervisión de un médico o especialista en salud.
+                    A continuación, te presentamos algunos de los suplementos más comunes y sus beneficios para el rendimiento físico:
+
+                </p>
+            </section>
+
+            <style>
+                .image-container {
+                    text-align: center;
+                    width: 100%;
+                    margin: 20px 0;
+                }
+
+                .responsive-img {
+                    max-width: 100%; /* Se adapta al ancho del contenedor */
+                    height: auto; /* Mantiene la proporción */
+                    object-fit: cover;
+                    border-radius: 10px; /* Opcional: bordes redondeados */
+                }
+
+                .image-description {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            </style>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_07.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+
+            </div>
+
+            <section id="sub1-a1">
+                <h3>
+                    <strong>1. Vitaminas</strong>
+                </h3>
+                <p>Las vitaminas son esenciales para mantener el funcionamiento general del cuerpo y optimizar el rendimiento físico.</p>
+                <p><strong>Beneficios:</strong></p>
+                <ul>
+                    <li><strong>Vitamina D:</strong> Apoya la salud ósea, la función inmunológica y el rendimiento muscular.</li>
+                    <li><strong>Vitaminas del Grupo B:</strong> Ayudan a la producción de energía, mejorando la resistencia y la recuperación muscular.</li>
+                </ul>
+            </section>
+
+            <section id="sub2-a1">
+                <h3>
+                    <strong>2. Magnesio</strong>
+                </h3>
+                <p>El <strong>magnesio</strong> es un mineral clave que participa en más de 300 procesos bioquímicos en el cuerpo</p>
+                <p><strong>Beneficios:</strong></p>
+                <ul>
+                    <li>Mejora la función muscular y reduce el riesgo de calambres.</li>
+                    <li>Promueve la relajación muscular y contribuye a un mejor descanso nocturno, crucial para la recuperación.</li>
+                </ul>
+            </section>
+
+            <section id="sub3-a1">
+                <h3>
+                    <strong>3. Colágeno</strong>
+                </h3>
+                <p>El colágeno es la proteína más abundante en el cuerpo y juega un papel esencial en la salud de los tejidos conectivos.</p>
+                <p><strong>Beneficios:</strong></p>
+                <ul>
+                    <li>Ayuda a la recuperación de las articulaciones y tejidos blandos.</li>
+                    <li>Mejora la elasticidad de la piel y favorece la regeneración de cartílago y ligamentos, ideal para quienes realizan entrenamientos de alto impacto.</li>
+                </ul>
+            </section>
+            <section id="sub4-a1">
+                <h3>
+                    <strong>4. Complejo B</strong>
+                </h3>
+                <p>
+                    El <strong>complejo B</strong> incluye varias vitaminas esenciales, como B1 (tiamina), B2 (riboflavina), B3 (niacina), B6, B12, ácido fólico, entre otras.
+                </p>
+                <p><strong>Beneficios:</strong></p>
+                <ul>
+                    <li>
+                        Aumenta la producción de energía y optimiza la función metabólica.
+                    </li>
+                    <li>Contribuye a la síntesis de hemoglobina, mejorando la oxigenación muscular durante el ejercicio.</li>
+                </ul>
+            </section>
+
+            <section id="sub5-a1">
+                <h3>
+                    <strong>5. Omega-3</strong>
+                </h3>
+                <p>Los <strong>ácidos grasos omega-3</strong>, principalmente EPA y DHA, se encuentran en fuentes como el aceite de pescado.</p>
+                <p><strong>Beneficios:</strong></p>
+                <ul>
+                    <li>Reducen la inflamación muscular post-entrenamiento.</li>
+                    <li>Mejoran la salud cardiovascular y la función cognitiva, promoviendo un entrenamiento más efectivo y una recuperación más rápida.</li>
+                </ul>
+            </section>
+
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_08.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+
+            </div>
+
+            <section id="sub6-a1">
+                <h3>
+                    <strong>
+                        6. Creatina
+                    </strong>
+                </h3>
+                <p>
+                    La <strong>creatina</strong> es uno de los suplementos más investigados y utilizados en el mundo del fitness, especialmente para ejercicios de alta intensidad.
+                </p>
+                <p><strong>Beneficios:</strong></p>
+                <ul>
+                    <li>Aumenta la fuerza y potencia muscular.</li>
+                    <li>
+                        Favorece la recuperación, permite realizar más repeticiones o series durante el entrenamiento y mejora el rendimiento en actividades anaeróbicas.
+                    </li>
+                </ul>
+            </section>
+
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_09.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+
+            </div>
+
+            <!-- Botón de regreso al inicio -->
+            <a href="#index" class="back-to-top" aria-label="Regresar al inicio">
+                <span>⬆</span>
+            </a>
+
+            <script>
+                // Script para mostrar/ocultar el botón según el scroll
+                const backToTopButton = document.querySelector('.back-to-top');
+
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('visible');
+                    } else {
+                        backToTopButton.classList.remove('visible');
+                    }
+                });
+
+                // Scroll suave al hacer clic en el botón
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            </script>
+
+        </article>
+    </div>
+
+    <!-- Aquí sí va el footer -->
+    @await Html.PartialAsync("_Footer")
+
+</body>
+</html>

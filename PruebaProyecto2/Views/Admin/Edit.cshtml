@@ -1,0 +1,110 @@
+﻿@model GYMISFAMILY.Models.DTOs.ClienteEditDTO
+
+@{
+    ViewData["Title"] = Model.EsEmpleado ? "Editar Empleado" : "Editar Cliente";
+    ViewData["BodyClass"] = "with-margin";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/registerT.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+
+    <h2>@ViewData["Title"]</h2>
+    <p class="team-family">TEAM IS FAMILY</p>
+
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" id="esEmpleadoHidden" value="@Model.EsEmpleado.ToString().ToLower()" />
+
+        <div class="form-group">
+            <label asp-for="Nombre"></label>
+            <input asp-for="Nombre" class="form-control" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="Apellido_P"></label>
+            <input asp-for="Apellido_P" class="form-control" />
+            <span asp-validation-for="Apellido_P" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Apellido_M"></label>
+            <input asp-for="Apellido_M" class="form-control" />
+            <span asp-validation-for="Apellido_M" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PhoneNumber"></label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="FechaDeNacimiento"></label>
+            <input asp-for="FechaDeNacimiento" class="form-control" type="date" />
+            <span asp-validation-for="FechaDeNacimiento" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="RFID"></label>
+            <input asp-for="RFID" class="form-control" />
+            <span asp-validation-for="RFID" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <div class="form-check">
+                <input asp-for="EsEmpleado" class="form-check-input" id="esEmpleadoCheckbox" />
+                <label class="form-check-label" asp-for="EsEmpleado">¿ES UN EMPLEADO?</label>
+            </div>
+        </div>
+
+        <!-- Sección de contraseña (solo visible para empleados) -->
+        <div id="passwordSection" style="display: @(Model.EsEmpleado ? "block" : "none");">
+            <div class="form-group">
+                <label asp-for="Password">Contraseña</label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ConfirmPassword">Confirmar Contraseña</label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-registrar">Actualizar</button>
+    </form>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+        <script>
+            // Mostrar/ocultar sección de contraseña según checkbox
+            document.getElementById('esEmpleadoCheckbox').addEventListener('change', function() {
+                document.getElementById('passwordSection').style.display = this.checked ? 'block' : 'none';
+
+                // Limpiar validación cuando se oculta
+                if (!this.checked) {
+                    document.querySelectorAll('#passwordSection .text-danger').forEach(el => el.textContent = '');
+                }
+            });
+
+
+        </script>
+    }
+</body>
+</html>

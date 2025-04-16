@@ -1,0 +1,748 @@
+﻿@using GYMISFAMILY.Controllers
+@using GYMISFAMILY.Models.BaseDeDatos
+@model ClientesViewModel
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Clientes | GymIsFamily</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/membresiapago.css" asp-append-version="true" />
+    <style>
+        :root {
+        --primary-color: #1E90FF; /* Naranja energético - Modificado */
+        --secondary-color: #1E90FF; /* Azul brillante - Modificado */
+        --accent-color: #1E90FF; /* Dorado */
+        --light-color: #f8f9fa;
+        --dark-color: #343a40;
+        --success-color: #28a745; /* Verde - Modificado */
+        --warning-color: #ffc107; /* Naranja - Modificado */
+        --danger-color: #dc3545; /* Rojo - Modificado */
+        --border-radius: 8px;
+        --box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        --transition: all 0.3s ease;
+        }
+
+        body {
+        background-color: #f0f8ff; /* Fondo azul muy claro - Modificado */
+        font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        .status-entrenador {
+        background-color: rgba(138, 43, 226, 0.1);
+        color: #8a2be2;
+        }
+
+        .status-recepcionista {
+        background-color: rgba(255, 165, 0, 0.1);
+        color: #ffa500;
+        }
+
+        .status-empleado {
+        background-color: rgba(169, 169, 169, 0.1);
+        color: #a9a9a9;
+        }
+        .card {
+        border: none;
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        overflow: hidden;
+        background: white;
+        border-top: 4px solid var(--primary-color);
+        }
+
+        .card-header {
+        background: linear-gradient(to right, var(--primary-color), #FF8C00);
+        color: white;
+        padding: 1.5rem;
+        border-bottom: none;
+        }
+
+        .card-header h1 {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .subtitle {
+        font-weight: 300;
+        opacity: 0.9;
+        font-size: 1.1rem;
+        }
+
+        .search-section {
+        padding: 1.5rem;
+        background: white;
+        border-radius: var(--border-radius);
+        margin-bottom: 1.5rem;
+        box-shadow: var(--box-shadow);
+        border: 1px solid #e0e0e0;
+        }
+
+        .input-group {
+        border-radius: 50px;
+        overflow: hidden;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        border: 1px solid #e0e0e0;
+        }
+
+        .form-control {
+        border: none;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        }
+
+        .form-control:focus {
+        box-shadow: 0 0 0 3px rgba(255, 95, 31, 0.2);
+        }
+
+        .btn-primary {
+        background: var(--primary-color);
+        border: none;
+        padding: 0 1.5rem;
+        font-weight: 600;
+        transition: var(--transition);
+        letter-spacing: 0.5px;
+        }
+
+        .btn-primary:hover {
+        background: #1E90FF;
+        transform: translateY(-2px);
+        }
+
+        .section-title {
+        position: relative;
+        padding-bottom: 0.75rem;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+        color: var(--dark-color);
+        font-size: 1.5rem;
+        }
+
+        .section-title::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60px;
+        height: 4px;
+        background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+        border-radius: 2px;
+        }
+
+        .client-card {
+        display: flex;
+        align-items: center;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        border-radius: var(--border-radius);
+        background: white;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        border-left: 4px solid var(--primary-color);
+        }
+
+        .client-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .client-photo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 1.5rem;
+        border: 3px solid white;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .client-info {
+        flex-grow: 1;
+        }
+
+        .client-name {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: var(--dark-color);
+        font-size: 1.1rem;
+        }
+
+        .client-detail {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.3rem;
+        font-size: 0.9rem;
+        color: #6c757d;
+        }
+
+        .client-detail i {
+        margin-right: 0.5rem;
+        width: 20px;
+        text-align: center;
+        color: var(--secondary-color);
+        }
+
+        .client-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        min-width: 150px;
+        }
+
+        .btn-sm {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+        border-radius: 50px;
+        font-weight: 600;
+        transition: var(--transition);
+        }
+
+        .btn-sm:hover {
+        transform: translateY(-2px);
+        }
+
+        .btn-warning {
+        background: var(--warning-color);
+        border: none;
+        }
+
+        .btn-info {
+        background: var(--secondary-color);
+        border: none;
+        }
+
+        .btn-danger {
+        background: var(--danger-color);
+        border: none;
+        }
+
+        .table-container {
+        background: white;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--box-shadow);
+        border: 1px solid #e0e0e0;
+        }
+
+        .table {
+        margin-bottom: 0;
+        }
+
+        .table th {
+        background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+        color: white;
+        border: none;
+        font-weight: 500;
+        padding: 1rem;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+        }
+
+        .table td {
+        vertical-align: middle;
+        padding: 1rem;
+        border-top: 1px solid #f1f1f1;
+        }
+
+        .table tr:hover {
+        background-color: rgba(255, 95, 31, 0.05);
+        }
+
+        .table img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid white;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .pagination {
+        margin-top: 1.5rem;
+        }
+
+        .page-item.active .page-link {
+        background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+        border-color: transparent;
+        }
+
+        .page-link {
+        color: var(--secondary-color);
+        border: none;
+        margin: 0 5px;
+        border-radius: 50% !important;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+        }
+
+        .page-link:hover {
+        background-color: rgba(255, 95, 31, 0.1);
+        color: var(--primary-color);
+        }
+
+        .dropdown-menu {
+        border: none;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        border-radius: var(--border-radius);
+        }
+
+        .dropdown-item {
+        padding: 0.5rem 1.5rem;
+        transition: var(--transition);
+        }
+
+        .dropdown-item:hover {
+        background-color: rgba(255, 95, 31, 0.1);
+        color: var(--primary-color);
+        }
+
+        .no-clients {
+        text-align: center;
+        padding: 2rem;
+        color: #6c757d;
+        font-style: italic;
+        background: white;
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        }
+
+        .status-badge {
+        display: inline-block;
+        padding: 0.35rem 0.75rem;
+        border-radius: 50px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        }
+
+        .status-active {
+        background-color: rgba(40, 167, 69, 0.1); /* Verde claro */
+        color: var(--success-color);
+        }
+
+        .status-inactive {
+        background-color: rgba(220, 53, 69, 0.1); /* Rojo claro */
+        color: var(--danger-color);
+        }
+
+        .status-admin {
+        background-color: rgba(30, 144, 255, 0.1);
+        color: var(--secondary-color);
+        }
+
+        .floating-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        box-shadow: 0 10px 25px rgba(255, 95, 31, 0.3);
+        z-index: 100;
+        transition: var(--transition);
+        border: none;
+        }
+
+        .floating-btn:hover {
+        transform: translateY(-5px) scale(1.1);
+        color: white;
+        box-shadow: 0 15px 30px rgba(255, 95, 31, 0.4);
+        }
+
+        .gym-icon {
+        color: var(--primary-color);
+        margin-right: 8px;
+        }
+
+        @@media (max-width: 768px) {
+        .client-card {
+        flex-direction: column;
+        text-align: center;
+        }
+
+        .client-photo {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        }
+
+        .client-actions {
+        flex-direction: row;
+        margin-top: 1rem;
+        justify-content: center;
+        width: 100%;
+        }
+
+        .table-responsive {
+        border-radius: var(--border-radius);
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+        <div class="card">
+            <header class="card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h1>Gestión de Clientes</h1>
+                        <p class="subtitle">Administra los miembros de tu gimnasio</p>
+                    </div>
+                    <div>
+                        <span class="status-badge status-admin">
+                            <i class="fas fa-user-shield me-1"></i> Modo Administrador
+                        </span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="card-content p-4">
+
+                <!-- Sección de clientes activos -->
+                <section class="mb-5">
+                    <h2 class="section-title">
+                        <i class="fas fa-heartbeat gym-icon"></i>Clientes Activos
+                    </h2>
+
+                    @if (Model.ClientesActivos.Count > 0)
+                    {
+                        <div class="clients-list">
+                            @foreach (var cliente in Model.ClientesActivos)
+                            {
+                                <div class="client-card" id="cliente-@cliente.Id">
+                                    <img src="@cliente.ImageFileName" alt="Foto de @cliente.Nombre" class="client-photo" onerror="this.src='/images/default-user.jpg'">
+                                    <div class="client-info">
+                                        <div class="client-name">
+                                            @($"{cliente.Nombre} {cliente.Apellido_P} {cliente.Apellido_M}")
+                                            @if (cliente.Rol == RolUsuario.admin)
+                                            {
+                                                <span class="status-badge status-admin ms-2">
+                                                    <i class="fas fa-crown"></i> Admin
+                                                </span>
+                                            }
+                                        </div>
+                                        <div class="client-detail">
+                                            <i class="fas fa-phone"></i>
+                                            <span>@cliente.PhoneNumber</span>
+                                        </div>
+                                        <div class="client-detail">
+                                            <i class="fas fa-id-card"></i>
+                                            <span>@cliente.RFID</span>
+                                        </div>
+                                        <div class="client-detail">
+                                            <i class="fas fa-envelope"></i>
+                                            <span>@cliente.Email</span>
+                                        </div>
+                                    </div>
+                                    <div class="client-actions">
+                                        <a asp-action="CambiarEstado" asp-route-clienteId="@cliente.Id" asp-route-estado="false"
+                                        class="btn btn-warning btn-sm" onclick="return confirm('¿Estás seguro de marcar como inactivo?');">
+                                            <i class="fas fa-user-slash me-1"></i>Inactivar
+                                        </a>
+                                        <a asp-action="Edit" asp-route-id="@cliente.Id" class="btn btn-info btn-sm">
+                                            <i class="fas fa-edit me-1"></i>Editar
+                                        </a>
+                                        @if (cliente.Rol != RolUsuario.admin)
+                                        {
+                                            <button class="btn btn-danger btn-sm" onclick="eliminarCliente('@cliente.Id')">
+                                                <i class="fas fa-trash-alt me-1"></i>Eliminar
+                                            </button>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="no-clients">
+                            <i class="fas fa-user-times fa-3x mb-3" style="color: #e0e0e0;"></i>
+                            <h4>No hay clientes activos</h4>
+                            <p class="mb-0">Todos los clientes están inactivos o no hay registros</p>
+                        </div>
+                    }
+                </section>
+
+                <!-- Sección de empleados -->
+                <section class="mb-5">
+                    <h2 class="section-title">
+                        <i class="fas fa-user-tie gym-icon"></i>Empleados
+                    </h2>
+
+                    @if (Model.Empleados.Count > 0)
+                    {
+                        <div class="table-container">
+                            <div style="overflow-x: auto;">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Empleado</th>
+                                            <th>Contacto</th>
+                                            <th>RFID</th>
+                                            <th>Rol</th>
+                                            <th>Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var empleado in Model.Empleados)
+                                        {
+                                            <tr id="empleado-@empleado.Id" data-id="@empleado.Id">
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img src="@empleado.ImageFileName" alt="Imagen de @empleado.Nombre" style="width: 40px; height: 40px; border-radius: 50%;" onerror="this.src='/images/default-user.jpg'">
+                                                        <div class="ms-3">
+                                                            <div class="fw-bold">@($"{empleado.Nombre} {empleado.Apellido_P} {empleado.Apellido_M}")</div>
+                                                            <div class="text-muted small">@empleado.Email</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>@empleado.PhoneNumber</td>
+                                                <td>@empleado.RFID</td>
+                                                <td>
+                                                    @if(empleado.Rol.Equals(RolUsuario.admin) && empleado.EsEmpleado == false)
+                                                    {
+                                                        <span class="status-badge status-admin">
+                                                            <i class="fas fa-crown"></i> Administrador
+                                                        </span>
+                                                    }else
+                                                    {
+                                                        <span class="status-badge" style="background-color: rgba(169, 169, 169, 0.1); color: #a9a9a9;">
+                                                            <i class="fas fa-user"></i> Empleado
+                                                        </span>
+                                                    }
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex gap-2">
+                                                        <a asp-action="Edit" asp-route-id="@empleado.Id" class="btn btn-info btn-sm">
+                                                            <i class="fas fa-edit"></i>
+                                                        </a>
+                                                        <button class="btn btn-danger btn-sm" onclick="eliminarCliente('@empleado.Id')">
+                                                            <i class="fas fa-trash-alt"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="no-clients">
+                            <i class="fas fa-user-tie fa-3x mb-3" style="color: #e0e0e0;"></i>
+                            <h4>No hay empleados registrados</h4>
+                            <p class="mb-0">Agrega nuevos empleados desde el formulario de registro</p>
+                        </div>
+                    }
+                </section>
+
+                <!-- Sección de todos los clientes -->
+                <section>
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2 class="section-title">
+                            <i class="fas fa-users gym-icon"></i>Todos los Clientes
+                        </h2>
+                        <div class="dropdown">
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownActions">
+                                <a class="dropdown-item" href="#"><i class="fas fa-file-export me-2"></i>Exportar</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-print me-2"></i>Imprimir</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-user-plus me-2"></i>Nuevo Cliente</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (Model.Clientes.Count > 0)
+                    {
+                        <div class="table-container">
+                            <div style="overflow-x: auto;">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Cliente</th>
+                                            <th>Contacto</th>
+                                            <th>RFID</th>
+                                            <th>Estado</th>
+                                            <th>Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var cliente in Model.Clientes)
+                                        {
+                                            <tr id="cliente-@cliente.Id" data-id="@cliente.Id">
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img src="@cliente.ImageFileName" alt="Imagen de @cliente.Nombre" style="width: 40px; height: 40px; border-radius: 50%;" onerror="this.src='/images/default-user.jpg'">
+                                                        <div class="ms-3">
+                                                            <div class="fw-bold">@($"{cliente.Nombre} {cliente.Apellido_P} {cliente.Apellido_M}")</div>
+                                                            <div class="text-muted small">@cliente.Email</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>@cliente.PhoneNumber</td>
+                                                <td>@cliente.RFID</td>
+                                                <td>
+                                                    @if (cliente.Rol == RolUsuario.admin)
+                                                    {
+                                                        <span class="status-badge status-admin">
+                                                            <i class="fas fa-crown"></i> Admin
+                                                        </span>
+                                                    }
+                                                    else if (cliente.Activo)
+                                                    {
+                                                        <span class="status-badge status-active">
+                                                            <i class="fas fa-check-circle"></i> Activo
+                                                        </span>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="status-badge status-inactive">
+                                                            <i class="fas fa-times-circle"></i> Inactivo
+                                                        </span>
+                                                    }
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex gap-2">
+                                                        <a asp-action="Edit" asp-route-id="@cliente.Id" class="btn btn-info btn-sm">
+                                                            <i class="fas fa-edit"></i>
+                                                        </a>
+                                                        @if (cliente.Rol != RolUsuario.admin)
+                                                        {
+                                                            <button class="btn btn-danger btn-sm" onclick="eliminarCliente('@cliente.Id')">
+                                                                <i class="fas fa-trash-alt"></i>
+                                                            </button>
+                                                        }
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Paginación -->
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item @(Model.PaginaActual == 1 ? "disabled" : "")">
+                                    <a class="page-link" asp-action="Clientes" asp-route-page="@(Model.PaginaActual - 1)" tabindex="-1">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </a>
+                                </li>
+                                @for (int i = 1; i <= Model.TotalPaginas; i++)
+                                {
+                                    <li class="page-item @(i == Model.PaginaActual ? "active" : "")">
+                                        <a class="page-link" asp-action="Clientes" asp-route-page="@i">@i</a>
+                                    </li>
+                                }
+                                <li class="page-item @(Model.PaginaActual == Model.TotalPaginas ? "disabled" : "")">
+                                    <a class="page-link" asp-action="Clientes" asp-route-page="@(Model.PaginaActual + 1)">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    }
+                    else
+                    {
+                        <div class="no-clients">
+                            <i class="fas fa-user-slash fa-3x mb-3" style="color: #e0e0e0;"></i>
+                            <h4>No hay clientes registrados</h4>
+                            <p class="mb-0">Comienza agregando nuevos miembros al gimnasio</p>
+                        </div>
+                    }
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botón flotante para nuevo cliente -->
+    <a asp-action="Registro" class="floating-btn">
+        <i class="fas fa-plus"></i>
+    </a>
+
+    <script>
+                function eliminarCliente(clienteId) {
+            Swal.fire({
+                title: '¿Eliminar cliente?',
+                text: "Esta acción no se puede deshacer",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#FF3333',
+                cancelButtonColor: '#1E90FF',
+                confirmButtonText: 'Sí, eliminar',
+                cancelButtonText: 'Cancelar',
+                background: 'white',
+                backdrop: `rgba(255, 95, 31, 0.1)`
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    fetch(`/Admin/Delete?id=${clienteId}`, {
+                        method: 'POST'
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            Swal.fire({
+                                title: '¡Eliminado!',
+                                text: data.message,
+                                icon: 'success',
+                                confirmButtonColor: '#1E90FF',
+                                background: 'white'
+                            }).then(() => {
+                                // Refrescar la página después de mostrar el mensaje de éxito
+                                window.location.reload();
+                            });
+                        } else {
+                            Swal.fire({
+                                title: 'Error',
+                                text: data.message,
+                                icon: 'error',
+                                confirmButtonColor: '#1E90FF',
+                                background: 'white'
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        Swal.fire({
+                            title: 'Error',
+                            text: 'Hubo un problema al eliminar el cliente',
+                            icon: 'error',
+                            confirmButtonColor: '#1E90FF',
+                            background: 'white'
+                        });
+                    });
+                }
+            });
+        }
+
+        // Resaltar filas seleccionadas en la tabla
+        document.addEventListener('DOMContentLoaded', function() {
+            const tableRows = document.querySelectorAll('tbody tr');
+            tableRows.forEach(row => {
+                row.addEventListener('click', function() {
+                    tableRows.forEach(r => r.classList.remove('selected'));
+                    this.classList.add('selected');
+                });
+            });
+        });
+    </script>
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

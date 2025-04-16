@@ -1,0 +1,541 @@
+﻿@{
+    ViewData["Title"] = "Inicio";  // Título para la vista Index
+
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>@ViewData["Title"] - Inicio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts para íconos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="~/css/card.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/infocard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/cookie.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/table.css" asp-append-version="true" />
+    <!-- Scripts -->
+    <script src="~/js/cookie.js"></script>
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <video class="video-fondo" autoplay loop muted>
+            <source src="/videos/fondovideo.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>NUNCA ES TARDE PARA<span class="txtRojo"> COMENZAR</span></h2>
+                <p>La clave del éxito es dar el primer paso.</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">01.PESAS</div>
+                <div class="opcion">02.BOXEO</div>
+                <div class="opcion">03.FUNCIONAL</div>
+                <div class="opcion">04.CARDIO</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="Images/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase"><strong>LA MEJOR EXPERIENCIA</strong></span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial" style="font-size: 20px;">En Team is Family, cada miembro es parte de nuestra familia.</p>
+                <p style="text-align: justify;">
+                    Creemos en construir un espacio donde la comunidad, el apoyo mutuo y la motivación sean la base para alcanzar tus metas. Nuestro gimnasio es más que un lugar para entrenar: es un  <strong>entorno inclusivo y motivador</strong> donde todos,
+                    sin importar su nivel de experiencia, se sientan bienvenidos y respaldados en su viaje hacia una vida más saludable.
+                </p>
+            </div>
+        </div>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo"> CONOCE NUESTRA</span> VISIÓN Y MISIÓN
+                </span>
+            </div>
+            <div class="col2">
+                <form asp-controller="Home" asp-action="NuestraMision" method="get">
+                    <button type="submit">LEER MÁS</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase"><strong>CALIDAD GARANTIZADA</strong></span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial" style="font-size: 20px;">Contamos todo lo necesario para que alcances tu máximo potencial.</p>
+                    <p>
+                        <strong>En Team is Family contamos con una variedad de servicios diseñados para adaptarse a tus objetivos y estilo de entrenamiento.</strong>
+                        Desde clases de boxeo y entrenamiento funcional hasta áreas especializadas en pesas y cardio.
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="Images/servicios.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Área </span> de Pesas</h3>
+                        <p>Descubre equipos diseñados para construir músculo y potenciar tu fuerza de forma efectiva.</p>
+                    </td>
+                    <td>
+                        <i class="fa-regular fa-hand-back-fist"></i>
+                        <h3><span class="txtRojo">Clases </span> de Boxeo</h3>
+                        <p>Aprende técnicas de boxeo mientras mejoras tu coordinación y resistencia física.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-running"></i>
+                        <h3><span class="txtRojo">Entrenamiento </span> Funcional</h3>
+                        <p>Entrena todo tu cuerpo con sesiones dinámicas que aumentan tu resistencia y estabilidad..</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3><span class="txtRojo">Áreas </span> de Cardio</h3>
+                        <p>Disfruta de máquinas modernas ideales para quemar calorías y fortalecer tu salud cardiovascular.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION Membresias -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase"><strong>ECUENTRA EL PLAN PERFECTO PARA TI</strong></span>
+                        <h2>MEMBRESÍAS</h2>
+                    </div>
+                </div>
+
+                <!-- Tarjetas de costos -->
+
+                <div class="container swiper">
+                    <div class="card-wrapper">
+                        <ul class="card-list swiper-wrapper">
+                            <style>
+                                .cta {
+                                    background-color: #4CAF50;
+                                    color: white;
+                                    text-align: center;
+                                    font-size: 1.1rem;
+                                    padding: 10px;
+                                    border-radius: 5px;
+                                    margin-top: 20px;
+                                }
+                            </style>
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <p class="badge personalizado">Personalizado</p>
+                                    <p class="precio-destacado">$2,500 MXN</p>
+                                    <!-- Línea horizontal después del precio -->
+                                    <hr class="linea-horizontal">
+                                    <h1>Programa de Entrenamiento Personalizado</h1>
+                                    <p class="texto-carta">
+                                        Obtén un programa completamente adaptado a tus necesidades y metas:
+                                    </p>
+                                    <div class="benefits">
+                                        <div class="benefit-item">
+                                            <span class="checkmark">✔</span> 20 sesiones personalizadas con un entrenador profesional.
+                                        </div>
+                                        <div class="benefit-item">
+                                            <span class="checkmark">✔</span> Rutina diseñada según tus objetivos, composición y estructura corporal.
+                                        </div>
+                                        <div class="benefit-item">
+                                            <span class="checkmark">✔</span> Plan de alimentación detallado para complementar tu entrenamiento.
+                                        </div>
+                                    </div>
+
+                                    <div class="cta">
+                                        <p>Elige este plan si deseas una experiencia completamente individualizada y enfocada en resultados.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <p class="badge">Visita</p>
+                                    <p class="precio-destacado">$65 MXN</p>
+                                    <!-- Línea horizontal después del precio -->
+                                    <hr class="linea-horizontal">
+                                    <p class="texto-carta">
+                                        Perfecto para quienes desean probar nuestros servicios o necesitan una <strong>sesión ocasional</strong>. Acceso a nuestras instalaciones y equipo de entrenamiento,
+                                        con asesoría básica para que aproveches al máximo tu visita.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <p class="badge semana">Semana</p>
+                                    <p class="precio-destacado">$150 MXN</p>
+                                    <!-- Línea horizontal después del precio -->
+                                    <hr class="linea-horizontal">
+                                    <p class="texto-carta">
+                                        Ideal para quienes buscan un compromiso a corto plazo. Durante una semana completa, podrás disfrutar de
+                                        nuestras instalaciones y servicios con total flexibilidad, ajustándose a tus objetivos.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <p class="badge mensualidad">Mensualidad</p>
+                                    <p class="precio-destacado">$490 MXN</p>
+                                    <!-- Línea horizontal después del precio -->
+                                    <hr class="linea-horizontal">
+                                    <p class="texto-carta">
+                                        Un mes completo de acceso a nuestras instalaciones y programas de entrenamiento. Diseñado para quienes quieren establecer una rutina de ejercicio
+                                        y empezar a construir un estilo de vida saludable
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <p class="badge trimestre">Trimestre</p>
+                                    <p class="precio-destacado">$1,200 MXN</p>
+                                    <!-- Línea horizontal después del precio -->
+                                    <hr class="linea-horizontal">
+                                    <p class="texto-carta">
+                                        Tres meses de acceso total. Este plan es ideal para quienes buscan comprometerse con un cambio significativo en su salud y condición física,
+                                        con tiempo suficiente para empezar a ver resultados.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <p class="badge semestre">Semestre</p>
+                                    <p class="precio-destacado">$2,150 MXN</p>
+                                    <!-- Línea horizontal después del precio -->
+                                    <hr class="linea-horizontal">
+                                    <p class="texto-carta">
+                                        Seis meses de entrenamiento continuo. Este plan está diseñado para personas que desean alcanzar objetivos más ambiciosos,
+                                        con un tiempo adecuado para construir hábitos sostenibles.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <p class="badge anualidad">Anualidad</p>
+                                    <p class="precio-destacado">$3,780 MXN</p>
+                                    <!-- Línea horizontal después del precio -->
+                                    <hr class="linea-horizontal">
+                                    <p class="texto-carta">
+                                        Un año completo para transformar tu vida. Este plan ofrece la mejor relación costo-beneficio,
+                                        perfecto para quienes desean mantenerse activos y saludables durante todo el año.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"> </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Linking SwiperJS script-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script src="~/js/script.js"></script>
+    </section>
+
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase"> <strong>CONOCE NUESTRAS INSTALACIONES</strong></span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="Images/f1.jpg" alt="Instalación 1">
+                </div>
+                <div class="col">
+                    <img src="Images/f2.jpg" alt="Instalación 2">
+                </div>
+                <div class="col">
+                    <img src="Images/f3.jpg" alt="Instalación 3">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="Images/f4.jpg" alt="Instalación 4">
+                </div>
+                <div class="col">
+                    <img src="Images/f5.jpg" alt="Instalación 5">
+                </div>
+                <div class="col">
+                    <img src="Images/f6.jpg" alt="Instalación 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION HORARIO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase"><strong>LA MEJOR EXPERIENCIA</strong></span>
+                    <h2>CLASES</h2>
+                </div>
+            </div>
+            <div style="font-family: Arial, sans-serif; max-width: 1500px; margin: 0 auto;">
+                <p style="text-align: left; margin-bottom: 30px;">
+                    En <strong>TEAM IS FAMILY</strong> tenemos clases para todos los niveles y horarios flexibles. Descubre nuestras sesiones de Entrenamiento Funcional y Box diseñadas para ayudarte a alcanzar tus objetivos. <strong>¡Únete y forma parte de nuestra familia!</strong>
+                </p>
+                <p style="text-align: left; margin-bottom: 30px;">
+                    <strong>Horarios:</strong><br>
+                    Lunes a Viernes: 6:00 am - 10:00 pm<br>
+                    Sábados: 07:00 am - 04:00 pm
+                </p>
+
+                <table class="tabla-horario">
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Horario General</th>
+                            <th>Clases de Entrenamiento Funcional</th>
+                            <th>Clases de Box en la Mañana</th>
+                            <th>Clases Funcional en la Tarde</th>
+                            <th>Clases de Box en la Tarde</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Día">Lunes a Jueves</td>
+                            <td data-label="Horario General">6:00 am - 10:00 pm</td>
+                            <td data-label="Clases de Entrenamiento Funcional">
+                                <span class="horario">06:00 am - 07:00 am</span>
+                                <span class="horario">07:00 am - 08:00 am</span>
+                                <span class="horario">08:00 am - 09:00 am</span>
+                            </td>
+                            <td data-label="Clases de Box en la Mañana">
+                                <span class="horario">07:00 am - 08:00 am</span>
+                                <span class="horario">08:00 am - 09:00 am</span>
+                            </td>
+                            <td data-label="Clases Funcional en la Tarde">
+                                <span class="horario">06:00 pm - 07:00 pm</span>
+                                <span class="horario">07:00 pm - 08:00 pm</span>
+                                <span class="horario">08:00 pm - 09:00 pm</span>
+                            </td>
+                            <td data-label="Clases de Box en la Tarde">
+                                <span class="horario">06:00 pm - 07:00 pm</span>
+                                <span class="horario">07:00 pm - 08:00 pm</span>
+                                <span class="horario">08:00 pm - 09:00 pm</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="Día">Viernes</td>
+                            <td data-label="Horario General">6:00 am - 10:00 pm</td>
+                            <td data-label="Clases de Entrenamiento Funcional">
+                                <span class="horario">06:00 am - 07:00 am</span>
+                                <span class="horario">07:00 am - 08:00 am</span>
+                                <span class="horario">08:00 am - 09:00 am</span>
+                            </td>
+                            <td data-label="Clases de Box en la Mañana">
+                                <span class="horario">07:00 am - 08:00 am</span>
+                                <span class="horario">08:00 am - 09:00 am</span>
+                            </td>
+                            <td data-label="Clases Funcional en la Tarde">
+                                <span class="horario">06:00 pm - 07:00 pm</span>
+                                <span class="horario">07:00 pm - 08:00 pm</span>
+                            </td>
+                            <td data-label="Clases de Box en la Tarde">
+                                <span class="horario">06:00 pm - 07:00 pm</span>
+                                <span class="horario">07:00 pm - 08:00 pm</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="Día">Sábados</td>
+                            <td data-label="Horario General">07:00 am - 04:00 pm</td>
+                            <td data-label="Clases de Entrenamiento Funcional">SIN CLASES</td>
+                            <td data-label="Clases de Box en la Mañana">SIN CLASES</td>
+                            <td data-label="Clases Funcional en la Tarde">SIN CLASES</td>
+                            <td data-label="Clases de Box en la Tarde">SIN CLASES</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Línea horizontal entre las secciones -->
+    <hr class="linea-horizontal">
+    <!-- Nutriologo y Fisioterapueta -->
+    <section id="comodidades" class="comodidades">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="info">
+
+                    <h2><strong>NUESTRAS RECOMENDACIONES</strong></h2>
+                </div>
+            </div>
+            <div style="font-family: Arial, sans-serif; max-width: 1500px; margin: 0 auto;">
+                <p style="text-align: left; margin-bottom: 30px;">
+                    Por que en <strong>TEAM IS FAMILY</strong> tu bienestar es nuestra prioridad, te presentamos a nuestros especialistas en nutrición y
+                    fisioterapia para complementar tu entrenamiento de la mejor manera.
+
+                </p>
+            </div>
+
+            <!-- CARDS NUTRIÓLOGO Y FISIOTERAPEUTA -->
+            <div class="cards-container">
+                <div class="wrapper">
+                    <div class="card front-face">
+                        <img src="Images/card1.jpg">
+                    </div>
+                    <div class="card back-face">
+                        <img src="~/Images/nutriologo.jpg">
+                        <div class="info">
+                            <div class="title">José Fernando Díaz Colín</div>
+                            <p>Licenciado en Nutrición <br><strong>Nutrición Clínica y Deportiva</strong></p>
+                            <p><strong>Cédula Profesional:</strong> 12350746</p>
+                        </div>
+                        <ul>
+                            <a href="https://api.whatsapp.com/send?phone=527206664314&text=Hola,%20me%20gustaria%20agendar%20una%20cita"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/jferdc/?utm_source=ig_web_button_share_sheet"><i class="fab fa-instagram"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=527227849315&text=Hola,%20me%20gustaria%20agendar%20una%20cita"><i class="fab fa-whatsapp"></i></a>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- FIN CARDS -->
+    </section>
+
+
+    <!-- SECCION UBICACIÓN -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase"><strong>UBICACIÓN</strong></span>
+                    <h2>¿DÓNDE NOS ENCONTRAMOS?</h2>
+                </div>
+            </div>
+
+            <div class="info-adicional">
+                <strong>¡Visítanos y vive la experiencia de entrenar en Team is Family!</strong>
+                <p>Nos encontramos en el corazón de Metepec, en una ubicación estratégica y de fácil acceso para todos.</p>
+                <p><strong>Dirección:</strong> Popocatépetl 26, Xinantécatl, 52169 San Jorge Pueblo Nuevo, Méx.</p>
+            </div>
+
+            <div class="mapa-contenedor">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1883.238458653539!2d-99.63564480230231!3d19.26161568978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8993c5113c0f%3A0x4c70df3821a81b53!2sTEAM%20IS%20FAMILY!5e0!3m2!1ses-419!2smx!4v1735027288749!5m2!1ses-419!2smx"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aviso uso de cookies -->
+    <div id="cookie-banner" class="cookie-banner">
+        <p>
+            Este sitio web utiliza cookies. Usamos cookies para personalizar el contenido y los anuncios, proporcionar funciones de redes sociales y analizar nuestro tráfico.
+            También compartimos información sobre su uso de nuestro sitio con nuestros socios de redes sociales, publicidad y análisis, quienes pueden combinarla con otra información
+            que les haya proporcionado o que hayan recopilado a partir de su uso de sus servicios.
+            <a href="/Home/AvisodePrivacidad" target="_blank">Consulte nuestra Política de Privacidad para más detalles.</a>
+        </p>
+        <div class="cookie-buttons">
+            <button id="cookie-accept" class="btn btn-dark">Aceptar</button>
+        </div>
+    </div>
+
+    <!-- Aquí sí va el footer -->
+    @await Html.PartialAsync("_Footer")
+
+
+    <div class="w-70 bg-black py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-center text-light">
+                        Copyright &copy; <span id="year"></span> TEAM IS FAMILY
+                    </p>
+
+                    <script>
+                        document.getElementById('year').textContent = new Date().getFullYear();
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts Swiper y principales -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="~/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+﻿@using GYMISFAMILY.Models.BaseDeDatos
+@model IEnumerable<Productos>
+
+<style>
+    .table-container {
+        width: 90%;
+        max-width: 1200px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        overflow: auto;
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9em; /* Reducir el tamaño de la fuente general de la tabla */
+    }
+
+        .table thead th {
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 12px 15px; /* Reducir el padding del encabezado */
+            text-align: left;
+            font-weight: bold;
+            font-size: 1em; /* Reducir el tamaño de la fuente del encabezado */
+            border-bottom: 2px solid #eee;
+            white-space: nowrap;
+        }
+
+        .table tbody td {
+            padding: 12px 15px; /* Reducir el padding de las celdas */
+            border-bottom: 1px solid #eee;
+            font-size: 0.9em; /* Reducir el tamaño de la fuente de las celdas */
+            color: #555;
+            white-space: nowrap;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .table tbody tr:hover {
+            background-color: #e9ecef;
+            transition: background-color 0.2s ease-in-out;
+        }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f8ff;
+        margin: 0;
+        padding: 40px;
+        display: grid; /* Usar Grid para una estructura más definida */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas adaptativas */
+        grid-template-rows: auto auto auto auto auto; /* Filas automáticas */
+        gap: 30px; /* Espacio entre elementos de la grid */
+        align-items: start; /* Alinear elementos al inicio de su celda */
+        min-height: 100vh;
+        justify-content: center; /* Centrar el contenido principal */
+    }
+    h2 {
+        color: #337ab7;
+        font-size: 3em;
+        text-align: center;
+        border-bottom: 4px solid #337ab7;
+        padding-bottom: 20px;
+        grid-column: 1 / -1; /* Ocupar todo el ancho */
+    }
+
+    .button-container {
+        margin-bottom: 20px;
+        width: 90%;
+        max-width: 1200px;
+        text-align: right;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 12px 20px; /* Reducir el padding de los botones */
+        border: none;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1em; /* Reducir el tamaño de la fuente de los botones */
+        transition: background-color 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+        margin-left: 10px;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        }
+
+    .btn-success {
+        background-color: #28a745;
+    }
+
+        .btn-success:hover {
+            background-color: #1e7e34;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+    }
+
+        .btn-secondary:hover {
+            background-color: #545b62;
+        }
+
+    .mr-2 {
+        margin-right: 8px;
+    }
+
+</style>
+
+<h2>Productos</h2>
+
+<div class="button-container">
+    <a href="@Url.Action("Index", "Ventas")" class="btn btn-secondary"><i class="fas fa-arrow-left mr-2"></i> Regresar</a>
+    <a href="@Url.Action("Crear", "ProductosGym")" class="btn btn-success"><i class="fas fa-plus mr-2"></i> Crear Producto</a>
+</div>
+
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var producto in Model)
+            {
+                <tr>
+                    <td>@producto.Nombre</td>
+                    <td>@producto.Descripcion</td>
+                    <td>@producto.Precio.ToString("C2")</td>
+                    <td>
+                        <a href="@Url.Action("Eliminar", "ProductosGym", new { id = producto.ID_Producto })" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt mr-2"></i> Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">

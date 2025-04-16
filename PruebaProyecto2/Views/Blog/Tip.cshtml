@@ -1,0 +1,110 @@
+﻿@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CSS -->
+	<link rel="stylesheet" href="~/css/BlogIndex.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/footer1.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/heronav.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/CalculatorIMC.css" asp-append-version="true" />
+
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>TIFBLOG</title>
+</head>
+
+
+<body>
+
+	<!--   *** Blog Section Starts ***   -->
+	<section class="blog" id="blog">
+		<!--   === Blog Header Starts ===   -->
+		<header class="section-header">
+
+			<div class="about-right-col">
+				<div class="about-states">
+					<div class="about-state about-state-1">
+						<i class="fa-solid fa-lightbulb"></i>
+						<h2>TIPS PRÁCTICOS</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+
+			<h1>Nuestra selección para ti</h1>
+			<p>¿Tienes dudas sobre cómo entrenar? No te preocupes, hemos recopilado toda la información necesaria para hacer que tu experiencia en el gimnasio sea más sencilla y efectiva.</p>
+		</header>
+		<!--   === Blog Header Ends ===   -->
+		<!--   === Blog Contents Starts ===   -->
+		<div class="blog-contents">
+
+			<div class="article-card">
+				<img src="~/BlogImage/post-1.jpg">
+				<div class="category">
+					<div class="subject"><h3>Tips Prácticos</h3></div>
+					<span>14/04/2025</span>
+				</div>
+				<h2 class="article-title"><strong>Recuperación Muscular:</strong> Secretos para Volver Más Fuerte Después de Entrenar</h2>
+				<p class="article-desc">
+					Descubre por qué el descanso es tan importante como el entrenamiento. Aprende técnicas y hábitos que favorecen la reparación muscular y aceleran tu progreso físico.
+				</p>
+				<div class="article-views">
+					<button class="btn read-more-btn" onclick="location.href='/Articulo/a1Tips'">Leer más</button>
+				</div>
+			</div>
+
+			<div class="article-card">
+				<img src="~/BlogImage/Articles/img_font_15.jpg">
+				<div class="category">
+					<div class="subject"><h3>Tips Prácticos</h3></div>
+					<span>14/04/2025</span>
+				</div>
+				<h2 class="article-title"><strong>Células Satélite:</strong> La Ciencia Detrás de la Reparación Muscular</h2>
+				<p class="article-desc">
+					Conoce el papel clave que juegan las células satélite en la regeneración del tejido muscular y cómo optimizar su activación para crecer más fuerte después del esfuerzo.
+				</p>
+				<div class="article-views">
+					<button class="btn read-more-btn" onclick="location.href='/Articulo/a2Tips'">Leer más</button>
+				</div>
+			</div>
+
+			<div class="article-card">
+				<img src="~/BlogImage/Articles/img_font_07.jpg">
+				<div class="category">
+					<div class="subject"><h3>Tips Prácticos</h3></div>
+					<span>14/04/2025</span>
+				</div>
+				<h2 class="article-title"><strong>Suplementos Básicos de Entrenamiento:</strong> Impulsa tu Rendimiento de Forma Segura</h2>
+				<p class="article-desc">
+					Proteínas, creatina, BCAAs... Te explicamos cuáles son los suplementos más efectivos y seguros para mejorar tu desempeño físico y apoyar tu recuperación muscular.
+				</p>
+				<div class="article-views">
+					<button class="btn read-more-btn" onclick="location.href='/Articulo/a3Tips'">Leer más</button>
+				</div>
+			</div>
+
+		</div>
+
+		<!--   *** Blog Section Ends ***   -->
+	</section>
+
+	<!-- Aquí sí va el footer -->
+	@await Html.PartialAsync("_Footer")
+	<!--   *** Copy Rights Starts ***   -->
+	<div class="copy-rights">
+		<p>Creado por <b>TEAM IS FAMILY</b> Todos los derechos reservados</p>
+	</div>
+	<!--   *** Copy Rights Ends ***   -->
+
+</body>
+</html>

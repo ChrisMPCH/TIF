@@ -1,0 +1,271 @@
+﻿@{
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/article.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/CalculatorIMC.css" asp-append-version="true" />
+<!--JS-->
+<script src="~/js/IMC.js"></script>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <article class="article">
+            <h1 class="article-title"><strong>Equilibra tu Alimentación:</strong> Cómo Ajustar tus Comidas Según tu Edad y Estilo de Vida</h1>
+
+            <nav class="table-of-contents" id="index">
+                <div class="toc-header" onclick="toggleIndice()">
+                    <h2 class="toc-title">Índice</h2>
+                    <div class="toc-toggle" id="toggle-icon">−</div>
+                </div>
+                <ul class="toc-list" id="toc-content">
+                    <li><a href="#introduccion">1. Introducción</a></li>
+                    <li><a href="#title1-a1">1. ¿Qué es el Plato del Buen Comer?</a></li>
+                    <li><a href="#title2-a1">2. Cómo balancear tu comida según tu edad</a></li>
+                    <li><a href="#sub1-a1" class="subtema">De 18 a 30 años: Energía para aprovechar al máximo la juventud</a></li>
+                    <li><a href="#sub2-a1" class="subtema">De 31 a 50 años: Mantenimiento y prevención</a></li>
+                    <li><a href="#sub3-a1" class="subtema">De 51 años en adelante: Cuidando la salud a largo plazo</a></li>
+                    <li><a href="#title3-a1">4. ¡Tú controlas tu salud!</a></li>
+
+                </ul>
+            </nav>
+
+            <script>
+                function toggleIndice() {
+                    const content = document.getElementById('toc-content');
+                    const icon = document.getElementById('toggle-icon');
+
+                    content.classList.toggle('collapsed');
+                    icon.classList.toggle('rotate');
+
+                    if (content.classList.contains('collapsed')) {
+                        icon.textContent = '+';
+                    } else {
+                        icon.textContent = '−';
+                    }
+                }
+            </script>
+
+            <section id="introduccion">
+                <h2>Introducción</h2>
+                <p style="text-align: justify;">
+                    Sabemos que una alimentación balanceada es esencial para mantener una vida sana, ¡y no tiene que ser complicado! El <strong>Plato del Buen Comer</strong> es una herramienta
+                    visual que nos ayuda a distribuir de manera adecuada los grupos alimenticios en nuestras comidas diarias, adaptadas a las necesidades de cada edad. Hoy
+                    quiero compartir contigo cómo, independientemente de tu etapa de vida, puedes lograr un equilibrio perfecto en tus platos, lleno de nutrientes que te
+                    impulsarán a sentirte mejor y más saludable.
+                </p>
+            </section>
+
+            <style>
+                .image-container {
+                    text-align: center;
+                    width: 100%;
+                    margin: 20px 0;
+                }
+
+                .responsive-img {
+                    max-width: 100%; /* Se adapta al ancho del contenedor */
+                    height: auto; /* Mantiene la proporción */
+                    object-fit: cover;
+                    border-radius: 10px; /* Opcional: bordes redondeados */
+                }
+
+                .image-description {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            </style>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_12.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+                <p class="image-description">Imagen 1.1: Alimentos recomendados para una dieta balanceada.</p>
+            </div>
+
+
+            <section id="title1-a1">
+                <h2>¿Qué es el Plato del Buen Comer?</h2>
+                <p style="text-align: justify;">
+                    El <strong>Plato del Buen Comer</strong> es un modelo de alimentación saludable propuesto por la Secretaría de Salud de México. Se divide
+                    en tres secciones principales que representan los grupos alimenticios que necesitamos a diario. Para tener un alimentación balanceada es recomendable
+                    evitar el consumo de <strong>productos con sellos de salud.</strong>
+                </p>
+
+                <!-- Imagen Responsiva -->
+                <div class="image-container">
+                    <img src="/BlogImage/Articles/img_font_13.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+                    <p class="image-description">Imagen 1.2: Infografía PLATO DEL BUEN COMER.</p>
+                </div>
+
+                <ul>
+                    <li>
+                        <strong>Verduras y frutas:</strong> La base de tu alimentación, llenas de vitaminas, minerales y fibra.
+                    </li>
+                    <li>
+                        <strong>Cereales y tubérculos:</strong> Proporcionan energía y son fuente de carbohidratos.
+                    </li>
+                    <li>
+                        <strong>Proteínas de origen animal o vegetal:</strong> Ayudan en el crecimiento y mantenimiento de nuestros músculos, tejidos y órganos.
+                    </li>
+                </ul>
+
+                <p style="text-align: justify;">
+                    Pero lo más importante es cómo podemos ajustar las cantidades de estos alimentos según nuestra edad y estilo de vida. <strong>¡Vamos a ver cómo!</strong>
+                </p>
+
+                <div class="glosario">
+                    <p><strong>Glosario:</strong></p>
+
+                    <p><strong>Productos con sellos de salud:</strong> Los sellos buscan señalar de forma simple cuando un producto alimenticio o bebida no alcohólica presenta cantidades excesivas de azúcares, grasas totales, grasas saturadas, sodio y/o calorías.</p>
+                </div>
+
+
+            </section>
+
+
+            <section id="title2-a1">
+
+                <h2>¿Cómo balancear tu comida según tu edad?</h2>
+            </section>
+
+            <section id="sub1-a1">
+                <h3>
+                    <strong>De 18 a 30 años: Energía para aprovechar al máximo la juventud</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    Esta es una etapa de mucha actividad, ya sea en el trabajo, estudios o en tus actividades recreativas. Necesitas una dieta rica en energía,
+                    proteínas para mantener tus músculos activos, y carbohidratos para alimentar tu cuerpo.
+                </p>
+                <ul>
+                    <li>
+                        <strong>Verduras y frutas:</strong> Consume una variedad de colores para asegurarte de que estás obteniendo todas las vitaminas y antioxidantes que tu cuerpo necesita para rendir al máximo.
+                    </li>
+                    <li>
+                        <strong>Cereales y tubérculos:</strong>  Arroz, avena, papas y otros carbohidratos complejos deben ser la base de tus comidas. Elige siempre opciones integrales para más fibra.
+
+                    </li>
+                    <li>
+                        <strong>Proteínas de origen animal o vegetal:</strong>  Incluye carnes magras, huevos, legumbres o alternativas vegetales como tofu o tempeh.
+
+                    </li>
+                </ul>
+            </section>
+
+            <section id="sub2-a1">
+                <h3>
+                    <strong>De 31 a 50 años: Mantenimiento y prevención</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    A medida que tu cuerpo comienza a cambiar, es importante centrarse en el mantenimiento y la prevención. El metabolismo puede volverse más lento,
+                    por lo que es esencial elegir alimentos que favorezcan la salud del corazón, huesos y articulaciones.
+                </p>
+                <ul>
+                    <li>
+                        <strong>Verduras y frutas:</strong>  Incluye más verduras de hojas verdes y frutas ricas en vitamina C, como naranjas, kiwis o fresas.
+                    </li>
+                    <li>
+                        <strong>Cereales y tubérculos:</strong>  Continúa con carbohidratos complejos, pero comienza a ajustar las porciones para evitar el exceso de calorías.
+
+                    </li>
+                    <li>
+                        <strong>Proteínas de origen animal o vegetal:</strong> Además de las carnes magras, considera incluir fuentes de proteínas vegetales como frijoles y lentejas para obtener fibra extra.
+
+                    </li>
+                </ul>
+            </section>
+
+            <section id="sub3-a1">
+                <h3>
+                    <strong>De 51 años en adelante: Cuidando la salud a largo plazo</strong>
+                </h3>
+                <p style="text-align: justify;">
+                    A esta edad, la prioridad es cuidar la salud de tus huesos, mantener una buena digestión y prevenir enfermedades crónicas. Las necesidades nutricionales
+                    cambian, y es fundamental mantener un equilibrio que te mantenga activo y saludable.
+                </p>
+                <ul>
+                    <li>
+                        <strong>Verduras y frutas:</strong> Prioriza las frutas y verduras ricas en antioxidantes, como bayas y vegetales de hoja verde, para apoyar el sistema inmunológico.
+                    <li>
+                        <strong>Cereales y tubérculos:</strong>  Escoge cereales integrales y limita el consumo de azúcares refinados. Las porciones deben ser moderadas para evitar el aumento de peso.
+
+                    </li>
+                    <li>
+                        <strong>Proteínas de origen animal o vegetal:</strong> Escoge proteínas de alta calidad como pescado, pollo o alternativas vegetales. También es crucial incluir alimentos ricos en calcio para fortalecer los huesos.
+
+                    </li>
+                </ul>
+            </section>
+
+
+            <section id="title3-a1">
+                <h2><strong>¡Tú controlas tu salud!</strong></h2>
+                <p style="text-align: justify;">
+                    No importa la etapa de tu vida en la que te encuentres, el equilibrio es clave. <strong>El Plato del Buen Comer</strong> te ayuda a entender las proporciones
+                    adecuadas para una alimentación saludable y deliciosa. Recuerda que cada comida es una oportunidad para nutrir tu cuerpo, sentirte bien y
+                    tener la energía necesaria para alcanzar tus metas.
+
+                </p>
+            </section>
+
+            <!--Calculadora IMC STAR-->
+            <div class="container">
+                <h1 style="color: #ff1133;"><strong>CONOCE TU ÍNDICE DE MASA MUSCULAR</strong></h1>
+
+                <p class="intro">
+                    El <strong>Índice de Masa Corporal (IMC)</strong> es una medida utilizada para evaluar si una persona tiene un peso saludable en relación con su altura. Esta calculadora te ayudará a determinar tu IMC y te proporcionará una interpretación básica del resultado.
+                </p>
+                <div class="calculator" id="calculator">
+                    <input type="number" id="weight" placeholder="Peso (kg)" step="0.1" required>
+                    <input type="number" id="height" placeholder="Altura (cm)" required>
+                    <button onclick="calculateBMI()">Calcular IMC</button>
+                    <div id="result" class="result"></div>
+                </div>
+                <p class="note">
+                    <strong>Nota: </strong>Estos valores de IMC son una guía general y pueden no ser aplicables a todos los individuos. Factores como la actividad física, la composición corporal y la edad pueden influir en la interpretación de tu IMC. Consulta a un profesional de la salud para una evaluación más precisa.
+                </p>
+            </div>
+            <!--Calculadora IMC ENDS-->
+            <!-- Botón de regreso al inicio -->
+            <a href="#index" class="back-to-top" aria-label="Regresar al inicio">
+                <span>⬆</span>
+            </a>
+
+            <script>
+                // Script para mostrar/ocultar el botón según el scroll
+                const backToTopButton = document.querySelector('.back-to-top');
+
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('visible');
+                    } else {
+                        backToTopButton.classList.remove('visible');
+                    }
+                });
+
+                // Scroll suave al hacer clic en el botón
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            </script>
+
+        </article>
+    </div>
+
+    <!-- Aquí sí va el footer -->
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>

@@ -1,0 +1,306 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Estilo para el título de los productos */
+.product-card-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333; /* Color oscuro para mejor visibilidad */
+    margin-top: 10px;
+}
+
+/* Estilo para la información de marca y categoría */
+.product-card-info {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el precio */
+.product-card-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff; /* Azul para que destaque */
+    margin-bottom: 15px;
+}
+
+/* Botones de acción */
+.btn-details {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-add-to-cart {
+    background-color: #ffc107;
+    color: black;
+}
+
+/* Estilo para la tarjeta en general */
+.product-card {
+    transition: transform 0.2s; /* Efecto suave al pasar el mouse */
+}
+
+    .product-card:hover {
+        transform: scale(1.05); /* Aumenta ligeramente al pasar el mouse */
+    }
+
+/* Contenedor centrado */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Estilos para el contenedor de texto */
+.text-container {
+    text-align: center;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo del título principal */
+.error-title {
+    color: #FF6347;
+    font-size: 2em;
+}
+
+/* Estilo del mensaje */
+.error-message {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Botón de redirección */
+.redirect-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+    .redirect-button:hover {
+        background-color: #0056b3;
+    }
+
+/* Imagen de error */
+.error-image {
+    width: 300px;
+    height: auto;
+}
+/* Título principal */
+.main-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo del subtítulo */
+.sub-title {
+    font-size: 1em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario */
+.form-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+/* Estilo para las alertas */
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn-secondary-custom {
+    background-color: #ffc107; /* Color amarillo */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+    .btn-secondary-custom:hover {
+        background-color: #e0a800; /* Amarillo más oscuro para hover */
+    }
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+    .pagination-container .pagination {
+        display: flex;
+        gap: 10px;
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .pagination-container .pagination li {
+            font-size: 1.2em;
+        }
+
+            .pagination-container .pagination li a {
+                display: inline-block;
+                padding: 10px 15px;
+                border-radius: 50%;
+                color: #007bff;
+                background-color: #f8f9fa;
+                border: 2px solid #007bff;
+                font-weight: bold;
+                transition: all 0.3s ease;
+                text-decoration: none;
+            }
+
+                .pagination-container .pagination li a:hover {
+                    background-color: #007bff;
+                    color: #fff;
+                    transform: scale(1.1);
+                }
+
+        .pagination-container .pagination .active a {
+            background-color: #ffc107;
+            color: #fff;
+            border-color: #ffc107;
+            pointer-events: none;
+        }
+
+        .pagination-container .pagination li.disabled a {
+            color: #ccc;
+            border-color: #ccc;
+            pointer-events: none;
+        }
+
+        .pagination-container .pagination .prev a,
+        .pagination-container .pagination .next a {
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+    .pagination-container .pagination {
+        display: flex;
+        gap: 5px;
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .pagination-container .pagination li a,
+        .pagination-container .pagination .active a {
+            display: inline-block;
+            padding: 8px 12px;
+            color: #007bff;
+            text-decoration: none;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+            .pagination-container .pagination li a:hover {
+                background-color: #007bff;
+                color: #fff;
+            }
+
+        .pagination-container .pagination .active a {
+            background-color: #007bff;
+            color: #fff;
+            border-color: #007bff;
+        }
+
+        .pagination-container .pagination li.disabled a {
+            color: #ccc;
+            pointer-events: none;
+        }
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+    .pagination-container .pagination {
+        display: flex;
+        gap: 5px;
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .pagination-container .pagination li a,
+        .pagination-container .pagination .active a {
+            display: inline-block;
+            padding: 8px 12px;
+            color: #fff; /* Color del texto en blanco */
+            background-color: #007bff; /* Fondo azul para todos los números */
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+            text-decoration: none;
+            border: none;
+        }
+
+            .pagination-container .pagination li a:hover {
+                background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+            }
+
+        .pagination-container .pagination .active a {
+            background-color: #007bff; /* Mantener el azul en el número activo */
+            color: #fff;
+            pointer-events: none;
+        }

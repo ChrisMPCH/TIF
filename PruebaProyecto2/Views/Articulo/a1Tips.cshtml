@@ -1,0 +1,229 @@
+﻿@{
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/article.css" asp-append-version="true" />
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <article class="article">
+            <h1 class="article-title"><strong>Recuperación Muscular:</strong> Secretos para Volver Más Fuerte Después de Entrenar</h1>
+
+            <nav class="table-of-contents" id="index">
+                <div class="toc-header" onclick="toggleIndice()">
+                    <h2 class="toc-title">Índice</h2>
+                    <div class="toc-toggle" id="toggle-icon">−</div>
+                </div>
+                <ul class="toc-list" id="toc-content">
+                    <li><a href="#introduccion">1. Introducción</a></li>
+                    <li><a href="#title1-a1">2. ¿Qué es la recuperación muscular?</a></li>
+                    <li><a href="#title2-a1">3. ¿Por qué es tan importante la recuperación muscular?</a></li>
+                    <li><a href="#sub1-a1" class="subtema">Prevención de lesiones</a></li>
+                    <li><a href="#sub2-a1" class="subtema">Mejora del rendimiento</a></li>
+                    <li><a href="#sub3-a1" class="subtema">Balance hormonal</a></li>
+                    <li><a href="#sub4-a1" class="subtema">Hidratación adecuada</a></li>
+                    <li><a href="#sub5-a1" class="subtema">Recuperación activa</a></li>
+                    <li><a href="#sub6-a1" class="subtema">Estiramientos y masajes</a></li>
+                </ul>
+            </nav>
+
+            <script>
+                function toggleIndice() {
+                    const content = document.getElementById('toc-content');
+                    const icon = document.getElementById('toggle-icon');
+
+                    content.classList.toggle('collapsed');
+                    icon.classList.toggle('rotate');
+
+                    if (content.classList.contains('collapsed')) {
+                        icon.textContent = '+';
+                    } else {
+                        icon.textContent = '−';
+                    }
+                }
+            </script>
+
+            <section id="introduccion">
+                <h2>Introducción</h2>
+                <p style="text-align: justify;">
+                    La <strong>recuperación muscular</strong> es uno de los puntos clave para alcanzar tus objetivos fitness. No importa si buscas <strong>
+                        aumentar tu masa muscular, mejorar tu
+                        resistencia o simplemente mantenerte activo
+                    </strong>; el descanso adecuado es fundamental para que tu cuerpo se recupere de los esfuerzos físicos y esté
+                    preparado para nuevos desafíos.
+                </p>
+
+                <p>
+                    Esta publicación te guiará a través de la importancia de la recuperación muscular, su impacto en tu progreso físico,
+                    y algunas recomendaciones para optimizarla y <strong>evitar el sobreentrenamiento.</strong>
+                </p>
+            </section>
+
+            <style>
+                .image-container {
+                    text-align: center;
+                    width: 100%;
+                    margin: 20px 0;
+                }
+
+                .responsive-img {
+                    max-width: 100%; /* Se adapta al ancho del contenedor */
+                    height: auto; /* Mantiene la proporción */
+                    object-fit: cover;
+                    border-radius: 10px; /* Opcional: bordes redondeados */
+                }
+
+                .image-description {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            </style>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_17.png" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+
+            </div>
+
+
+            <section id="title1-a1">
+                <h2>¿Qué es la recuperación muscular?</h2>
+                <p style="text-align: justify;">
+                    La recuperación muscular es el proceso que experimenta tu cuerpo después de una rutina en el gimnasio y sirve para <strong>restaurar las fibras musculares</strong> que se han dañado durante el entrenamiento. Cuando haces ejercicio,
+                    especialmente entrenamientos de fuerza o de alta intensidad, tus músculos sufren pequeñas rupturas microscópicas. Estas microlesiones no son perjudiciales; al contrario, son esenciales para que los músculos se adapten
+                    y se fortalezcan. Este crecimiento se llama hipertrofia muscular, que es una forma técnica de decir que tus músculos aumentan de tamaño. Imagina que estas fibras musculares son como pequeños hilos que, tras repararse,
+                    se vuelven más gruesos y resistentes, permitiéndote levantar más peso o realizar movimientos con mayor potencia y control.
+
+                </p>
+            </section>
+
+
+            <section id="title2-a1">
+                <h2>
+                    ¿Por qué es tan importante la recuperación muscular?
+                </h2>
+                <p style="text-align: justify;">
+                    La recuperación muscular es un proceso clave para <strong>transformar el esfuerzo físico en resultados</strong> concretos. Más allá de ser un simple descanso, permite que tu cuerpo esté listo para tus próximos entrenamientos.
+                    Aquí te mostramos por qué es tan importa
+                </p>
+            </section>
+
+            <section id="sub1-a1">
+                <h3>
+                    1. Prevención de lesiones
+                </h3>
+                <p style="text-align: justify;">
+                    Si tus músculos no tienen una recuperación adecuada, existe la posibilidad de que se presenten lesiones como tendinitis, una inflamación de los tendones que puede causar molestias y rigidez en las articulaciones; esguinces, que ocurren cuando los ligamentos sufren daño por movimientos repentinos
+                    o esfuerzos excesivos; o incluso desgarros musculares, donde las fibras musculares se rompen, limitando seriamente tu actividad física.
+                </p>
+            </section>
+
+            <section id="sub2-a1">
+                <h3>
+                    2. Mejora del rendimiento
+                </h3>
+                <p style="text-align: justify;">
+                    Brindarle a tu cuerpo el descanso adecuado es clave para reducir la fatiga acumulada y prevenir el desgaste que puede afectar a tu rendimiento físico. Una recuperación óptima favorece mejoras en tu fuerza, resistencia y capacidad de entrenamiento,
+                    permitiéndote progresar de manera constante y sostenible.
+                </p>
+            </section>
+
+            <section id="sub3-a1">
+                <h3>
+                    3. Balance hormonal
+                </h3>
+                <p style="text-align: justify;">
+                    El ejercicio intenso estimula tus hormonas, como el cortisol (hormona del estrés) y la testosterona (esencial para la reparación y crecimiento muscular). Sin embargo, cuando los niveles de cortisol permanecen
+                    altos por mucho tiempo debido a la falta de descanso, puede debilitar tus músculos y detener tu progreso. Por eso, el descanso es fundamental: ayuda a equilibrar tus hormonas y optimizar la recuperación muscular
+                    para que obtengas mejores resultados.
+                </p>
+            </section>
+
+            <section id="sub4-a1">
+                <h3>
+                    4. Hidratación adecuada
+                </h3>
+                <p style="text-align: justify;">
+                    Durante el ejercicio se pierden agua, electrolitos como sodio, potasio, magnesio, y glucógeno, lo que puede causar deshidratación y aumentar el riesgo de lesiones. Beber agua y bebidas con electrolitos antes, durante y después del entrenamiento en el gimnasio, ayuda a
+                    reponer lo perdido, mejorar la función muscular y acelerar la recuperación.
+                </p>
+            </section>
+
+            <section id="sub5-a1">
+                <h3>
+                    5. Recuperación activa
+                </h3>
+                <p style="text-align: justify;">
+                    Una de las mejores estrategias es la recuperación activa, que consiste en realizar actividades ligeras durante los días de descanso.
+                    Estas prácticas no solo permiten que tus músculos se regeneren, sino que también aportan otros beneficios clave.
+                </p>
+
+                <ul>
+                    <li>Promueven un mejor flujo sanguíneo, ayudando a transportar los nutrientes esenciales necesarios para la reparación muscular.</li>
+                    <li>Disminuyen la rigidez y el dolor que a menudo siguen a entrenamientos intensos.</li>
+                    <li>Aceleran la recuperación muscular sin añadir estrés innecesario.</li>
+                </ul>
+
+                <p>
+                    Las actividades de recuperación activa son una excelente forma de permitir que tu cuerpo se regenere mientras te mantienes en movimiento.
+                    Entre las opciones más recomendadas se encuentran las caminatas suaves, los estiramientos ligeros y la natación recreativa, todas ellas ideales
+                    para mejorar la circulación y reducir el dolor muscular. Sin embargo, una de las mejores alternativas es el yoga, ya que combina beneficios físicos
+                    y mentales al unir cuerpo, mente y espíritu en el momento presente.
+                </p>
+            </section>
+
+            <section id="sub6-a1">
+                <h3>
+                    6. Estiramientos y masajes
+                </h3>
+                <p style="text-align: justify;">
+                    Realizar sesiones de estiramiento, ya sea después de entrenar o durante los días de descanso, mejora la flexibilidad, reduce la tensión muscular acumulada y favorece una circulación más eficiente. Además, técnicas como los masajes y la terapia miofascial, incluyendo el uso de rodillos de espuma,
+                    son excelentes para aliviar la rigidez muscular y liberar adherencias en los tejidos conectivos.
+                </p>
+            </section>
+
+            <!-- Botón de regreso al inicio -->
+            <a href="#index" class="back-to-top" aria-label="Regresar al inicio">
+                <span>⬆</span>
+            </a>
+
+            <script>
+                // Script para mostrar/ocultar el botón según el scroll
+                const backToTopButton = document.querySelector('.back-to-top');
+
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('visible');
+                    } else {
+                        backToTopButton.classList.remove('visible');
+                    }
+                });
+
+                // Scroll suave al hacer clic en el botón
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            </script>
+
+        </article>
+    </div>
+
+    <!-- Aquí sí va el footer -->
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>

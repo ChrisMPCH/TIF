@@ -1,0 +1,95 @@
+﻿@model GYMISFAMILY.Models.DTOs.LoginDTO
+
+@{
+    ViewData["Title"] = "Inicio de Sesión";  // Título para otras vistas
+    ViewData["BodyClass"] = "with-margin";  // Aplicamos la clase de margen
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+
+    <div class="row">
+
+        <div class="col-lg-4 col-md-6 col-12 mx-auto rounded border p-4">
+
+            <!-- Imagen centrada del logo -->
+            <div class="text-center mb-3">
+                <h2>INICIA SESIÓN EN</h2>
+                <img src="/Images/tifLogin.jpg" alt="Logo" style="width: 150px;" />
+            </div>
+
+            <!-- Titulo -->
+            <h2 class="text-center mb-1">TEAM IS FAMILY</h2>
+            <p class="text-center mb-4">Entrena con nosotros, alcanza tus metas, mejora tu bienestar y transforma tu cuerpo en un ambiente motivador.</p>
+
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>@ViewBag.ErrorMessage</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            <!-- Formulario -->
+            <form asp-action="InicioSesion" method="post">
+
+                <!-- Errores generales -->
+                <div asp-validation-summary="All" class="alert alert-danger" role="alert"></div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" asp-for="RememberMe" />
+                    <label class="form-check-label">Recuérdame</label>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col d-grid">
+                        <button type="submit" class="btn btn-dark">Iniciar sesión</button>
+                    </div>
+                    <div class="col d-grid">
+                        <a class="btn btn-outline-dark" asp-controller="Home" asp-action="Index" role="button">
+                            Cancelar
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <a class="btn btn-link" asp-controller="Account" asp-action="RegistroT">
+                        ¿No tienes una cuenta? Regístrate
+                    </a>
+                </div>
+            </form>
+
+            <hr />
+        </div>
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+    <!-- Scripts adicionales -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="~/js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,325 @@
+﻿@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CSS -->
+	<link rel="stylesheet" href="~/css/BlogIndex.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/footer1.css" asp-append-version="true" />
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>TIFBLOG</title>
+</head>
+<body>
+	<!--   *** Website Wrapper Starts ***   -->
+	<div class="website-wrapper">
+
+		<!--   *** Home Section Starts ***   -->
+		<section class="home" id="home">
+
+			<div class="home-overlay"></div>
+			<!--   === Main Navbar Starts ===   -->
+			<nav class="main-navbar">
+				<div class="logo">
+					<a class="nav-link" href="@Url.Action("Index", "Blog")" onclick="seleccionar()">
+						<img src="~/Images/logo-bn.png" class="logo-img" alt="Logo">
+					</a>
+				</div>
+				<ul class="nav-list">
+					<li><a href="#home">Blog</a></li>
+					<li><a asp-controller="Blog" asp-action="Rutina">Rutinas</a></li>
+					<li><a asp-controller="Blog" asp-action="Tip">Tips</a></li>
+					<li><a asp-controller="Blog" asp-action="Nutricion">Nutrición</a></li>
+					<li><a asp-controller="Blog" asp-action="Calculator">Calculadoras</a></li>
+
+
+				</ul>
+				<a href="#" class="join-us-btn-wrapper">
+
+				</a>
+				<div class="hamburger-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+			<!--   === Main Navbar Ends ===   -->
+			<!--   === Banner Starts ===   -->
+			<div class="banner">
+				<div class="banner-contents">
+					<h2>BIENVENIDO A NUESTRO BLOG</h2>
+					<h1 style="color: #ff1133;"><strong>TEAM IS FAMILY</strong></h1>
+					<p>En Team is Family, creemos que el gimnasio es más que un lugar de entrenamiento; es una comunidad, un equipo, y una familia donde todos trabajamos juntos para alcanzar nuestras metas.</p>
+					<button class="btn read-more-btn">Leer más</button>
+					<script>
+						document.querySelector('.read-more-btn').addEventListener('click', function () {
+							document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+						});
+					</script>
+				</div>
+			</div>
+			<!--   === Banner Ends ===   -->
+
+		</section>
+		<!--   *** Home Section Ends ***   -->
+		<!--   *** Facilities Section Starts ***   -->
+		<section class="facilities">
+			<div class="facilities-contents">
+
+				<div class="facility-item">
+					<div class="facility-icon">
+						<i class="fa-solid fa-dumbbell"></i>
+					</div>
+					<div class="facility-desc">
+						<h2>Rutinas de Entrenamiento</h2>
+						<p>Encuentra entrenamientos efectivos para todos los niveles, desde principiante hasta avanzado.</p>
+					</div>
+				</div>
+
+				<div class="facility-item">
+					<div class="facility-icon">
+						<i class="fa-solid fa-utensils"></i>
+					</div>
+					<div class="facility-desc">
+						<h2>Nutrición</h2>
+						<p>Guías y recetas para alimentar tu cuerpo de la mejor manera.</p>
+					</div>
+				</div>
+
+				<div class="facility-item">
+					<div class="facility-icon">
+						<i class="fa-solid fa-weight-scale"></i>
+					</div>
+					<div class="facility-desc">
+						<h2>Calculadora de calorías</h2>
+						<p>Herramientas fáciles de usar para gestionar tu dieta y alcanzar tus objetivos.</p>
+					</div>
+				</div>
+
+				<div class="facility-item">
+					<div class="facility-icon">
+						<i class="fa-solid fa-lightbulb"></i>
+					</div>
+					<div class="facility-desc">
+						<h2>Tips prácticos</h2>
+						<p>Consejos esenciales para maximizar tus resultados y mantenerte motivado.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!--   *** Facilities Section Ends ***   -->
+		<!--   *** About Section Starts ***   -->
+		<section class="about" id="about">
+			<div class="about-contents">
+
+				<div class="about-left-col">
+					<img src="~/BlogImage/about-img-bn.jpg">
+				</div>
+
+				<div class="about-right-col">
+					<h4>MEJOR EQUIPO Y RESULTADOS GARANTIZADOS</h4>
+					<h1>Estamos contigo en cada paso del camino</h1>
+					<p>
+						El <strong>Blog Team is Family</strong> busca transmitir una visión más allá del simple entrenamiento físico. La intención principal es crear un espacio donde las personas no solo encuentren herramientas para mejorar su condición física, sino también una fuente constante de motivación, comunidad y apoyo.
+						Este blog está pensado para inspirar a los usuarios a ver el fitness como un estilo de vida transformador y no como una tarea obligatoria.
+					</p>
+					<div class="about-states">
+						<div class="about-state about-state-1">
+							<i class="fa-solid fa-person"></i>
+							<h2>Sé mejor</h2>
+						</div>
+						<div class="about-state about-state-2">
+							<i class="fa-solid fa-medal"></i>
+							<h2>Logra tus metas</h2>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<!--   *** Services Section Starts ***   -->
+		<section class="services" id="services">
+
+			<!--   === Services Header Starts ===   -->
+			<header class="section-header">
+				<h3>Área de Pesas</h3>
+				<h1>Rutinas de Entrenamiento</h1>
+				<p>
+					TEAM IS FAMILY ha elaborado distintas rutinas según tu nivel y grado de adaptación en el área de pesas. Ya seas principiante, intermedio o avanzado, tenemos un plan diseñado especialmente para ti.
+				</p>
+				<div style="margin-bottom: 20px;"></div> <!-- Espacio adicional -->
+				<style>
+					.dropdown {
+						position: relative;
+						display: inline-block;
+					}
+
+					.dropdown-content {
+						display: none;
+						position: absolute;
+						background-color: #f9f9f9;
+						min-width: 160px;
+						box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+						z-index: 1;
+						border-radius: 0.375rem;
+					}
+
+					.dropdown:hover .dropdown-content {
+						display: block;
+					}
+
+					.dropdown-item {
+						color: black;
+						padding: 12px 16px;
+						text-decoration: none;
+						display: flex;
+						align-items: center;
+					}
+
+						.dropdown-item:hover {
+							background-color: #f1f1f1;
+						}
+
+					.icon {
+						margin-right: 8px;
+						width: 16px;
+						height: 16px;
+					}
+				</style>
+
+				<!--Lista de Rutinas-->
+
+				<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+				<div class="dropdown">
+					<button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow flex items-center">
+						<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6h18M3 12h18m-9 6h9"></path>
+						</svg>
+						Rutinas de Entrenamiento
+					</button>
+					<div class="dropdown-content">
+						<a href="#" class="dropdown-item">
+							<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+							</svg>
+							Adaptación
+						</a>
+						<a href="#" class="dropdown-item">
+							<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6h18M3 12h18m-9 6h9"></path>
+							</svg>
+							Básico
+						</a>
+						<a href="#" class="dropdown-item">
+							<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"></path>
+							</svg>
+							Intermedio
+						</a>
+						<a href="#" class="dropdown-item">
+							<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+							</svg>
+							Avanzado
+						</a>
+					</div>
+				</div>
+
+
+			</header>
+
+
+		</section>
+
+		<!--   *** Blog Section Starts ***   -->
+		<section class="blog" id="blog">
+			<!--   === Blog Header Starts ===   -->
+			<header class="section-header">
+				<h3>Nuestro Blog</h3>
+				<h1>Nuestra selección para ti</h1>
+				<p>¿Tienes dudas sobre cómo entrenar? No te preocupes, hemos recopilado toda la información necesaria para hacer que tu experiencia en el gimnasio sea más sencilla y efectiva.</p>
+			</header>
+			<!--   === Blog Header Ends ===   -->
+			<!--   === Blog Contents Starts ===   -->
+			<div class="blog-contents">
+
+				<div class="article-card">
+					<img src="~/BlogImage/post-1.jpg">
+					<div class="category">
+						<div class="subject"><h3>Entrenamiento</h3></div>
+						<span>14/04/2025</span>
+					</div>
+					<h2 class="article-title"><strong>Sistemas de Entrenamiento:</strong> Beneficios, Ejercicios y Cómo Sacarles el Máximo Provecho</h2>
+					<p class="article-desc">Descubre qué sistema de entrenamiento se adapta mejor a tus metas, sus principales beneficios y los ejercicios esenciales para obtener resultados.</p>
+					<div class="article-views">
+						<button class="btn read-more-btn" onclick="location.href='/Articulo/a2Muscular'">Leer más</button>
+					</div>
+				</div>
+
+				<div class="article-card">
+					<img src="~/BlogImage/post-2.jpg">
+					<div class="category">
+						<div class="subject"><h3>Nutrición</h3></div>
+						<span>14/04/2025</span>
+					</div>
+					<h2 class="article-title">
+						<strong>Las Grasas Más Saludables:</strong> Descubre Cuáles Benefician tu Cuerpo.
+					</h2>
+					<p class="article-desc">No todas las grasas son malas. Aprende cuáles debes incluir en tu dieta para mejorar tu salud y rendimiento.</p>
+					<div class="article-views">
+						<button class="btn read-more-btn" onclick="location.href='/Articulo/a1Nutricion'">Leer más</button>
+					</div>
+				</div>
+
+				<div class="article-card">
+					<img src="~/BlogImage/post-3.jpg">
+					<div class="category">
+						<div class="subject"><h3>Tips Prácticos</h3></div>
+						<span>14/04/2025</span>
+					</div>
+					<h2 class="article-title"><strong>Recuperación Muscular:</strong> Secretos para Volver Más Fuerte Después de Entrenar</h2>
+					<p class="article-desc">La recuperación es la clave del progreso. Aprende cómo optimizar el descanso y los métodos más efectivos para regenerar tu cuerpo.</p>
+					<div class="article-views">
+						<button class="btn read-more-btn" onclick="location.href='/Articulo/a1Tips'">Leer más</button>
+					</div>
+				</div>
+
+			</div>
+
+			<!--   *** Blog Section Ends ***   -->
+		</section>
+
+		<!--   *** Offer Section Starts ***   -->
+		<section class="offer">
+			<div class="offer-overlay"></div>
+			<div class="offer-contents">
+				<h1>Empieza tu entrenamiento</h1>
+				<span><strong style="color: #ff1133;">TEAM IS FAMILY</strong></span>
+				<h3>Visita Nuestra Página Principal</h3>
+				<button class="btn start-training-btn" onclick="window.location.href='/'">Ir Ahora</button>
+			</div>
+		</section>
+		<!--   *** Offer Section Ends ***   -->
+		<!-- Aquí sí va el footer -->
+		@await Html.PartialAsync("_Footer")
+		<!--   *** Copy Rights Starts ***   -->
+		<div class="copy-rights">
+			<p>Creado por <b>TEAM IS FAMILY</b> Todos los derechos reservados</p>
+		</div>
+		<!--   *** Copy Rights Ends ***   -->
+
+	</div>
+	<!--   *** Website Wrapper Ends ***   -->
+	<!--   *** JS Scripts ***   -->
+	<script src="~/js/BlogIndex.js"></script>
+</body>
+</html>

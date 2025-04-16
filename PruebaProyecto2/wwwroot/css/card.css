@@ -1,0 +1,147 @@
+﻿/* Importing Google fonts Inter */
+@import url('https://fonts.googleapis.com/css?family=Inter:opsz, wght@14..32,100..900&display=swap');
+
+
+.card-list .card-item .card-link:active {
+    cursor: grabbing;
+}
+
+.card-wrapper {
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card-list .card-link .badge {
+    color: #5372F0;
+    padding: 8px 16px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: #DDE4FF;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+    .card-list .card-link .badge.semana {
+        color: #B22485;
+        background: #F7DFF5;
+    }
+
+    .card-list .card-link .badge.mensualidad {
+        color: #B25A2B;
+        background: #FFE3D2;
+    }
+
+    .card-list .card-link .badge.trimestre {
+        color: #205C20;
+        background: #D6F8D6;
+    }
+
+    .card-list .card-link .badge.semestre {
+        color: #856404;
+        background: #fff3cd;
+    }
+
+    .card-list .card-link .badge.anualidad {
+        color: #4B0082; /* Púrpura oscuro */
+        background: #E3D6F9; /* Lavanda claro */
+    }
+
+    .card-list .card-link .badge.personalizado {
+        color: #C62828; /* Rojo oscuro */
+        background: #FFCDD2; /* Rosa claro */
+    }
+
+.card-list .card-item .card-link {
+    width: 360px; /* Conservamos el ancho fijo */
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    min-height: 300px; /* Asegura un alto mínimo */
+    display: flex; /* Habilitar flexbox */
+    flex-direction: column; /* Alinear el contenido verticalmente */
+    justify-content: space-between; /* Distribuir elementos */
+}
+
+.card-list .card-link h1 {
+    font-size: 1.2rem; /* Tamaño por defecto del H1 */
+    font-weight: bold; /* Mantén el peso de la fuente */
+    margin: 10px 0; /* Espaciado superior e inferior */
+}
+
+
+
+.benefit-item {
+    align-items: center; /* Centra verticalmente */
+    font-size: 1.1rem; /* Tamaño del texto */
+    color: #000; /* Color del texto */
+    line-height: 1.5; /* Mejora la legibilidad */
+}
+
+
+.card-list .card-link.card-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list .card-link.card-title {
+    font-size: 1.19rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.card-list .card-item {
+    list-style: none;
+}
+
+.precio-destacado {
+    font-size: 2.4rem; /* Tamaño del texto */
+    font-weight: bold;
+    color: #ff1133; /* Cambia el color según tu diseño */
+    margin: 5px 0; /* Espaciado entre elementos */
+}
+
+.texto-carta {
+    font-size: 1.2rem; /* Tamaño del texto */
+    color: #000; /* Cambia el color según tu diseño */
+    margin: 15px 0; /* Espaciado entre elementos */
+}
+
+.linea-horizontal {
+    border: 0;
+    border-top: 2px solid #808080; /* Color y grosor de la línea */
+    margin: 10px 0; /* Espaciado antes y después de la línea */
+}
+
+.card-wrapper .swiper-pagination-bullet {
+    height: 10px;
+    width: 10px;
+    opacity: 0.5;
+    background: #5372F0;
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.card-wrapper .swiper-slide-button {
+    color: #5372F0;
+    margin-top: -35px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-wrapper {
+        margin: 0 10px 25px; /* Ajusta los márgenes laterales */
+        padding: 10px 5px; /* Reduce el padding interno */
+    }
+
+        .card-wrapper .swiper-slide-button {
+            display: none; /* Oculta los botones de desplazamiento en móviles */
+        }
+}

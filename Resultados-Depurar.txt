@@ -1,0 +1,637 @@
+﻿'PruebaProyecto2.exe' (CoreCLR: DefaultDomain): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Private.CoreLib.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\PruebaProyecto2.dll' cargado. Símbolos cargados.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Runtime.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\web tools\projectsystem\net7.0\Microsoft.WebTools.ApiEndpointDiscovery.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Linq.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Collections.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\SDK\8.0.403\DotnetTools\dotnet-watch\8.0.403-servicing.24469.19\tools\net8.0\any\middleware\Microsoft.AspNetCore.Watch.BrowserRefresh.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Net.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.IO.Pipes.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Console.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Threading.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Runtime.InteropServices.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Threading.Overlapped.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Security.AccessControl.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Security.Principal.Windows.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Security.Claims.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Runtime.Loader.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+Ir a: paso a paso por procedimientos en código 'Program.<Main>$' que no es de usuario
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Collections.Concurrent.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+Ir a: paso a paso por procedimientos en código 'Program.<<Main>$>d__0..ctor' que no es de usuario
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Identity.Core.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Identity.Stores.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.DependencyInjection.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Hosting.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Http.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Routing.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.ComponentModel.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Features.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Logging.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Diagnostics.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Configuration.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.Core.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Http.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Identity.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Authentication.Cookies.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Authentication.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Caching.Memory.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Session.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Hosting.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.HttpsPolicy.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.StaticFiles.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Authorization.Policy.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Diagnostics.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+Ir a: paso a paso por procedimientos en código 'Program.<>c__DisplayClass0_0..ctor' que no es de usuario
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Configuration.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Primitives.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Hosting.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Hosting.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Configuration.EnvironmentVariables.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.FileProviders.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.FileProviders.Physical.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Configuration.FileExtensions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Options.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Logging.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Diagnostics.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Diagnostics.DiagnosticSource.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Configuration.Binder.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Configuration.Json.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Memory.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.IO.FileSystem.Watcher.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.ComponentModel.Primitives.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\Microsoft.Win32.Primitives.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Text.Json.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Text.Encoding.Extensions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Configuration.UserSecrets.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Razor.Runtime.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Logging.EventLog.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Logging.Configuration.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Options.ConfigurationExtensions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Logging.Console.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Logging.Debug.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Logging.EventSource.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Diagnostics.Tracing.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.DependencyInjection.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Server.Kestrel.Core.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Server.Kestrel.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.Quic.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.Sockets.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.Primitives.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\Microsoft.Win32.Registry.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Server.IIS.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Server.IISIntegration.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.FileProviders.Composite.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Text.Encodings.Web.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Runtime.Intrinsics.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Numerics.Vectors.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Private.Uri.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Http.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.ApiExplorer.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Connections.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.ObjectPool.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.HostFiltering.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.HttpOverrides.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Routing.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.ObjectModel.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.Razor.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Authentication.Core.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Authentication.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Authorization.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.Cors.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Cors.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.DataAnnotations.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.ViewFeatures.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Linq.Expressions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.DataProtection.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.DataProtection.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Cryptography.Internal.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Antiforgery.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.WebEncoders.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Components.Endpoints.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Components.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Components.Web.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.JSInterop.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Caching.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Mvc.TagHelpers.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Razor.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.Http.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.Localization.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Http.Extensions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Threading.Thread.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\System.Diagnostics.EventLog.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Collections.Specialized.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.ComponentModel.TypeConverter.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Threading.ThreadPool.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\System.IO.Pipelines.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Reflection.Emit.Lightweight.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Reflection.Emit.ILGeneration.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Reflection.Primitives.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Net.Http.Headers.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Http.Features.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Runtime.Numerics.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Html.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.ComponentModel.Annotations.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Metadata.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.FileSystemGlobbing.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Collections.Immutable.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Data.Common.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Transactions.Local.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'Anonymously Hosted DynamicMethods Assembly' cargado. 
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Security.Cryptography.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.NetworkInformation.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Linq.Queryable.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Text.RegularExpressions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Diagnostics.StackTrace.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Diagnostics.Process.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Runtime.InteropServices.RuntimeInformation.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Xml.ReaderWriter.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Private.Xml.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.WebClient.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Security.Cryptography.Algorithms.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Security.Cryptography.Primitives.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\Microsoft.Identity.Client.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Text.Encoding.CodePages.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Diagnostics.TraceSource.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+El subproceso '[Subproceso destruido]' (24660) terminó con código 0 (0x0).
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\netstandard.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (48ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[Address], [a0].[ConcurrencyStamp], [a0].[CreatedAt], [a0].[Email], [a0].[EmailConfirmed], [a0].[FirstName], [a0].[LastName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Xml.XDocument.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Private.Xml.Linq.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.IO.MemoryMappedFiles.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Runtime.Extensions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.Diagnostics.Abstractions.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Collections.NonGeneric.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.Security.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7254
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5062
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: E:\Desktop\DevStyle\FrontEnd\PruebaProyecto0.6.9.8\PruebaProyecto2\PruebaProyecto2
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Threading.Channels.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.WebSockets.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Threading.Tasks.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.NameResolution.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [p].[Id], [p].[Category], [p].[CreatedAt], [p].[Description], [p].[Especificacion], [p].[ImageFileName], [p].[Name], [p].[Price], [p].[SubCategory]
+FROM [Products] AS [p]
+ORDER BY [p].[Id] DESC
+'PruebaProyecto2.exe' (CoreCLR: clrhost): 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.AspNetCore.WebUtilities.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+El subproceso '[Subproceso destruido]' (15956) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15212) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9028) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14144) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18628) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24636) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2208) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11992) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14264) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23496) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8700) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23360) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (1860) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17044) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23972) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12000) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16616) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27528) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15040) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23064) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9700) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27568) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26812) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22024) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22348) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17048) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (5452) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6764) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26752) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15752) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13152) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3340) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21228) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20688) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2556) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20484) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14376) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7408) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2936) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25164) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19760) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10672) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7792) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15472) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16912) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13412) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9160) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24556) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20788) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27368) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20700) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6876) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19808) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20108) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27452) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9844) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18660) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3736) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11836) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11484) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6476) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (5348) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (1548) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18272) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (1704) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14768) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17612) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14860) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27436) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (5584) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15364) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19904) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11920) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8464) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10696) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8588) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24468) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23980) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14232) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9004) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19668) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12296) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11096) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (4820) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12384) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11776) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16804) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19932) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13696) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22300) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13708) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25160) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16072) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25892) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14912) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2140) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15928) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25016) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13376) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10980) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2112) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27592) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11612) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8720) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21520) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11480) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20568) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24208) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25696) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23332) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6788) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24944) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23824) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24176) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3792) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18044) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19292) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7804) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19468) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (1112) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2304) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11584) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16416) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20220) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12584) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22484) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12940) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19216) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13148) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12204) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19812) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8948) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27436) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13664) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21836) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16924) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10404) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11456) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3268) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27112) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19416) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17048) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2876) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15236) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27292) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6332) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16272) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11820) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18824) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16780) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21240) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26072) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13520) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21396) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21564) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8908) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25604) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12308) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20140) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22688) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19208) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20776) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19500) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6112) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (4072) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12776) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26836) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24196) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (4412) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12476) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23580) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2128) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8720) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3908) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23984) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6108) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24520) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11232) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17452) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16532) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22752) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7376) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11736) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11504) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (5064) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8160) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20376) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12848) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25684) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21596) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26792) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14768) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18716) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21108) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14368) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22508) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3900) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21932) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15564) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16960) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22516) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10608) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21972) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11244) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14856) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10604) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7304) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19604) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14860) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13396) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7312) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12252) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2228) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12956) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18112) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19504) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3660) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16108) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12180) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13792) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2368) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9980) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17756) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6544) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17428) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23840) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17536) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19916) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10932) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12204) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19812) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14368) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22508) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24336) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14976) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22112) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23924) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10396) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12740) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25788) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15952) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13288) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23032) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26180) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8492) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6312) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10860) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17708) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20396) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20716) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26144) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19224) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13396) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15792) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11476) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (1272) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2740) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16820) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23560) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12624) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15052) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24208) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12564) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9008) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7832) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3716) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3236) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11852) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6288) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21336) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22348) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8092) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25020) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14696) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21568) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10800) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7372) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16620) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24444) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9992) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2216) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27632) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (1972) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24636) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27004) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23008) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14856) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (5288) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27276) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21224) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8264) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16440) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27404) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13892) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22556) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15248) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23188) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7252) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13636) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12660) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8644) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (5584) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26120) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17968) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22168) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14672) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24256) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14036) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6224) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (4540) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3520) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15752) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18408) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8740) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2960) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21744) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (13780) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10280) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3900) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (2536) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25068) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (4368) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (20796) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8808) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6348) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21384) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11764) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27140) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26432) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23764) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25688) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25328) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19292) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22688) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15692) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15544) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18520) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14508) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10740) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6168) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16804) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19188) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9388) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12000) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12052) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (1500) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14036) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16060) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (8492) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27276) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (1972) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12512) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6324) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3336) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9160) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18812) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17004) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25132) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23336) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26276) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (9660) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11996) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (22120) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3768) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (4352) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12744) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24744) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21972) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (5592) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12584) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11480) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24100) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25260) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24048) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3448) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15280) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11352) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7556) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14248) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19236) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19204) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14616) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11824) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11244) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24556) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (4676) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14856) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21836) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23524) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10960) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23428) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7456) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26352) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12684) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10856) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (26300) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (7912) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12496) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16020) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21932) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12468) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14184) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (27600) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (10396) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (21820) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (18888) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15800) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (11408) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (15924) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25668) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19500) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (6476) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (17132) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (19964) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (16376) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (24976) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (12536) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (25816) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (14084) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23072) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (3392) terminó con código 0 (0x0).
+El subproceso '[Subproceso destruido]' (23788) terminó con código 0 (0x0).

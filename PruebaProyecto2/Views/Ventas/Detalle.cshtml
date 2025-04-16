@@ -1,0 +1,94 @@
+﻿@using GYMISFAMILY.Models.BaseDeDatos
+@model Venta
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 30px;
+        font-size: 2.8em;
+        text-align: center;
+        border-bottom: 3px solid #ccc;
+        padding-bottom: 15px;
+    }
+
+    .table {
+        width: 95%;
+        margin-top: 30px;
+        border-collapse: collapse;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+        .table thead th {
+            background-color: #343a40;
+            color: white;
+            padding: 18px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .table tbody td {
+            padding: 18px;
+            border-bottom: 1px solid #dee2e6;
+            font-size: 1.1em;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .table tbody tr:hover {
+            background-color: #e9ecef;
+        }
+
+    p {
+        margin-top: 30px;
+        font-size: 1.3em;
+        color: #555;
+        text-align: center;
+    }
+
+    strong {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+
+<h2>Detalles de la Venta #@Model.ID_Venta</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var detalle in Model.DetallesVentas)
+        {
+            <tr>
+                <td>@detalle.Producto.Nombre</td>
+                <td>@detalle.Cantidad</td>
+                <td>@detalle.UnitPrice.ToString("C2")</td>
+                <td>@((detalle.Cantidad * detalle.UnitPrice).ToString("C2"))</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p><strong>Total de la venta:</strong> @Model.Total.ToString("C2")</p>

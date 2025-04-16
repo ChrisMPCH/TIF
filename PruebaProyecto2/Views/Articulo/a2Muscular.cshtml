@@ -1,0 +1,354 @@
+﻿@{
+}
+
+<!-- CSS -->
+<link rel="stylesheet" href="~/css/article.css" asp-append-version="true" />
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <article class="article">
+            <h1 class="article-title"><strong>Sistemas de Entrenamiento: </strong> Beneficios, Ejercicios y Cómo Sacarles el Máximo Provecho.</h1>
+
+            <nav class="table-of-contents" id="index">
+                <div class="toc-header" onclick="toggleIndice()">
+                    <h2 class="toc-title">Índice</h2>
+                    <div class="toc-toggle" id="toggle-icon">−</div>
+                </div>
+                <ul class="toc-list" id="toc-content">
+                    <li><a href="#introduccion">1. Introducción</a></li>
+                    <li><a href="#title1-a1">2. Mecanismos de la Hipertrofia Muscular</a></li>
+                    <li><a href="#sub1-a1" class="subtema">Definición y Contexto</a></li>
+                    <li><a href="#sub2-a1" class="subtema">Tipos de Hipertrofia</a></li>
+                    <li><a href="#sub3-a1" class="subtema">Facrtores Clave</a></li>
+                    <li><a href="#sub4-a1" class="subtema">Hormonas Importante</a></li>
+
+                    <li><a href="#title2-a1">3. Estrategias Prácticas para la Hipertrofia</a></li>
+                    <li><a href="#sub5-a1" class="subtema">Entrenamiento Eficaz</a></li>
+                    <li><a href="#sub6-a1" class="subtema">Nutrición y Recuperación</a></li>
+                    <li><a href="#sub7-a1" class="subtema">Progresión Constante</a></li>
+
+                    <li><a href="#title3-a1">4. Factores clave en la hipertrofia muscular</a></li>
+                    <li><a href="#sub8-a1" class="subtema">Tensión mecánica</a></li>
+                    <li><a href="#sub9-a1" class="subtema">Daño muscular</a></li>
+                    <li><a href="#sub10-a1" class="subtema">Estrés metabólico</a></li>
+
+                    <li>
+                        <a href="#title3-a1">
+                            5. Mecanismos biológicos de la hipertrofia
+                        </a>
+                    </li>
+                    <li><a href="#sub11-a1" class="subtema">Actividad de las células satélite</a></li>
+                    <li><a href="#sub12-a1" class="subtema">Vías de señalización anabólica</a></li>
+                    <li><a href="#sub13-a1" class="subtema">Equilibrio hormonal</a></li>
+
+                    <li>
+                        <a href="#title4-a1">
+                            6. Factores adicionales que influyen en la hipertrofia
+                        </a>
+                    </li>
+                    <li><a href="#sub14-a1" class="subtema">Nutrición</a></li>
+                    <li><a href="#sub15-a1" class="subtema">Descanso y recuperación</a></li>
+                    <li><a href="#sub16-a1" class="subtema">Progresión del entrenamiento</a></li>
+                    <li>
+                        <a href="#title5-a1">
+                            7. Conclusión
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <script>
+                function toggleIndice() {
+                    const content = document.getElementById('toc-content');
+                    const icon = document.getElementById('toggle-icon');
+
+                    content.classList.toggle('collapsed');
+                    icon.classList.toggle('rotate');
+
+                    if (content.classList.contains('collapsed')) {
+                        icon.textContent = '+';
+                    } else {
+                        icon.textContent = '−';
+                    }
+                }
+            </script>
+
+            <section id="introduccion">
+                <h2>Introducción</h2>
+                <p style="text-align: justify;">
+                    En nuestro <strong style="color : red;">TEAM IS FAMILY</strong>, los sistemas de entrenamiento de <strong>resistencia e hipertrofia muscular</strong> son clave para lograr un cuerpo fuerte y saludable. La resistencia mejora tu capacidad física y fortalece el sistema cardiovascular,
+                    mientras que la hipertrofia se enfoca en aumentar el tamaño y fuerza de los músculos.
+                </p>
+
+                <p style="text-align: justify;">
+                    Ambos enfoques no solo transforman tu cuerpo, sino que también mejoran tu rendimiento, previenen lesiones y potencian tu bienestar general. Descubre cómo aprovechar al máximo estos sistemas y
+                    lleva tus entrenamientos al siguiente nivel con nosotros
+                </p>
+            </section>
+
+            <style>
+                .image-container {
+                    text-align: center;
+                    width: 100%;
+                    margin: 20px 0;
+                }
+
+                .responsive-img {
+                    max-width: 100%; /* Se adapta al ancho del contenedor */
+                    height: auto; /* Mantiene la proporción */
+                    object-fit: cover;
+                    border-radius: 10px; /* Opcional: bordes redondeados */
+                }
+
+                .image-description {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            </style>
+
+            <section id="title1-a1">
+                <h2><strong>Resistencia:</strong> Clave para un cuerpo fuerte y saludable</h2>
+                <p style="text-align: justify;">
+                    ¿Te has preguntado cómo algunas personas pueden correr largas distancias o realizar ejercicios intensos sin cansarse rápidamente? Todo se reduce a la resistencia, esa capacidad del cuerpo para sostener un esfuerzo físico prolongado sin agotarse en exceso. Es la base para un estilo de vida activo,
+                    un corazón sano y músculos fuertes. Existen dos tipos principales de resistencia:
+                </p>
+            </section>
+
+
+            <section id="sub1-a1">
+
+                <h3>1. Resistencia muscular:</h3>
+                <p style="text-align: justify;">
+                    La habilidad de los músculos para realizar contracciones repetidas o sostener una posición durante un tiempo prolongado.
+                </p>
+            </section>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_01.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+            </div>
+
+            <section id="sub2-a1">
+                <h3>2. Resistencia cardiovascular</h3>
+                <p style="text-align: justify;">
+                    La eficiencia con la que el corazón, los pulmones y el sistema circulatorio suministran oxígeno y nutrientes a los tejidos durante la actividad física.
+
+                </p>
+            </section>
+
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_02.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+            </div>
+
+            <section id="sub3-a1">
+                <h3>Beneficios de mejorar la resistencia</h3>
+                <style>
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                    }
+
+                    th, td {
+                        border: 1px solid red;
+                        padding: 8px;
+                        text-align: left;
+                    }
+
+                    th {
+                        background-color: #f2f2f2;
+                    }
+                </style>
+                <table>
+                    <tr>
+                        <th>Beneficio</th>
+                        <th>Descripción</th>
+                    </tr>
+                    <tr>
+                        <td>Salud cardiovascular</td>
+                        <td>Fortalece el corazón y mejora la circulación, reduciendo el riesgo de enfermedades cardíacas.</td>
+                    </tr>
+                    <tr>
+                        <td>Mayor rendimiento físico</td>
+                        <td>Permite realizar actividades cotidianas y ejercicios con mayor facilidad y durante más tiempo.</td>
+                    </tr>
+                    <tr>
+                        <td>Control del peso corporal</td>
+                        <td>Quema calorías y mantiene el metabolismo activo, favoreciendo el control de peso.</td>
+                    </tr>
+                    <tr>
+                        <td>Reducción de la fatiga</td>
+                        <td>Retrasa la aparición del cansancio, aumentando la capacidad del cuerpo para adaptarse al esfuerzo.</td>
+                    </tr>
+                    <tr>
+                        <td>Mejora del estado de ánimo</td>
+                        <td>Libera endorfinas que reducen el estrés y mejoran el bienestar general.</td>
+                    </tr>
+                    <tr>
+                        <td>Fortalecimiento inmunológico</td>
+                        <td>Aumenta la capacidad del cuerpo para combatir infecciones y enfermedades.</td>
+                    </tr>
+                </table>
+
+            </section>
+
+
+            <section id="title2-a1">
+                <h2>
+                    Ejercicios clave para mejorar la resistencia
+                </h2>
+                <p style="text-align: justify;">
+                    La resistencia se puede trabajar a través de diferentes ejercicios, dependiendo de si se busca potenciar los músculos o el sistema cardiovascular. Aquí hay una guía sencilla:
+                </p>
+            </section>
+
+            <section id="sub4-a1">
+                <h2>Resistencia muscular</h2>
+                <p style="text-align: justify;">
+                    Para desarrollar la resistencia muscular, se utilizan ejercicios que trabajan grupos musculares específicos de forma constante y controlada.
+                </p>
+
+
+                <h3>La Isometría y su Papel en la Resistencia Muscular</h3>
+
+                <p style="text-align: justify;">
+                    Los ejercicios isométricos, caracterizados por la contracción muscular sin movimiento articular visible, son esenciales para mejorar la resistencia muscular, la estabilidad y la fuerza estática. Ejercicios como las planchas, sentadillas sostenidas, peso muerto con ligas, flexiones y remos invertidos comparten un principio común: <strong>mantener una tensión constante en los músculos durante un período de tiempo.</strong>
+                </p>
+
+                <!-- Imagen Responsiva -->
+                <div class="image-container">
+                    <img src="/BlogImage/Articles/img_font_03.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+                </div>
+
+                <ul>
+                    <li>Activar fibras musculares profundas.</li>
+                    <li>Mejorar la conexión entre el cerebro y los músculos.</li>
+                    <li>Incrementar la fuerza estática y prevenir lesiones.</li>
+                </ul>
+
+                <p style="text-align: justify;">
+                    La isometría se puede aplicar en ejercicio de pesas de varias maneras:
+                </p>
+
+                <ul class="content">
+                    <li><strong>Contracciones isométricas:</strong> Mantén la tensión en un ejercicio (como una sentadilla) durante 5-10 segundos.</li>
+                    <li><strong>Pausas isométricas:</strong> Detente en el punto de mayor dificultad de un ejercicio, como el punto más bajo de una sentadilla.</li>
+                </ul>
+
+                <p style="text-align: justify;">
+                    Esta metodología activa fibras musculares profundas, mejora la conexión neuromuscular y fortalece grupos musculares específicos, ayudando a prevenir lesiones y optimizar el rendimiento físico. Además, la práctica regular de ejercicios isométricos promueve una mayor capacidad de soportar cargas prolongadas, favoreciendo el desarrollo integral de la resistencia muscular.
+                </p>
+            </section>
+
+            <section id="sub5-a1">
+                <h2>Resistencia cardiovascular</h2>
+                <p style="text-align: justify;">
+                    Este tipo de resistencia se enfoca en ejercicios que optimizan la capacidad del corazón y los pulmones. Aquí tienes algunos ejemplos:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Trote o carrera continua:</strong> Empieza con ritmos suaves y aumenta progresivamente.
+                    </li>
+                    <li>
+                        <strong>Ciclismo:</strong> En exteriores o en bicicleta estática, fortalece el sistema cardiovascular y las piernas.
+
+                    </li>
+                    <li>
+                        <strong>Natación:</strong> Trabaja todo el cuerpo con bajo impacto en las articulaciones.
+                    </li>
+                    <li>
+                        <strong>Entrenamientos HIIT:</strong> Alterna intervalos de alta intensidad con descansos breves para maximizar tu resistencia.
+                    </li>
+                </ul>
+            </section>
+            <!-- Imagen Responsiva -->
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_04.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+            </div>
+
+            <section id="title3-a1">
+                <h2 style="color : red;">
+                    ¿Cómo puedes mejorar tu resistencia en nuestro gimnasio?
+                </h2>
+                <p style="text-align: justify;">
+                    En nuestro gimnasio contamos con todas las herramientas para ayudarte a desarrollar tu resistencia.
+                </p>
+                <ul>
+                    <li>
+                        En el área de pesas, nuestros entrenadores te guiarán para trabajar tu resistencia muscular con ejercicios isométricos y rutinas planificadas.
+                    </li>
+                    <li>
+                        Clases de <strong>box y entrenamiento funcional</strong> están diseñadas para potenciar tu resistencia cardiovascular, combinando intensidad y diversión.
+
+                    </li>
+                </ul>
+            </section>
+
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_05.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+            </div>
+            <div class="image-container">
+                <img src="/BlogImage/Articles/img_font_06.jpg" class="responsive-img" alt="Ejemplo de alimentos ricos en grasas saludables">
+            </div>
+
+            <!-- Botón de regreso al inicio -->
+            <a href="#index" class="back-to-top" aria-label="Regresar al inicio">
+                <span>⬆</span>
+            </a>
+
+            <section id="sub6-a1">
+                <h3>Consejos prácticos para mejorar tu resistencia</h3>
+                <p style="text-align: justify;">
+                    Sigue estas recomendaciones para obtener mejores resultados:
+                </p>
+                <ul>
+                    <li><strong>Progresión gradual:</strong> Incrementa poco a poco la intensidad o duración del ejercicio.</li>
+                    <li><strong>Variedad en el entrenamiento:</strong> Mezcla ejercicios cardiovasculares con musculares.</li>
+                    <li><strong>Nutrición adecuada:</strong> Consume carbohidratos complejos, proteínas y grasas saludables.</li>
+                    <li><strong>Hidratación:</strong> Mantente bien hidratado antes, durante y después de entrenar.</li>
+                    <li><strong>Descanso y recuperación:</strong> El cuerpo necesita tiempo para adaptarse, así que incluye días de descanso.</li>
+                </ul>
+            </section>
+
+            <script>
+                // Script para mostrar/ocultar el botón según el scroll
+                const backToTopButton = document.querySelector('.back-to-top');
+
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('visible');
+                    } else {
+                        backToTopButton.classList.remove('visible');
+                    }
+                });
+
+                // Scroll suave al hacer clic en el botón
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            </script>
+
+        </article>
+        </div>
+    </section>
+
+    <!-- Aquí sí va el footer -->
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>

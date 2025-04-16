@@ -1,0 +1,376 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "RegistroRFIDSocio";
+    ViewData["BodyClass"] = "with-margin";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team is Family - Membresía</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #E8E9F3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto 1fr auto auto; /* Añadido auto para los botones */
+            width: 100%;
+            max-width: 1200px;
+            height: 90%;
+            background: white;
+            padding: 2rem; /* Aumentado el padding */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+            border-radius: 12px; /* Bordes más redondeados */
+            grid-gap: 1.5rem; /* Aumentado el gap */
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .header-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .header-info h1 {
+                color: #FF3D00; /* Naranja más moderno */
+                font-size: 2.5rem; /* Texto más grande */
+                margin: 0 0 0.2rem 0;
+                font-weight: bold;
+            }
+
+            .header-info p {
+                margin: 0;
+                font-size: 1.1rem;
+                color: #555;
+            }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2.5rem; /* Aumentado el gap */
+            align-items: start;
+        }
+
+        .form-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1.2rem; /* Aumentado el gap */
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            font-weight: 600; /* Más negrita */
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.8rem; /* Aumentado el padding */
+            border: 1px solid #ccc;
+            border-radius: 6px; /* Bordes más redondeados */
+            background-color: #f8f8f8;
+            font-size: 1rem;
+        }
+
+            .form-group input:focus {
+                border-color: #FF3D00;
+                outline: none;
+                box-shadow: 0 0 0 0.2rem rgba(255, 61, 0, 0.25);
+            }
+
+        .photo-placeholder {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: #f8f8f8;
+            border-radius: 10px; /* Bordes más redondeados */
+            border: 2px dashed #bbb;
+            overflow: hidden; /* Asegura que la imagen respete el border-radius */
+        }
+
+            .photo-placeholder svg {
+                width: 60%;
+                height: auto;
+                color: #aaa;
+            }
+
+        #user-photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 1.5rem;
+        }
+
+        .footer-group {
+            width: 48%; /* Ajustado para el espacio entre ellos */
+        }
+
+            .footer-group label {
+                font-weight: 600;
+                font-size: 1.1rem;
+                color: #333;
+                display: block;
+                margin-bottom: 0.6rem;
+            }
+
+            .footer-group input {
+                width: 100%;
+                padding: 0.8rem;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                background-color: #f8f8f8;
+                font-size: 1rem;
+            }
+
+        .timestamp {
+            text-align: right;
+            color: #777;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            font-weight: 500;
+        }
+
+        /* Colores del semáforo */
+        .green-background {
+            background-color: #E8F5E9 !important; /* Verde claro */
+            border: 2px solid #4CAF50 !important;
+        }
+
+        .yellow-background {
+            background-color: #FFFDE7 !important; /* Amarillo claro */
+            border: 2px solid #FFEB3B !important;
+        }
+
+        .red-background {
+            background-color: #FFEBEE !important; /* Rojo claro */
+            border: 2px solid #F44336 !important;
+        }
+
+        #info-button {
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            background-color: #FF3D00; /* Naranja moderno */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-weight: 600;
+        }
+
+            #info-button:hover {
+                background-color: #E64A19; /* Naranja más oscuro al pasar el mouse */
+                transform: scale(1.03);
+            }
+
+        /* Línea roja */
+        .red-line {
+            height: 3px;
+            background-color: #FF3D00;
+            margin: 0.8rem 0;
+            border-radius: 2px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado -->
+        <div class="header">
+            <div class="header-info">
+                <h1><strong>TEAM IS FAMILY</strong></h1>
+                <p>Popocatépetl 26, Xinantécatl, 52169 San Jorge Pueblo Nuevo, Méx</p>
+                <p>729229000</p>
+                <p style="font-size: 1.8rem; font-weight: bold; margin: 0;">BIENVENIDOS</p>
+            </div>
+            <img src="/Images/tifLogin.jpg" alt="Logo" style="width: 150px; height: auto;">
+        </div>
+        <!-- Línea roja -->
+        <div style="height: 2px; background-color: red; margin: 0.4rem 0;"></div>
+
+        <!-- Contenido principal -->
+        <div class="main-content">
+            <!-- Información del formulario -->
+            <div class="form-section">
+                <div class="form-group">
+                    <label style="font-size: 1.4rem; font-weight: bold; margin: 0;color: #FF0000">Clave del socio</label>
+                    <input type="text" id="claveSocio" oninput="buscarSocio()">
+                </div>
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" id="nombre" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Apellido Paterno</label>
+                    <input type="text" id="paterno" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Apellido Materno</label>
+                    <input type="text" id="materno" disabled>
+                </div>
+            </div>
+
+            <!-- Foto -->
+            <div class="photo-placeholder">
+                <img id="user-photo" src="" alt="Foto del usuario" style="display:none; width:100%; height:100%; border-radius:8px;">
+                <svg id="user-icon" class="user-icon" viewBox="0 0 20 20">
+                    <path fill="currentColor" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- Pie de página -->
+        <div class="footer">
+            <div class="footer-group">
+                <label>Vencimiento</label>
+                <input type="text" id="vencimiento" placeholder="Vencimiento" disabled>
+            </div>
+            <div class="footer-group">
+                <label>Adeudo</label>
+                <input type="text" id="adeudo" placeholder="Adeudo" disabled>
+            </div>
+        </div>
+
+        <!-- Fecha y hora -->
+        <div class="timestamp" id="current-time"></div>
+    </div>
+
+
+    <script>
+
+        //----------------------------------- Christopher
+        async function buscarSocio() {
+            const claveSocio = document.getElementById('claveSocio').value;
+            console.log("claveSocio:", claveSocio);
+            if (!claveSocio.trim()) {
+                limpiarCampos();
+                return;
+            }
+
+        try {
+            const response = await fetch(`/Socios/ObtenerDatosUsuarioSocio?claveSocio=${claveSocio}`);
+            if (!response.ok) {
+                throw new Error('Usuario no encontrado');
+            }
+            const data = await response.json();
+            console.log("Usuario:", data);
+
+            document.getElementById('nombre').value = data.nombre || '';
+            document.getElementById('paterno').value = data.paterno || '';
+            document.getElementById('materno').value = data.materno || '';
+
+            // Mostrar la foto del usuario
+            const photoContainer = document.getElementById('user-photo');
+            const iconContainer = document.getElementById('user-icon');
+
+            if (data.foto) {
+                photoContainer.src = data.foto;
+                photoContainer.style.display = 'block';  // Mostrar la foto
+                iconContainer.style.display = 'none';    // Ocultar el ícono
+            } else {
+                photoContainer.src = '';
+                photoContainer.style.display = 'none';   // Ocultar la foto si no hay imagen
+                iconContainer.style.display = 'block';   // Mostrar el ícono por defecto
+            }
+
+            document.getElementById('vencimiento').value = data.vencimiento || '';
+            document.getElementById('adeudo').value = data.adeudo > 0 ? `$${data.adeudo}` : data.estadoMembresia;
+
+            actualizarColorEstado(data.estadoMembresia);
+            } catch (error) {
+                console.error('Error:', error);
+                limpiarCampos();
+            }
+        }
+
+        function limpiarCampos() {
+            document.getElementById('nombre').value = '';
+            document.getElementById('paterno').value = '';
+            document.getElementById('materno').value = '';
+            document.getElementById('vencimiento').value = '';
+            document.getElementById('adeudo').value = '';
+
+            const photoContainer = document.getElementById('user-photo');
+            const iconContainer = document.getElementById('user-icon');
+
+            photoContainer.src = '';
+            photoContainer.style.display = 'none';  // Ocultar la foto
+            iconContainer.style.display = 'block';  // Mostrar el ícono por defecto
+
+            actualizarColorEstado('');
+        }
+
+        function actualizarColorEstado(estado) {
+            const container = document.querySelector('.container');
+            container.classList.remove('green-background', 'yellow-background', 'red-background');
+
+            switch (estado) {
+                case 'Pagada':
+                    container.classList.add('green-background');
+                    break;
+                case 'Vencida':
+                    container.classList.add('red-background');
+                    break;
+                case 'Cancelada':
+                    container.classList.add('red-background');
+                    break;
+                case 'Sin_pagar':
+                    container.classList.add('red-background');
+                    break;
+            }
+        }
+    </script>
+
+    <script>
+
+        //----------------------------------- Ruben
+        function updateTime() {
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString();
+            const dateStr = now.toLocaleDateString();
+            document.getElementById('current-time').textContent = `${dateStr} ${timeStr}`;
+        }
+
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>
